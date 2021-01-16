@@ -1,5 +1,5 @@
 body {
-    background-color: dimgrey;
+    background-color: white;
     font-family: 'Farsan', cursive;
     padding: 0.5em;
     font-size: large;
@@ -35,7 +35,7 @@ header{
 main {
     padding: 1em;
     text-align: center;
-    background-color: gainsboro;
+    background-color: white;
 }
  
 .content{
