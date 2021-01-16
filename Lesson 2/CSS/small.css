@@ -1,0 +1,109 @@
+body {
+    background-color: dimgrey;
+    font-family: 'Farsan', cursive;
+    padding: 0.5em;
+    font-size: large;
+    border-radius: 1em;
+}
+ 
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: gainsboro;
+    border-radius: 1em;
+}
+ 
+ 
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+    letter-spacing: 0.8em;
+    padding: 1 em;
+    border-radius: 1em;
+    background-color: cadetblue;
+    text-shadow: 2px 2px 2px black;
+}
+ 
+ h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+}
+main {
+    padding: 1em;
+    text-align: center;
+    background-color: gainsboro;
+}
+ 
+.content{
+    border: 2px solid darkcyan;
+    border-style: double;
+    border-radius: .5em;
+    padding: .5em;
+    margin: 1em 0;
+}
+ 
+ h2{
+    
+    text-align: center;
+    margin:1;
+    padding: 1 em;
+    padding-top: 1em;
+    min-height: 2.5em;
+    line-height: 100%;
+}
+.head2{
+    font-size: 40px;
+}
+ 
+ img{
+    margin:  0;
+    box-shadow: 3px 3px 3px cadetblue;
+    border-radius: .5em;
+    max-width: 100%;
+    height: 550px;
+    width: 90%;
+    
+}
+ p{
+    font-size: 20px;
+    line-height: 2;
+    
+}
+ 
+footer  {
+    background-color: cadetblue;
+    color: dimgrey;
+    text-align: center;
+    padding: 1em;
+    border-radius: .8em;
+   
+}
+footer:hover{
+    color:white;
+}
+ 
+ 
+ 
+@media screen and (max-width: 480px) {
+ 
+    body{
+        padding: .2em;
+    }
+   
+    .container{
+        width: 95%;
+    }
+ 
+     header a {
+         margin-left: .2em;
+     }
+ 
+    .grid{
+        display: block;
+    }
+ 
+}
