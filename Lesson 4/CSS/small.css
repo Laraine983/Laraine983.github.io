@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body{
+    background-color: white;
+    font-family: Yusei Magic, serif;
+}
+#motto{
+    text-align: center;
+}
+.main{
+    outline: 2px solid powderblue;
+}
+.nav-list{
+    background-color: lightslategray;
+    border-radius: 5px 5px 5px;
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    list-style:none;
+    margin-right: 7em;
+    
+}
+.nav-item a{
+text-decoration:none;
+color: white;
+}
+.nav-item:hover{
+   text-shadow: 0px 0px 10px white;
+}
+#head-1{
+
+text-align:center;
+}
+section{
+    background-color: powderblue;
+    border: 2px dotted black;
+    text-align: center;
+    padding: 1em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+}
