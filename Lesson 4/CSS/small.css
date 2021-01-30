@@ -3,34 +3,61 @@
 body{
     background-color: white;
     font-family: Yusei Magic, serif;
+    margin: 20px;
 }
 #motto{
     text-align: center;
 }
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    color: white;
+    padding: 0.5px;
+}
+nav, footer{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedce7+0,596a72+88 */
+      background: #cedce7; /* Old browsers */
+      background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 88%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 88%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #cedce7 0%,#596a72 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+}
 .main{
     outline: 2px solid powderblue;
 }
-.nav-list{
+nav{
     background-color: lightslategray;
     border-radius: 5px 5px 5px;
     margin: 0;
     padding: 1em;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+    list-style-type: none;
 }
-.nav-item{
-    list-style:none;
-    margin-right: 7em;
-    
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-.nav-item a{
-text-decoration:none;
-color: white;
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:  white;
 }
-.nav-item:hover{
-   text-shadow: 0px 0px 10px white;
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    border-top: 2px solid black;
+    text-decoration: none;
+    color: white;
 }
+nav ul li a:hover{
+    background-color: powderblue;
+}
+
+
 #head-1{
 
 text-align:center;
@@ -40,15 +67,18 @@ section{
     border: 2px dotted black;
     text-align: center;
     padding: 1em;
+    margin:20px;
 }
 
 
 @media only screen and (max-width: 600px) {
-    .nav-list {
+    li a {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
     }
-  
+    nav ul.hide{
+        display:none;
+    }
 }

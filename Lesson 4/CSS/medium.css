@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px){
+ 
+    nav button{
+        display:none;
+    }
+    nav ul li{
+        float:left;
+        padding:0.2em;
+    }
+  nav ul.hide{
+      display: block;
+  }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      nav ul li a{
+          border:none;
+          border-right: 1px solid black;
+          padding: .8rem 1rem;
+      }
+      nav ul{
+          margin-left: 2%;
+      }
+}

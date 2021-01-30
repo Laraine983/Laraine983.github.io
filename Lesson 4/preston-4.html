@@ -14,22 +14,24 @@
     </head>
     <body>
         <header>
-        <img src="../Lesson 3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
-        <h2 id="head-1">Rise and Shine Weather</h2>
-        <h4 id="motto">Rise and Shine - We've Got The Rest</h4>
+        <img id="logo" src="../Lesson 3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
+        <h1 id="head-1">Rise and Shine Weather</h1> <!--fix logo placement...logo background??..have logo centered on mobile & tablet view-->
+        <h4 id="motto">Rise and Shine - We've Got The Rest</h4><!--change font to differ from main title-->
         </header>
         <div class="main">
-        <navbar>
-        <ul class="nav-list">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="preston-4.html">Preston</a></li>
-            <li class="nav-item"><a href="#">Soda Springs</a></li>
-            <li class="nav-item"><a href="#">Fish Haven</a></li>
-            <li class="nav-item"><a href="#">Storm Center</a></li>
-            <li class="nav-item"><a href="#">Gallery</a></li>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
-        </navbar>
+        </nav>
         </div>
+        <script src="JS/preston.js"></script>
         
 
 <main>
@@ -49,8 +51,9 @@
 </main>
 <footer>
     <p>
-    &copy; Rise and Shine Weather | Sierra Porter | 2021
-    <!--javascript-->
+    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>
+    <script src="JS/date.js"></script>
+   
     </p>
 
 </footer>
