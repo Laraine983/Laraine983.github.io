@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap');
 
 body{
     background-color: white;
     font-family: Yusei Magic, serif;
     margin: 20px;
 }
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
 #motto{
     text-align: center;
+    font-family: Open Sans;
+    font-style: italic;
 }
 footer{
     text-align: center;

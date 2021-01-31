@@ -23,4 +23,9 @@
       nav ul{
           margin-left: 2%;
       }
+      #logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+      }
 }
