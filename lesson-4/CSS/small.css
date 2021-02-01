@@ -84,8 +84,18 @@ section{
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        width: 120px;
     }
     nav ul.hide{
         display:none;
+    }
+    nav button{
+        position: relative;
+        display: inline-block;
+       
+    }
+    nav{
+       text-align: center;
+       
     }
 }
