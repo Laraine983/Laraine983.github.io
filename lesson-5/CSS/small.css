@@ -5,6 +5,9 @@ body{
     font-family: Yusei Magic, serif;
     margin: 20px;
 }
+main{
+    background-color: lightcyan;
+}
 #logo{
     display: block;
     margin-left: auto;
@@ -30,11 +33,10 @@ nav, footer{
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
 }
 .main{
-    outline: 2px solid powderblue;
+    outline: 3px solid powderblue;
 }
 nav{
     background-color: lightslategray;
-    border-radius: 5px 5px 5px;
     margin: 0;
     padding: 1em;
     display: flex;
@@ -63,18 +65,40 @@ nav ul li a{
 nav ul li a:hover{
     background-color: powderblue;
 }
-
+#sec-1{
+    position: relative;
+    text-align: center;
+}
 
 #head-1{
 
 text-align:center;
 }
 section{
-    background-color: powderblue;
-    border: 2px dotted black;
+    
     text-align: center;
     padding: 1em;
     margin:20px;
+}
+#hero{
+    height:300px;
+    width: 90%;
+}
+#weather-summary{
+    background-color: lightgray;
+    opacity: 0.8;
+    border-style: 2px solid black;
+    text-align: left;
+    width: 150px;
+    padding: 25px;
+    position:absolute;
+    top: 15%;
+  left: 10%;
+    
+}
+iframe{
+    width: 300px;
+    height: 200px;
 }
 
 
