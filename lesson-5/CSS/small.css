@@ -96,11 +96,30 @@ section{
   left: 10%;
     
 }
+#forecast-img{
+    width: 60%;
+    height: 250px;
+}
 iframe{
     width: 300px;
     height: 200px;
 }
-
+#article{
+    text-align: center;
+}
+#sec-3{
+border: 2px solid lightslategray;
+background-color: white;
+margin-left: 80px;
+margin-right: 80px;
+}
+iframe{
+    float: left;
+}
+.social-icons{
+    list-style-type: none;
+    
+}
 
 @media only screen and (max-width: 600px) {
     li a {
@@ -122,4 +141,15 @@ iframe{
        text-align: center;
        
     }
+    body{
+    width:350px;
+    margin: 25px;
+    }
+    #article-pic{
+        width:70%;
+    }
+    #article{
+        height: 50%;
+    }
+    
 }
