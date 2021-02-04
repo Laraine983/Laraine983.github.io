@@ -31,10 +31,9 @@ nav, footer{
       background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 88%); /* Chrome10-25,Safari5.1-6 */
       background: linear-gradient(to bottom,  #cedce7 0%,#596a72 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+      max-width: 100%;
 }
-.main{
-    outline: 3px solid powderblue;
-}
+
 nav{
     background-color: lightslategray;
     margin: 0;
@@ -49,18 +48,23 @@ nav ul{
     margin: 0;
 }
 nav button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     margin: .2rem 2%;
     background-color: transparent;
     border:none;
     font-size: 1.6rem;
     color:  white;
 }
+
 nav ul li a{
     display:block;
     padding: .8rem 2%;
     border-top: 2px solid black;
     text-decoration: none;
     color: white;
+    
 }
 nav ul li a:hover{
     background-color: powderblue;
@@ -97,8 +101,8 @@ section{
     
 }
 #forecast-img{
-    width: 60%;
-    height: 250px;
+    width: 50%;
+    height: 150px;
 }
 iframe{
     width: 300px;
@@ -132,6 +136,11 @@ iframe{
     nav ul.hide{
         display:none;
     }
+    .clearfix{
+        position: relative;
+        display: inline-block;
+        width: 90%;
+    }
     nav button{
         position: relative;
         display: inline-block;
@@ -142,8 +151,8 @@ iframe{
        
     }
     body{
-    width:350px;
-    margin: 25px;
+    width:90%;
+   
     }
     #article-pic{
         width:70%;
@@ -151,5 +160,10 @@ iframe{
     #article{
         height: 50%;
     }
-    
+    #forecast-img{
+        width: 100%;
+    }
+    #weather-summary{
+        left:17%;
+    }
 }
