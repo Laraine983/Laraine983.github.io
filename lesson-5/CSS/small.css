@@ -4,6 +4,7 @@ body{
     background-color: white;
     font-family: Yusei Magic, serif;
     margin: 20px;
+   
 }
 main{
     background-color: lightcyan;
@@ -164,7 +165,8 @@ iframe{
        
     }
     body{
-    width:90%;
+   max-width: 90%;
+    margin: 0 auto;
    
     }
     #article-pic{

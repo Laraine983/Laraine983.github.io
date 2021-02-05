@@ -8,6 +8,11 @@
         grid-template-columns: 25% 25% 25% 25%;
         grid-gap: 10px;
     }
+    body{
+        max-width: 80%;
+        align-content: center;
+        margin: 0 auto;
+    }
     #logo{
         grid-row: 2 / 4;
       grid-column: 1 / 3;
