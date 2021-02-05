@@ -99,7 +99,6 @@ section{
 #weather-summary{
     background-color: lightgray;
     opacity: 0.8;
-    border-style: 2px solid black;
     text-align: left;
     width: 150px;
     padding: 25px;
