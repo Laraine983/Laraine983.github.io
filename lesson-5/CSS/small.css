@@ -115,14 +115,15 @@ iframe{
 #sec-3{
 border: 2px solid lightslategray;
 background-color: white;
-margin-left: 80px;
-margin-right: 80px;
+
 }
 iframe{
     float: left;
 }
 .social-icons{
     list-style-type: none;
+    display:flex;
+    
     
 }
 #friday-banner{
@@ -172,13 +173,24 @@ iframe{
     #article-pic{
         width:70%;
     }
-    #article{
-        height: 50%;
+    #article, #article-head{
+        display: flex;
+        max-width:300px;
+        max-height: 500px;
+    }
+     iframe{
+        display: flex;
+        justify-content: center;
+        width: 240px;
+    padding: 25px;
     }
     #forecast-img{
-        width: 100%;
+        display: none;
     }
     #friday-banner{
         text-align: center;
+     }
+     .social-icons{
+         display: none;
      }
 }

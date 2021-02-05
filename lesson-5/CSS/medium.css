@@ -31,4 +31,7 @@
       #friday-banner{
         text-align: center;
      }
+     #small-forecast{
+        display: none;
+    }
 }
