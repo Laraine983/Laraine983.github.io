@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../lesson-5/Images/faveicon.ico" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap" rel="stylesheet">
+<link href="CSS/small.css" rel="stylesheet">
+<link href="CSS/medium.css" rel="stylesheet">
+<link href="CSS/large.css" rel="stylesheet">
+    
+    <title> Rise and Shine Weather </title>
+
+    </head>
+    <body >
+        <header>  
+            <div id="friday-banner"></div>
+            <script src="JS/banner.js"></script>
+        <img id="logo" src="../lesson-3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
+        <h1 id="head-1">Rise and Shine Weather</h1> 
+        <h4 id="motto">Rise and Shine - We've Got The Rest</h4>
+        </header>
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li> <!--add wayfinding to Preston tab on nav-->
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+        </nav>
+        
+        <script src="JS/preston.js"></script>
+        
+
+<main>
+    <section id="sec-1">
+       <img id="hero" src="Images/preston-banner.jpeg" alt="sun shining over field of grass">
+            <p id="weather-summary">
+                
+               <b> Weather Summary: </b> <br>
+            
+                Currently: Sunny <br>
+                High: 80&deg; <br>
+                Low: 65&deg; <br>
+                Humidity: 62% <br>
+                Wind Speed: 3 mph <br>
+            </p>                
+    </section>
+    <section id="sec-2">
+        <h4>5 day forecast</h4>
+        <img id="forecast-img" src="Images/prestonforecast.png" alt="5-day weather forecast for Preston, Idaho">
+        <p id="small-forecast">
+            Wednesday: High 74&deg; Low 56&deg;
+            <br>
+            Thursday: High 72 &deg; Low 53&deg;
+            <br>
+            Friday: High 81&deg; Low 63&deg;
+            <br>
+            Saturday: High 79&deg; Low 57&deg;
+            <br>
+            Sunday: High 80&deg; Low 61&deg;
+        </p>
+    </section>
+    <section id="sec-3">
+       <h4 id="article-head"> BBQ in the Park!</h4>
+       <p id="article">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br>
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, <br>
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+       </p>
+       <img id="article-pic" src="Images/pexels-kaboompics-com-6026.jpg" alt="man grilling hot dogs">
+    </section>
+    <section id="sec-4">
+        <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d757267.790387508!2d-112.44886811999002!3d42.148632502505514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612333204624!5m2!1sen!2sus" 
+         width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <h4 id="contact">Rise and Shine Weather<br>
+            30 N 1st E <br>
+            Preston, ID 83263<br>
+            999-999-9999<br>
+            sbed13@byui.edu
+        </h4>
+        <ul class="social-icons"> 
+            <li><a href="http://www.facebook.com"><img src="Images/iconfinder_Facebook_483484.png" alt="Facebook icon" /></a></li>
+            <li><a href="http://www.twitter.com"><img src="Images/iconfinder_Twitter_483457.png" alt="Twitter icon"/></a></li>
+            <li><a href="http://www.youtube.com"><img src="Images/iconfinder_youtube_727233.png" alt="YouTube icon" /></a></li>
+        </ul>
+        
+    </section>
+
+</main>
+<footer>
+    <p>
+    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>
+    </p>
+    <div id="currentDate"></div>
+    <script src="JS/date.js"></script>
+    
+
+</footer>
+    
+    </body>
+
+
+</html>
