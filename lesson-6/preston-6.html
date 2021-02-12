@@ -40,11 +40,13 @@
 
 <main>
     <section id="sec-1">
-        <img src="Images/banner-original.jpg" 
-        srcset="Images/banner400.jpg 400w, 
-        Images/banner800.jpg 800w, 
-        Images/banner1200.jpg 1200w" sizes="60vw"
-        />
+        <picture id="banner-img">
+            <source srcset="Images/banner400.jpg" media="(max-width: 425px)">
+                        <source srcset="Images/banner800.jpg" media="(min-width: 426px) and (max-width: 768px)">
+                        <source srcset="Images/banner1200.jpg" media="(min-width: 769px)">
+                        <img src="Images/banner-original.jpg" alt="hero image original"/>
+            </picture>
+            
             
             <p id="weather-summary">
                 

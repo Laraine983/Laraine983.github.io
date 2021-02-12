@@ -132,6 +132,9 @@ iframe{
     margin:10px;
     border: 3px groove goldenrod;
 }
+#banner-img{
+    width: 50%;
+}
 
 
 
@@ -197,4 +200,5 @@ iframe{
         margin: 0 auto;
         
     }
+ 
 }
