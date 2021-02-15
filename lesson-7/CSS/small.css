@@ -94,18 +94,6 @@ text-align:center;
     margin:10px;
     border: 3px groove goldenrod;
 }
-main{
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-    grid-gap: 10px;
-}
-#image-1{
-    grid-column: 1;
-    grid-row:1;
-    max-width: 200px;
-    padding: 10px;
-}
 
 
 
@@ -145,5 +133,60 @@ main{
     #friday-banner{
         text-align: center;
      }
- 
+     .images-gallery{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (9, 200px);
+        grid-gap: 10px;
+        margin: auto;
+        padding: 10px;
+        justify-content: center;
+        
+    }
+    #image-1{
+        grid-column: 1/2;
+        grid-row:1;
+        width: 250px;
+        
+    }
+    #image-2{
+        grid-column: 1/2;
+        grid-row: 2;
+        width: 250px;
+    }
+    #image-3{
+        grid-column: 1/2;
+        grid-row: 3;
+        width: 250px;
+    }
+    #image-4{
+        grid-column: 1/2;
+        grid-row: 4;
+        width: 250px;
+    }
+    #image-5{
+        grid-column: 1/2;
+        grid-row: 5;
+        width: 250px;
+    }
+    #image-6{
+        grid-column: 1/2;
+        grid-row: 6;
+        width: 250px;
+    }
+    #image-7{
+        grid-column: 1/2;
+        grid-row: 7;
+        width: 250px;
+    }
+    #image-8{
+        grid-column: 1/2;
+        grid-row: 8;
+        width: 250px;
+    }
+    #image-9{
+        grid-column: 1/2;
+        grid-row: 9;
+        width: 250px
+    }
 }
