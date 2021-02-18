@@ -4,5 +4,11 @@ function toggleMenu(){
  }
 
 
-
+ WebFont.load({
+    google: {
+    families: [
+       'Yusei Magic'
+    ]
+    }
+    });
  

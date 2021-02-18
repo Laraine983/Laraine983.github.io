@@ -34,12 +34,12 @@
    }
    .images-gallery{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,300px);
     grid-template-rows: 200px 200px 200px;
-    grid-gap: 10px;
-    margin: auto;
+    grid-gap: 5px;
+    margin:-10px;
     padding: 10px;
-    justify-content: center;
+    justify-content: right;
     
 }
 .images-gallery img:hover{
