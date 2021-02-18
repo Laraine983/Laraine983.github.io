@@ -17,7 +17,7 @@ const imgOptions = {
     rootMargin: " 0px 0px 100px 0px",       /* -100 loads image when image is 100px into the viewport. Positive 100 would load 100px before viewport*/
                                             /* Can use different numbers, i.e. -500, -400, -300...300, 400, 500 px */
 };
-};
+
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) =>{
     entries.forEach(entry =>{
