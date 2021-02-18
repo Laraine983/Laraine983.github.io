@@ -3,7 +3,7 @@
     <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="style.css" rel="stylesheet">
+<link href="CSS/style.css" rel="stylesheet">
     <title> Lazy Load Images </title>
     </head>
     <body>
@@ -11,22 +11,29 @@
     <!--images should have dimensions of  300x400 pixels in order to test the lazy image loading method
         https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading
     -->
+    <div class="container">
+    <h1 id="heading">Lazy Loading Images</h1>
 
-    <h1 class="container">Lazy Loading Images</h1>
     <img id="img-1" src="Images/placeholder-300x400.png" data-src="Images/lazyloading.jpg"><br>
-    <img id="img-2" src="Images/placeholder-300x400.png" data-src="Images/lazyloading.jpg"><br>
-    <img id="img-3" src="Images/placeholder-300x400.png" data-src="Images/lazyloading.jpg"><br>
-    <img id="img-4" src="Images/placeholder-300x400.png" data-src="Images/lazyloading.jpg"><br>
-    <img id="img-5" src="Images/placeholder-300x400.png" data-src="Images/lazyloading.jpg"><br>
-    <img id="img-6" src="Images/placeholder-300x400.png" data-src="Images/lazyloading.jpg"><br>
-           
+
+    <img id="img-2" src="Images/placeholder-300x400.png" data-src="Images/building-2.jpg"><br>
+
+    <img id="img-3" src="Images/placeholder-300x400.png" data-src="Images/building-3.jpg"><br>
+
+    <img id="img-4" src="Images/placeholder-300x400.png" data-src="Images/building-4.jpg"><br>
+
+    <img id="img-5" src="Images/placeholder-300x400.png" data-src="Images/building-5.jpg"><br>
+
+    <img id="img-6" src="Images/placeholder-300x400.png" data-src="Images/building-6.jpg"><br>
+
+           </div>
 
 
    
 
 <footer>
     <p>
-    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>
+    &copy; Sierra Porter | 2021<br>
     </p>
     <script src="lazyload.js"></script>
     
