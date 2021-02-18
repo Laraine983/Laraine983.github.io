@@ -1,10 +1,11 @@
 @media only screen and (min-width: 992px){
+    
     nav ul li a{
         padding: 0.6rem 1rem;
       
     }
     header{
-        display: grid;
+        display: grid;                                                 /* need to add css for 4k screens so it's not all spread out? */
         grid-template-columns: 25% 25% 25% 25%;
         grid-gap: 10px;
     }
@@ -32,7 +33,7 @@
    
    }
    .images-gallery{
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 200px 200px 200px;
     grid-gap: 10px;
@@ -41,10 +42,11 @@
     justify-content: center;
     
 }
-[data-src]:hover{
+.images-gallery img:hover{
     box-shadow: 3px 3px 3px 3px darkslategrey;
 
 }
+
 #image-1{
     grid-column: 1/2;
     grid-row:1;
@@ -55,6 +57,8 @@
     grid-column: 2/3;
     grid-row: 1/2;
     width: 250px;
+    
+    
 }
 #image-3{
     grid-column: 3/4;

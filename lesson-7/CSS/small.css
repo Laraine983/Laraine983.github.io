@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap');
 
+
 body{
     background-color: white;
     font-family: Yusei Magic, serif;
@@ -9,6 +10,16 @@ body{
 main{
     background-color: lightcyan;
 }
+
+img[data-src] {
+    filter: blur(5px);
+  }
+
+img {
+    filter: blur(0px);
+    transition: filter 0.5s;
+  }
+
 #logo{
     display: block;
     margin-left: auto;
@@ -101,8 +112,9 @@ figcaption{
     top: -28px;
     opacity: 0.9;
     padding: 2px;
-
 }
+
+
 
 
 

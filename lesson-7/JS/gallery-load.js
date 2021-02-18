@@ -8,6 +8,7 @@ function preloadImage(img){ /* function searches for img */
         return;
     }
     img.src = src;   /* If data-src is found, const src will make data-src become src (make image appear) */ 
+    img.removeAttribute("data-src") ; 
 }
 
 const imgOptions = {
