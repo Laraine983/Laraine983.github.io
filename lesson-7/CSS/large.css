@@ -41,6 +41,10 @@
     justify-content: center;
     
 }
+[data-src]:hover{
+    box-shadow: 3px 3px 3px 3px darkslategrey;
+
+}
 #image-1{
     grid-column: 1/2;
     grid-row:1;
@@ -87,5 +91,6 @@
     grid-row: 3/4;
     width: 250px
 }
+
 
  }

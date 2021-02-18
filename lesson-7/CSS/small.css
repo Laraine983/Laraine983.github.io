@@ -94,15 +94,15 @@ text-align:center;
     margin:10px;
     border: 3px groove goldenrod;
 }
-img[data-src] {
-    filter: blur(0.2em);
-    
-  }
-  
-  img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
+figcaption{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: -28px;
+    opacity: 0.9;
+    padding: 2px;
+
+}
 
 
 
