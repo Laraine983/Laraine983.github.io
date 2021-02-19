@@ -35,6 +35,7 @@
     grid-column: 2/4;
    
    }
+
    .images-gallery{
     display: grid;
     grid-template-columns: repeat(3,300px);

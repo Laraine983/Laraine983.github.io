@@ -2,7 +2,7 @@
 
  
 
-function windChill(temperature, windSpeed){
+function windChill(temperature, windSpeed){                 /* need to define temp and windspeed, try debugging again*/
 
    let t = parseFloat(document.getElementById("temperature").innerHTML);
    let s = parseFloat(document.getElementById("windSpeed").innerHTML);
