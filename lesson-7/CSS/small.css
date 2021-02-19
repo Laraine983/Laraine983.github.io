@@ -159,7 +159,7 @@ footer{
      .images-gallery{
         display:grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat (9, 200px);
+        grid-template-rows: repeat(9, 200px);
         grid-gap: 10px;
         margin: auto;
         padding: 10px;
