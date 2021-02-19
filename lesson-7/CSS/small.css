@@ -15,7 +15,7 @@ img[data-src] {
     filter: blur(5px);
   }
 
-img {
+img {                      /* img[data-src] and img filter ideas from https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading */
     filter: blur(0px);
     transition: filter 0.5s;
   }
@@ -110,8 +110,10 @@ figcaption{
     text-align: center;
     position: relative;
     top: -28px;
-    opacity: 0.9;
     padding: 2px;
+}
+footer{
+    padding-bottom: 20px;
 }
 
 
@@ -209,6 +211,9 @@ figcaption{
         grid-column: 1/2;
         grid-row: 9;
         width: 250px
+    }
+    figcaption{
+        max-width: 246px;
     }
     
 }

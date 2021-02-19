@@ -8,6 +8,7 @@
         display: grid;                                                 
         grid-template-columns: 25% 25% 25% 25%;
         grid-gap: 10px;
+        
     }
     body{
         max-width: 80%;
@@ -18,6 +19,8 @@
     #logo{
         grid-row: 2 / 4;
       grid-column: 1 / 3;
+      padding-right: 50px;
+      opacity: 0.8;
     }
     #motto{
         grid-row: 3;
@@ -38,11 +41,12 @@
     grid-template-rows: 200px 200px 200px;
     grid-gap: 5px;
     padding: 10px;
-    justify-content: right;
+    margin-right: 30px;
+    justify-content: center;
     
 }
 .images-gallery img:hover{
-    box-shadow: 3px 3px 3px 3px darkslategrey;
+    box-shadow: 5px 5px 5px 5px darkslategrey;
 
 }
 
@@ -94,7 +98,29 @@
     grid-row: 3/4;
     width: 250px
 }
+figcaption{
+    min-width: 246px;
+    
+}
 
+ }
+
+ @media only screen and (min-width:1800px){
+     header, nav, footer, body{
+        max-width: 1500px;
+     }
+     .images-gallery{
+        grid-gap: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;  
+        margin-right: 120px;
+     }
+     figure img , img[data-src], figcaption{
+         min-width:350px;
+         
+     }
+    
 
  }
  
