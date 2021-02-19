@@ -5,7 +5,7 @@
       
     }
     header{
-        display: grid;                                                 /* need to add css for 4k screens so it's not all spread out? */
+        display: grid;                                                 
         grid-template-columns: 25% 25% 25% 25%;
         grid-gap: 10px;
     }
@@ -37,7 +37,6 @@
     grid-template-columns: repeat(3,300px);
     grid-template-rows: 200px 200px 200px;
     grid-gap: 5px;
-    margin:-10px;
     padding: 10px;
     justify-content: right;
     
@@ -98,3 +97,4 @@
 
 
  }
+ 
