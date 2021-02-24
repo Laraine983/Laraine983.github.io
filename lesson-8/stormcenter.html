@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../lesson-5/Images/faveicon.ico" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap" rel="stylesheet">
+<link href="CSS/small.css" rel="stylesheet">
+<link href="CSS/medium.css" rel="stylesheet">
+<link href="CSS/large.css" rel="stylesheet">
+    
+    <title> Rise and Shine Weather </title>
+
+    </head>
+    <body>
+        <header>  
+            <div id="friday-banner"></div>
+        <img id="logo" src="../lesson-3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
+        <h1 id="head-1">Rise and Shine Weather</h1> 
+        <h4 id="motto">Rise and Shine - We've Got The Rest</h4>
+        </header>
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-5.html">Preston</a></li> 
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+        </nav>
+<main>
+<h1>Report a Storm</h1>
+<form method="get" action="thanks.html">
+    <fieldset>
+        <legend>Reporter Information</legend>
+        <label>Full Name:*<br><input type="text" name="fullname" required></label><br>
+        <label>Email:<br><input type="email" name="email" placeholder="name@email.com"></label><br>
+        <label>Phone Number:*<br><input type="tel" name="phone" placeholder="(123) 456-7890" required></label><br>
+        <label>Zip Code:*<br><input type="number" name="zip" placeholder="12345" required></label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Storm Information</legend>
+        <label>Storm Date:<br><input type="date" name="date"></label><br>
+        <label>Storm Type:<br>
+            <select name="storm">
+                <option value="select" selected disabled>Select One...</option>
+                <option value="flood">Flash Flood</option>
+                <option value="hail">Hail</option>
+                <option value="hurricane">Hurricane</option>
+                <option value="thunder">Thunderstorm</option>
+                <option value="tornado">Tornado</option>
+            </select>
+           </label>
+           <br>
+           <label>Storm Severity (1-10):<br><input type="number" name="severity" min="1" max="10"></label><br>
+           <label>Storm Region:<br>
+            <select name="region">
+                <option value="select" selected disabled>Select One...</option>
+                <option value="preston">Preston</option>
+                <option value="springs">Soda Springs</option>
+                <option value="haven">Fish Haven</option>
+            </select>
+           </label>
+           <div>Are You In Danger?</div>
+        <label><br><input type="radio" name="danger" value="yes">Yes</label><br>
+        <label><br><input type="radio" name="danger" value="maybe">Maybe</label><br>
+        <label><br><input type="radio" name="danger" value="no">No</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>More Information</legend>
+        <div>Comments:</div><br>
+        <textarea placeholder="Type additional information here..."></textarea>
+
+    </fieldset>
+    <input type="submit" value="Report Storm">
+</form>
+   
+</main>
+
+<footer>
+    <p>
+    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>    
+    </p>                                                        
+    <div id="currentDate"></div>
+    <script src="JS/date.js"></script>
+    <script src="#"></script>
+    <script src="JS/banner.js"></script>
+   
+
+    
+
+</footer>    
+    </body>
+</html>
