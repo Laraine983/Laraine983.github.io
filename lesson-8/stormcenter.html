@@ -46,20 +46,18 @@
     <fieldset>
         <legend >Storm Information</legend>
         <label class="top">Storm Date:<br><input type="date" name="date"></label><br>
-        <label class="top">Storm Type:<br>
-            <select name="storm">
-                <option value="select" selected disabled>Select One...</option>
-                <option value="flood">Flash Flood</option>
-                <option value="hail">Hail</option>
-                <option value="hurricane">Hurricane</option>
-                <option value="thunder">Thunderstorm</option>
-                <option value="tornado">Tornado</option>
-            </select>
-           </label>
+        <label class="top">Storm Type:<br><input list="storm-type" name="storm-type"></label>
+        <datalist id="storm-type">
+            <option value="Flash Flood">
+            <option value="Hurricane">
+            <option value="Hail">
+            <option value="Tornado">
+            <option value="Thunderstorm">
+        </datalist>
            <br>
-           <label class="top">Storm Severity (1-10):<br><input type="number" name="severity" min="1" max="10"></label><br>
+           <label class="top">Storm Severity (1-10):<br><input type="range" name="severity" min="1" max="10"></label><br>
            <label class="top">Storm Region:<br>
-            <select name="region"> <!--datalist?-->
+            <select name="region"> 
                 <option value="select" selected disabled>Select One...</option>
                 <option value="preston">Preston</option>
                 <option value="springs">Soda Springs</option>
