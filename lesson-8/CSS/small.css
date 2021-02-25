@@ -134,15 +134,22 @@ background-color:ghostwhite;
 textarea{
     height: 150px;
     width: 300px;
+    margin-top: 8px;
 }
 form input, select{
     margin-bottom: 25px;
-    width: 150px;
+    width: 200px;
+    height: 44px;
+    margin-top: 8px;
+}
+.side input{
+    height: 20px;
+
 }
 form label, form div{
     letter-spacing: 2px;
 }
- #subButton{                /* move button to right side */
+ #subButton{                
 
     color: black;
     font-family: Yusei Magic, serif;
@@ -203,7 +210,13 @@ form label, form div{
     #friday-banner{
         text-align: center;
      }
-                                    /* fix radio input placement */
+
+     .side input{
+        height: 20px;
+        display: inline-block;
+        position: absolute;
+  
+    }
 
      form fieldset{
      
@@ -216,6 +229,6 @@ form label, form div{
     form legend{
         font-size: 20px;
     }
-                                    /* center button */
+   
     
 }
