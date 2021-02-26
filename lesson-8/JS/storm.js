@@ -3,7 +3,7 @@ function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("hide");
  }
 
- function adjustRating(rating) {
+ function adjustRating(rating) {               
    document.getElementById("ratingAmt").innerHTML = rating;     /*JS from example given by Jason Blazzard*/
 }
 

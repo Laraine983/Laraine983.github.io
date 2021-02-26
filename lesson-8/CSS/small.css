@@ -169,6 +169,16 @@ form label, form div{
     border-style: inset;
     
 }
+#ratingAmt{
+    display:inline-block;
+    color: lightslategray;
+}
+
+ 
+
+
+
+
 
 
 
@@ -229,6 +239,9 @@ form label, form div{
     form legend{
         font-size: 20px;
     }
-   
+   #ratingAmt{
+       position: absolute;
+       
+   }
     
 }
