@@ -173,7 +173,12 @@ form label, form div{
     display:inline-block;
     color: lightslategray;
 }
-
+.thanks{
+    background-color: lightcyan;
+    height: 300px;
+    padding: 40px;
+    margin: 20px;
+}
  
 
 
