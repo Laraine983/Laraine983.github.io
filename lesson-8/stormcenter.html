@@ -38,7 +38,7 @@
 <form method="get" action="thanks.html">
     <fieldset>
         <legend>Reporter Information</legend>
-        <label class="top">Full Name:*<br><input type="text" name="fullname" required></label><br>  <!--add pattern-->
+        <label class="top">Full Name:*<br><input type="text" name="fullname" pattern="[A-Za-z]{5,}" required></label><br>  <!--add pattern-->
         <label class="top">Email:<br><input type="email" name="email" placeholder="name@email.com"></label><br>
         <label class="top">Phone Number:*<br><input type="tel" name="phone" placeholder="(123) 456-7890" required></label><br>
         <label class="top">Zip Code:*<br><input type="number" name="zip" placeholder="12345" required></label><br>
@@ -75,7 +75,7 @@
            <label class="top">Storm Region:<br>
             
             <select name="region"> 
-                <option value="select" selected disabled>Select One...</option>
+                <option value="select" selected disabled>Select Region...</option>
                 <option value="preston">Preston</option>
                 <option value="springs">Soda Springs</option>
                 <option value="haven">Fish Haven</option>
