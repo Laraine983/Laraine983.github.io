@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+h1, h2 {
+    text-align: center;
+    font-family:'Patua One', serif;
+    color: darkslateblue;
+  }
+
+  body{
+      background-color: gainsboro;
+  }
+  
+  img {
+    
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 3px 3px 3px 3px grey;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 5px; 
+    box-shadow: 3px 3px 5px 3px grey;
+  }
+  
+  div {
+      padding: 10px;
+  }
+
+  
+  section {
+    background-color: lavender;
+    text-align: center;
+    border: 1px solid darkslateblue;
+  }
+  
+  
+@media only screen and (min-width: 426px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+    
+   }
+
+@media only screen and (min-width: 767px) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+     
+   }
