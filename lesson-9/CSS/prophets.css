@@ -16,6 +16,8 @@ h1, h2 {
     width: 50%;
     margin: 0 auto;
     box-shadow: 3px 3px 3px 3px grey;
+    margin: 10px;
+
   }
 
   .cards {
@@ -34,6 +36,10 @@ h1, h2 {
     background-color: lavender;
     text-align: center;
     border: 1px solid darkslateblue;
+  }
+  footer{
+    text-align: center;
+    padding: 10px;
   }
   
   
