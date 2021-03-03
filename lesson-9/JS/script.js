@@ -1,9 +1,9 @@
 
 
 function toggleMenu(){
-    console.log(document.getElementById("primaryNav").classList);
-    document.getElementById("primaryNav").classList.toggle("hide");
- }
+  console.log(document.getElementById("primaryNav").classList);
+  document.getElementById("primaryNav").classList.toggle("hide");
+}
 
 
     
@@ -18,6 +18,7 @@ fetch(requestURL)
 
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++) {
+      if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
     
    
    let card = document.createElement('section');        // add html elements
@@ -34,22 +35,22 @@ fetch(requestURL)
     yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
     currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
     averageRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
-    image.setAttribute('src', '/lesson-9/Images/' + towns[i].photo);
-    image.setAttribute('alt', towns[i].name);
+    photo.setAttribute('src', "images/" + towns[i].photo);
+    photo.setAttribute('alt', "Photo of the town of " + towns[i].name);
+    
+    
 
 
-    div.appendChild(name);
-            div.appendChild(motto);
-            div.appendChild(yearFounded);
-            div.appendChild(currentPopulation);
-            div.appendChild(averageRainfall);
-
-            card.appendChild(div);
-            card.appendChild(image);    
-            card.classList.add('towns');        
+    card.appendChild(name);
+    card.appendChild(motto);
+    card.appendChild(yearFounded);
+    card.appendChild(currentPopulation);
+    card.appendChild(averageRainfall);
+    card.appendChild(photo);       
 
             document.querySelector('div.cards').appendChild(card);
 
     
   }
+}
   });

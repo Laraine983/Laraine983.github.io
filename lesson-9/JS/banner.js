@@ -11,3 +11,4 @@ if (weekDays[day] == 'Friday') {
 else {
     document.getElementById("friday-banner").style.display = "none";
 }
+
