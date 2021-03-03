@@ -14,7 +14,7 @@
     <title> Rise and Shine Weather </title>
 
     </head>
-    <body>
+    <body >
         <header>  
             <div id="friday-banner"></div>
         <img id="logo" src="../lesson-3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
@@ -25,32 +25,75 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-            <li class="active"><a href="/lesson-9/index.html">Home</a></li>
-            <li><a href="preston-5.html">Preston</a></li> 
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li> <!--add wayfinding to Preston tab on nav-->
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery-7.html">Gallery</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
         </nav>
-        <main>
-            <div class="cards"></div>
-          </main>
         
+       
+        
+
+<main>
+   
             
-          
+        <div class="cards"></div>
+    <section id="sec-3">
+       <h4 id="article-head"> BBQ in the Park!</h4>
+       <p id="article">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br>
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, <br>
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+       </p>
+       <img id="article-pic" src="Images/pexels-kaboompics-com-6026.jpg" alt="man grilling hot dogs">
+    </section>
+    <section id="sec-4">
+        <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d757267.790387508!2d-112.44886811999002!3d42.148632502505514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612333204624!5m2!1sen!2sus" 
+         width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <h4 id="contact">Rise and Shine Weather<br>
+            30 N 1st E <br>
+            Preston, ID 83263<br>
+            999-999-9999<br>
+            sbed13@byui.edu
+        </h4>
+        <ul class="social-icons"> 
+            <li><a href="http://www.facebook.com"><img src="Images/iconfinder_Facebook_483484.png" alt="Facebook icon" /></a></li>
+            <li><a href="http://www.twitter.com"><img src="Images/iconfinder_Twitter_483457.png" alt="Twitter icon"/></a></li>
+            <li><a href="http://www.youtube.com"><img src="Images/iconfinder_youtube_727233.png" alt="YouTube icon" /></a></li>
+        </ul>
+        
+    </section>
+
+</main>
 <footer>
     <p>
-    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>    
-    </p>                                                        
+    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>
+    </p>
     <div id="currentDate"></div>
-    <script src="JS/script.js"></script>
     <script src="JS/date.js"></script>
+    <script src="JS/windchill.js"></script>
+    <script src="JS/script.js"></script>
     <script src="JS/banner.js"></script>
-   
-
     
 
-</footer>    
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+WebFont.load({
+google: {
+families: [
+   'Yusei Magic'
+]
+}
+});
+</script>
+    
     </body>
+
+
 </html>
