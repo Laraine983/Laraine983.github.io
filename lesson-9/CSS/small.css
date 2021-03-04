@@ -112,7 +112,33 @@ main{
     border: 2px solid grey;
     text-align: center;
     background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
 }
+picture img{
+    padding-top: 10px;
+                            /* center image */
+    
+}
+h2{
+color: darkcyan;
+
+}
+p:nth-child(2){
+    font-style: italic;
+    color:darkgrey;
+}
+
+.social-icons{
+    list-style-type: none;
+    
+}
+#sec-3{
+    background-color: white;
+    margin:10px;
+}
+
+
 
 
 
@@ -144,5 +170,8 @@ main{
     .cards{
         display:grid;
         grid-template-columns: 1fr;
+    }
+    picture img{
+        width: 95%;         /* center hero images */
     }
 }

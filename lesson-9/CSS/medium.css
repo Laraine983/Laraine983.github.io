@@ -1,29 +1,28 @@
 @media only screen and (min-width: 768px)
 {
- 
-    nav button{
-        display:none;
-    }
-    nav ul li{
-        float:left;
-        padding:0.2em;
-    }
-  nav ul.hide{
-      display: block;
+  nav button{
+    display:none;
+}
+nav ul li{
+    float:left;
+    padding:0.2em;
+}
+nav ul.hide{
+  display: block;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      nav ul li a{
-          border:none;
-          border-right: 1px solid lightgrey;
-          padding: .8rem 1rem;
-      }
-      nav ul{
-          margin-left: 2%;
-      }
+  nav ul li a{
+      border:none;
+      border-right: 1px solid lightgrey;
+      padding: .8rem 1rem;
+  }
+  nav ul{
+      margin-left: 2%;
+  }
       #logo{
         display: block;
         margin-left: auto;
@@ -34,8 +33,30 @@
      }
      .cards{
        display:grid;
-       grid-template-columns: 1fr 1fr;
+       grid-template-columns: 1fr ;
        grid-template-rows: 1fr 1fr 1fr;
+       margin:20px;
+       
+       
      }
+     .cards section{
+       height:270px;
+     }
+    
+     .cards section:nth-child(odd) img{
+      float:right;
+      padding: 20px;
+      margin-top: -200px;
+      margin-right: 50px;
+     }
+     .cards section:nth-child(odd) p, .cards section:nth-child(odd) h2{
+       text-align:left;
+       margin-left: 70px;
+     }
+     picture img{
+      width: 95%;           
+  }
+ 
+ 
     
 }
