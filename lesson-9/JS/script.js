@@ -1,9 +1,8 @@
-
-
 function toggleMenu(){
   console.log(document.getElementById("primaryNav").classList);
   document.getElementById("primaryNav").classList.toggle("hide");
 }
+
 
 
     
@@ -18,7 +17,7 @@ fetch(requestURL)
 
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++) {
-      if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
+      if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {  //select the 3 towns to be displayed
     
    
    let card = document.createElement('section');        // add html elements
@@ -28,7 +27,6 @@ fetch(requestURL)
    let currentPopulation = document.createElement('p'); 
    let averageRainfall = document.createElement('p');
    let photo = document.createElement('img');         
-   
   
     name.textContent = towns[i].name;
     motto.textContent = towns[i].motto;
@@ -38,9 +36,6 @@ fetch(requestURL)
     photo.setAttribute('src', "Images/" + towns[i].photo);
     photo.setAttribute('alt', "Photo of the town of " + towns[i].name);
     
-    
-
-
     card.appendChild(name);
     card.appendChild(motto);
     card.appendChild(yearFounded);
@@ -48,7 +43,7 @@ fetch(requestURL)
     card.appendChild(averageRainfall);
     card.appendChild(photo);       
 
-            document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.cards').appendChild(card);
 
     
   }
