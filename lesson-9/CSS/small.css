@@ -137,6 +137,13 @@ p:nth-child(2){
     color:darkgrey;
     font-size: 15px;
 }
+#sec-2{
+    margin:8px;
+}
+#summer{
+    color:black;
+    font-style:normal
+}
 
 .social-icons{
     list-style-type: none;

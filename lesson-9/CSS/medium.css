@@ -60,6 +60,7 @@ nav ul.hide{
      .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
       text-align:right;
       margin-right: 70px;
+     
     }
 
      .cards section:nth-child(odd) p, .cards section:nth-child(odd) h2{

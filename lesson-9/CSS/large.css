@@ -53,9 +53,17 @@
   }
  
   .cards section:nth-child(odd) img{
-   margin:0;
+   margin:10px;
   }
- 
+  .cards section:nth-child(even) img{
+  margin: 10px ;
+   
+   }
+   .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
+    text-align: center;
+    
+   
+  }
    picture img{
        width: 95%;
        height:250px;
