@@ -40,24 +40,22 @@
        grid-template-columns: 1fr 1fr 1fr;
        grid-template-rows:1fr;
        justify-content: center;
-       
-       
+          
        
    }
    .cards section{
     height:500px;
     margin:10px;
     
-   
+  }
+  .cards section img{
+      padding:20px;
   }
  
   .cards section:nth-child(odd) img{
    margin:0;
   }
-  .cards section:nth-child(1){
-     
-   
-  }
+ 
    picture img{
        width: 95%;
        height:250px;

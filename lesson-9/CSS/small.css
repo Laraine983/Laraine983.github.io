@@ -8,7 +8,6 @@ body{
    
 }
 
-
 #logo{
     display: block;
     margin-left: auto;
@@ -79,7 +78,6 @@ nav ul li a:hover{
 }
 
 #head-1{
-
 text-align:center;
 }
 
@@ -94,6 +92,13 @@ text-align:center;
     margin:10px;
     border: 3px groove goldenrod;
 }
+.cards section img{
+    border: 1px solid lightgray;
+    background-color: white;
+    padding:20px;
+    margin:10px;
+    
+    }
 
 footer{
     padding-bottom: 20px;
@@ -111,10 +116,13 @@ main{
 .cards section{
     border: 2px solid grey;
     text-align: center;
-    background-color: white;
+    background-color: aliceblue;
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey;
+    
 }
+
+
 picture img{
     padding-top: 10px;
                             /* center image */
@@ -127,6 +135,7 @@ color: darkcyan;
 p:nth-child(2){
     font-style: italic;
     color:darkgrey;
+    font-size: 15px;
 }
 
 .social-icons{
@@ -174,4 +183,5 @@ p:nth-child(2){
     picture img{
         width: 95%;         /* center hero images */
     }
+    
 }

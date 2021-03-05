@@ -39,6 +39,8 @@ nav ul.hide{
        
        
      }
+    
+     
      .cards section{
        height:270px;
      }
@@ -49,6 +51,17 @@ nav ul.hide{
       margin-top: -200px;
       margin-right: 50px;
      }
+     .cards section:nth-child(even) img{
+      float:left;
+      margin-top: -180px;
+      margin-left: 50px;
+     
+     }
+     .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
+      text-align:right;
+      margin-right: 70px;
+    }
+
      .cards section:nth-child(odd) p, .cards section:nth-child(odd) h2{
        text-align:left;
        margin-left: 70px;
