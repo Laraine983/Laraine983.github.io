@@ -5,6 +5,7 @@ function toggleMenu(){
 
 
 
+
     
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';     // URL to the JSON file 
 
@@ -49,3 +50,11 @@ fetch(requestURL)
   }
 }
   });
+  
+  WebFont.load({
+    google: {
+    families: [
+       'Yusei Magic'
+    ]
+    }
+    });
