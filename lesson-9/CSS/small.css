@@ -108,9 +108,6 @@ footer{
     text-align:center;
     font-size: 35px;
 }
-main{
-    
-}
 
 
 .cards section{
@@ -143,7 +140,8 @@ p:nth-child(2){
 #summer{
     background-color: lightcyan;
     color:black;
-    font-style:normal
+    font-style:normal;
+    padding:20px;
     
 }
 
@@ -154,6 +152,17 @@ p:nth-child(2){
 #sec-3{
     background-color: lightcyan;
     margin:10px;
+}
+
+iframe{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.social-icons{
+    list-style-type: none;
+    display:flex;
+    
 }
 
 
@@ -192,5 +201,21 @@ p:nth-child(2){
     picture img{
         width: 95%;         /* center hero images */
     }
+    iframe{
+        
+        width: 240px;
+        padding: 25px;
+        margin:23px;
+
+    }
+    #contact{
+        text-align: center;
+        padding:10px;
+    }
+  
+    .social-icons{
+        display: none;
+    }
+
     
 }

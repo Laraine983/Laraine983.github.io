@@ -41,7 +41,6 @@
        grid-template-rows:1fr;
        justify-content: center;
           
-       
    }
    .cards section{
     height:500px;
@@ -62,21 +61,31 @@
    .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
     text-align: center;
     
-   
   }
    picture img{
        width: 95%;
        height:250px;
    }
-   .social-icons, #contact{
+  
+   iframe{
     display: flex;
+    justify-content:flex-start;
+    margin-left: 40px;
+    padding:20px;
+    
+    }
+    .social-icons, #contact{
+     display: flex;
     justify-content: flex-end;
     margin-right: 70px;
-   }
+    padding:20px;
+    
+    }
+    #sec-3{
+    height:250px;
+    }
    
-
-   
- }
+}
 
  @media only screen and (min-width:1800px){
      header, nav, footer, body{

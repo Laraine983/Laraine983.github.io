@@ -70,7 +70,20 @@ nav ul.hide{
      picture img{
       width: 95%;           
   }
- 
+  iframe{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 40px;
+    padding:20px;
+    
+    }
+    .social-icons, #contact{
+     display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    padding:20px;
+    
+    }
  
     
 }
