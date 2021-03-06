@@ -199,18 +199,20 @@ iframe{
         grid-template-columns: 1fr;
     }
     picture img{
-        width: 95%;         /* center hero images */
+        width: 100%;         
     }
     iframe{
         
         width: 240px;
-        padding: 25px;
-        margin:23px;
+        padding: 35px;
+        margin:25px;
+        margin-left:-5px;
 
     }
     #contact{
         text-align: center;
         padding:10px;
+        
     }
   
     .social-icons{

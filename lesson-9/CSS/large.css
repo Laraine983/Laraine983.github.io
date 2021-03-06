@@ -40,11 +40,13 @@
        grid-template-columns: 1fr 1fr 1fr;
        grid-template-rows:1fr;
        justify-content: center;
+       
           
    }
    .cards section{
     height:500px;
     margin:10px;
+    
     
   }
   .cards section img{
@@ -60,6 +62,7 @@
    }
    .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
     text-align: center;
+    margin:15px;
     
   }
    picture img{
@@ -91,5 +94,18 @@
      header, nav, footer, body{
         max-width: 1500px;
      }
+     
+  .cards section:nth-child(odd) img{
+    margin:45px;
+   }
+   .cards section:nth-child(even) img{
+   margin: 45px ;
+    
+    }
+    .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
+     text-align: center;
+     margin:15px;
+     
+   }
  }
  
