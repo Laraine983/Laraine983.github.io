@@ -109,7 +109,7 @@ footer{
     font-size: 35px;
 }
 main{
-    background-color: lightcyan;
+    
 }
 
 
@@ -141,8 +141,10 @@ p:nth-child(2){
     margin:8px;
 }
 #summer{
+    background-color: lightcyan;
     color:black;
     font-style:normal
+    
 }
 
 .social-icons{
@@ -150,7 +152,7 @@ p:nth-child(2){
     
 }
 #sec-3{
-    background-color: white;
+    background-color: lightcyan;
     margin:10px;
 }
 
