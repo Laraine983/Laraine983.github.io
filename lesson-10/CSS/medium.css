@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px){
+ 
+    nav button{
+        display:none;
+    }
+    nav ul li{
+        float:left;
+        padding:0.2em;
+    }
+  nav ul.hide{
+      display: block;
+  }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      nav ul li a{
+          border:none;
+          border-right: 1px solid lightgrey;
+          padding: .8rem 1rem;
+      }
+      nav ul{
+          margin-left: 2%;
+      }
+      #logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+      }
+      #friday-banner{
+        text-align: center;
+     }
+     #small-forecast{
+        display: none;
+    }
+    #weather-summary{
+        background-color: lightgray;
+        opacity: 0.8;
+        text-align: left;
+        width: 150px;
+        padding: 25px;
+        position:absolute;
+        top: 15%;
+      left: 10%;
+        
+    }
+}
