@@ -38,11 +38,39 @@
 const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=0bc9f4baea7b9d07d7e6fa8b23b2f5f6";
 
 fetch(apiForecastURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
-    
-//Go through the forecast.list entries and determine with a selection structure if the dt_txt 
-//field contains (includes) the string '18:00:00' to get your five forecasts.
+.then((response) =>response.json())
+.then((jsObject) => {
+  
 
+
+  const forecast = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
+
+
+  let day = 0;
+  const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+  forecast.forEach(x => {
+
+      const d = new Date(x.dt_txt);
+      
+      document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
+      document.getElementById(`temperature${day+1}`).textContent = Math.round(x.main.temp);
+      document.getElementById(`icon${day+1}`).textContent = x.weather[0].description;
+
+      const imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
+      const imagedesc = x.weather[0].description;
+
+
+      document.querySelectorAll(".forecastWeek img")[day].src = imagesrc;
+      document.querySelectorAll(".forecastWeek img")[day].description = imagedesc;
+
+      day++;
   });
+
+});
+  
+ 
+ 
+  
+
+
