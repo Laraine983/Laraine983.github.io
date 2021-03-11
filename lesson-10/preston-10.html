@@ -49,31 +49,24 @@
             
             <p id="weather-summary">
                 
-               <b> Weather Summary: </b> <br>
+               <b><u> Weather Summary:</u> </b> <br>
             
-                Currently: Sunny <br>
-                High: <span id="temperature">80</span>&deg; <br>
-                Low: 65&deg; <br>
-                Humidity: 62% <br>
-                Wind Speed: <span id="windSpeed">3</span>mph <br>
-                Wind Chill: <span id="windChill"></span>
-            </p>                
+                Currently: <span id="current-temperature" ></span>&deg; <br>
+                High: <span id="temperature"></span>&deg; <br>
+                Low: <span id="low-temperature" ></span>&deg; <br>
+                Humidity: <span id="humidity" ></span>% <br>
+                Wind Speed: <span id="windSpeed"></span> mph <br>
+                Wind Chill: <span id="windChill"></span>&deg; <br>
+            </p>  
+            
+            
     </section>
-    <section id="sec-2">
-        <h4>5 day forecast</h4>
-        <img id="forecast-img" src="Images/prestonforecast.png" alt="5-day weather forecast for Preston, Idaho">
-        <p id="small-forecast">
-            Wednesday: High 74&deg; Low 56&deg;
-            <br>
-            Thursday: High 72 &deg; Low 53&deg;
-            <br>
-            Friday: High 81&deg; Low 63&deg;
-            <br>
-            Saturday: High 79&deg; Low 57&deg;
-            <br>
-            Sunday: High 80&deg; Low 61&deg;
-        </p>
-    </section>
+    <div id="sec-2">
+        <h2>Five Day Forecast:</h2>
+        <section id="weekForecast"></section>
+    </div>
+
+
     <section id="sec-3">
        <h4 id="article-head"> BBQ in the Park!</h4>
        <p id="article">
@@ -109,9 +102,9 @@
     </p>
     <div id="currentDate"></div>
     <script src="JS/date.js"></script>
-    <script src="JS/windchill.js"></script>
     <script src="JS/preston.js"></script>
     <script src="JS/banner.js"></script>
+    <script src="JS/prestonapi.js"></script>
     
 
 </footer>
