@@ -96,6 +96,11 @@ section{
     height:300px;
     width: 90%;
 }
+#banner-img{
+    display: flex;
+    flex: flex-wrap;
+    justify-content: center;
+}
 #forecast-img{
     width: 50%;
     height: 150px;
@@ -131,6 +136,35 @@ iframe{
     text-transform: uppercase;
     margin:10px;
     border: 3px groove goldenrod;
+}
+#forecast-title{
+    text-align: center;
+    
+}
+.card{
+    display:flex;
+    flex: flex-wrap;
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    margin:5px;
+    background-color:aliceblue;
+}
+.forecastWeek{
+    display: flex;
+    flex: flex-wrap;
+    justify-content: center;
+}
+.card img{
+    width:50px;
+    height: 80px;
+    margin-top:30px;
+}
+#dayofweek1,#dayofweek2,#dayofweek3,#dayofweek4,#dayofweek5{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 
@@ -198,5 +232,16 @@ iframe{
         margin: 0 auto;
         
     }
- 
+    #forecast-title{
+        display:none;
+    }
+  
+    .forecastWeek{
+        display:none;
+    }
+   
+ #weather-summary{
+     padding:10px;
+     margin-top:20px;
+ }
 }
