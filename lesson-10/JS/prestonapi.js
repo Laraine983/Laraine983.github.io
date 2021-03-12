@@ -19,7 +19,7 @@
   
     let temperature = parseFloat(document.getElementById("temperature").innerHTML);
     let windSpeed = parseFloat(document.getElementById("windSpeed").innerHTML);
-   let windchill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windSpeed, .16)) + (0.4275 * temperature * Math.pow(windSpeed, .16));
+   let windchill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * temperature * Math.pow(windSpeed, 0.16));
 
 
    if (temperature <= 50 && windSpeed >= 3) {
@@ -42,18 +42,16 @@ fetch(apiForecastURL)
 .then((jsObject) => {
   
 
-
-  const forecast = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
-
-
   let day = 0;
   const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const forecast = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
   forecast.forEach(x => {
+    
 
-      const d = new Date(x.dt_txt);
+      let f = new Date(x.dt_txt);
       
-      document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
+      document.getElementById(`dayofweek${day+1}`).textContent = weekdays[f.getDay()];
       document.getElementById(`temperature${day+1}`).textContent = Math.round(x.main.temp);
       document.getElementById(`icon${day+1}`).textContent = x.weather[0].description;
 
@@ -61,8 +59,8 @@ fetch(apiForecastURL)
       const imagedesc = x.weather[0].description;
 
 
-      document.querySelectorAll(".forecastWeek img")[day].src = imagesrc;
-      document.querySelectorAll(".forecastWeek img")[day].description = imagedesc;
+      document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
+      document.getElementById(`icon${day+1}`).setAttribute('alt', imagedesc);
 
       day++;
   });
