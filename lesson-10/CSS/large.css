@@ -58,7 +58,6 @@
 }
 .card{
     display:flex;
-    flex: flex-wrap;
     border: 2px solid black;
     width: 150px;
     height: 100px;
@@ -68,7 +67,6 @@
 }
 .forecastWeek{
     display: flex;
-    flex: flex-wrap;
     justify-content: center;
 }
 .card img{

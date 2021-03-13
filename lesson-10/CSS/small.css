@@ -98,7 +98,7 @@ section{
 }
 #banner-img{
     display: flex;
-    flex: flex-wrap;
+    flex-wrap:wrap;
     justify-content: center;
 }
 #forecast-img{
