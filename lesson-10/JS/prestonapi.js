@@ -55,11 +55,11 @@ fetch(apiForecastURL)
       document.getElementById(`temperature${i+1}`).textContent = Math.round(x.main.temp);     //get temp and display as whole number
      
 
-      let imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';        //define image source
-      let imagedesc = x.weather[0].description;                                               //define image alt text
+      let source = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';        //define image source
+      let description = x.weather[0].description;                                               //define image alt text
 
-      document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);                  //set weather icon to image source 
-      document.getElementById(`icon${i+1}`).setAttribute('alt', imagedesc);                 //set alt text to icon
+      document.getElementById(`icon${i+1}`).setAttribute('src', source);                  //set weather icon to image source 
+      document.getElementById(`icon${i+1}`).setAttribute('alt', description);                 //set alt text to icon
 
       i++;
   });
