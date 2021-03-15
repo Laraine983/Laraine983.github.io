@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../lesson-5/Images/faveicon.ico" />
+<link href="CSS/small.css" rel="stylesheet">
+<link href="CSS/medium.css" rel="stylesheet">
+<link href="CSS/large.css" rel="stylesheet">
+    
+    <title> Rise and Shine Weather </title>
+
+    </head>
+    <body >
+        <header>  
+            <div id="friday-banner"></div>
+        <img id="logo" src="../lesson-3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
+        <h1 id="head-1">Rise and Shine Weather</h1> 
+        <h4 id="motto">Rise and Shine - We've Got The Rest</h4>
+        </header>
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="../lesson-9/index.html">Home</a></li>
+            <li><a href="../lesson-10/preston-10.html">Preston</a></li> 
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+        </ul>
+        </nav>
+        
+       
+        
+
+    <main>
+        <section id="sec-1">
+        <picture id="hero-img">
+                        <source srcset="Images/hero-small.jpg" media="(max-width: 425px)">
+                        <source srcset="Images/hero-medium.jpg" media="(min-width: 426px) and (max-width: 767px)">
+                        <source srcset="Images/hero-large.jpg" media="(min-width: 768px)">
+                        <img src="Images/preston-banner.jpeg" alt="hero image original"/>
+            </picture>
+            
+       
+    </section>
+    <div class="cards"></div>
+
+    <section id="sec-2">
+        <h3>Want To Stay Updated?</h3>
+        <p id="summer">
+            Are you getting excited for Summer? From parades to picnics, we will ensure 
+            you are in the loop. 
+             Follow Rise and Shine Weather to stay updated on all the local events so you don't miss out.
+            You can find events posted here on our website or on our social media pages.  
+            <br>
+            <br>
+            We also send out a weekly newsletter with weather updates, news, and events. To sign up for our newsletter, 
+            send an email with your name and email address to <i>news@riseandshineweather.com</i>.
+        </p>
+
+    </section>
+
+    <section id="sec-3">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5736749.083047633!2d-118.6334243944586!3d45.406374940189764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5358ffa885e499e9%3A0xd06b300515f78758!2sIdaho!5e0!3m2!1sen!2sus!4v1615065561130!5m2!1sen!2sus"
+         width="600" height="450" style="border:0;" allowfullscreen="" ></iframe>
+        
+        <h4 id="contact">Rise and Shine Weather<br>
+            30 N 1st E <br>
+            Preston, ID 83263<br>
+            999-999-9999<br>
+            sbed13@byui.edu
+        </h4>
+        <ul class="social-icons"> 
+            <li><a href="http://www.facebook.com"><img src="Images/iconfinder_Facebook_483484.png" alt="Facebook icon" /></a></li>
+            <li><a href="http://www.twitter.com"><img src="Images/iconfinder_Twitter_483457.png" alt="Twitter icon"/></a></li>
+            <li><a href="http://www.youtube.com"><img src="Images/iconfinder_youtube_727233.png" alt="YouTube icon" /></a></li>
+        </ul>
+        
+    </section>
+   
+
+</main>
+<footer>
+    <p>
+    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>
+    </p>
+    <div id="currentDate"></div>
+    <script src="JS/date.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/banner.js"></script>
+    
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    
+    </body>
+
+
+</html>

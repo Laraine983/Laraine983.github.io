@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../lesson-5/Images/faveicon.ico" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap" rel="stylesheet">
+<link href="CSS/small.css" rel="stylesheet">
+<link href="CSS/medium.css" rel="stylesheet">
+<link href="CSS/large.css" rel="stylesheet">
+    
+    <title> Rise and Shine Weather </title>
+
+    </head>
+    <body>
+        <header>  
+            <div id="friday-banner"></div>
+        <img id="logo" src="../lesson-3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
+        <h1 id="head-1">Rise and Shine Weather</h1> 
+        <h4 id="motto">Rise and Shine - We've Got The Rest</h4>
+        </header>
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../lesson-9/index.html">Home</a></li>
+            <li><a href="../lesson-10/preston-10.html">Preston</a></li> 
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+        </ul>
+        </nav>
+<main>
+    <div class="images-gallery">                    
+        <figure>
+        <img id="image-1" src="Images/placeholder.jpg" data-src="Images/clouds.jpg" alt="cloudy sky"> <!--make sure images are optimized/compressed-->
+        <figcaption>Clouds over Bear Lake</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-2" src="Images/placeholder.jpg" data-src="Images/dark-lightning.jpg" alt="lightning at night">
+        <figcaption>Lightning at night</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-3" src="Images/placeholder.jpg" data-src="Images/lightning.jpg" alt="lightning across sky">
+        <figcaption>Lightning lighting up night sky</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-4" src="Images/placeholder.jpg" data-src="Images/rainbow.jpg" alt="rainbow">
+        <figcaption>Rainbow over Soda Springs field</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-5" src="Images/placeholder.jpg" data-src="Images/snow-trees.jpg" alt="snowy trees">
+        <figcaption>Snowy Orchard in Preston</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-6" src="Images/placeholder.jpg" data-src="Images/storm-clouds.jpg" alt="storm clouds">
+        <figcaption>Storm brewing over Fish Haven</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-7" src="Images/placeholder.jpg" data-src="Images/sun-snow.jpg" alt="sun shining on snow">
+        <figcaption>Winter sun in Preston</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-8" src="Images/placeholder.jpg" data-src="Images/sunrise.jpg" alt="sunrise over field">
+        <figcaption>Early morning sunrise</figcaption>
+        </figure>
+
+        <figure>
+        <img id="image-9" src="Images/placeholder.jpg" data-src="Images/sunset.jpg" alt="sunset over field">
+        <figcaption>Sunset over Fish Haven</figcaption>
+        </figure>
+           
+
+    </div>
+   
+</main>
+
+<footer>
+    <p>
+    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>    
+    </p>                                                        
+    <div id="currentDate"></div>
+    <script src="JS/date.js"></script>
+    <script src="JS/gallery.js"></script>
+    <script src="JS/banner.js"></script>
+    <script src="JS/gallery-load.js"></script>
+
+    
+
+</footer>    
+    </body>
+</html>

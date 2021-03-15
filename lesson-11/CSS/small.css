@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap');
+
+body{
+    background-color: white;
+    font-family: Yusei Magic, serif;
+    margin: 20px;
+   
+}
+main{
+    background-color: lightcyan;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+#motto{
+    text-align: center;
+    font-family: Open Sans;
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    color: white;
+    padding: 0.5px;
+}
+nav, footer{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedce7+0,596a72+88 */
+      background: #cedce7; /* Old browsers */
+      background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 88%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 88%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #cedce7 0%,#596a72 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+      max-width: 100%;
+}
+
+nav{
+    background-color: lightslategray;
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:  white;
+    font-family: Yusei Magic, Open Sans; 
+}
+
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    border-top: 1px solid lightgrey;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: lightblue;
+}
+nav ul li a:hover{
+    background-color: powderblue;
+}
+#sec-1{
+    position: relative;
+    text-align: center;
+}
+
+#head-1{
+
+text-align:center;
+}
+section{
+    
+    text-align: center;
+    padding: 1em;
+    margin:20px;
+}
+#hero{
+    height:300px;
+    width: 90%;
+}
+#banner-img{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#forecast-img{
+    width: 50%;
+    height: 150px;
+}
+#map{
+    width: 300px;
+    height: 200px;
+}
+#article{
+    text-align: center;
+}
+#sec-3{
+border: 2px solid lightslategray;
+background-color: white;
+
+}
+#map{
+    float: left;
+}
+.social-icons{
+    list-style-type: none;
+    display:flex;
+    
+    
+}
+#friday-banner{
+    background-image: url("../Images/sky.jpeg");
+    background-repeat: repeat; 
+    background-size: cover; 
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    margin:10px;
+    border: 3px groove goldenrod;
+}
+#forecast-title{
+    text-align: center;
+    
+}
+#source-link{
+    font-size: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    li a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    nav ul.hide{
+        display:none;
+    }
+    .clearfix{
+        position: relative;
+        display: inline-block;
+        width: 90%;
+    }
+    nav button{
+        position: relative;
+        display: inline-block;
+       
+    }
+    nav{
+       text-align: center;
+       
+    }
+    body{
+   max-width: 90%;
+    margin: 0 auto;
+   
+    }
+    #article-pic{
+        width:70%;
+    }
+    #article, #article-head{
+        display: flex;
+        max-width:300px;
+        max-height: 500px;
+    }
+    #map{
+        display: flex;
+        justify-content: center;
+        width: 240px;
+    padding: 25px;
+    }
+    #forecast-img{
+        display: none;
+    }
+    #friday-banner{
+        text-align: center;
+     }
+     .social-icons{
+         display: none;
+     }
+     #weather-summary{
+        background-color: lightgray;
+        opacity: 0.8;
+        text-align: left;
+        width: 150px;
+        margin: 0 auto;
+        
+    }
+    #forecast-title{
+        font-size: 20px;
+    }
+    .card{
+        border-bottom: 1px solid black;
+        padding:10px;
+        background-color: aliceblue;
+    }
+  
+    .forecastWeek{
+        border:2px solid black;
+        
+    }
+    #dayofweek1,#dayofweek2,#dayofweek3,#dayofweek4,#dayofweek5{
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+        color:darkslategray;
+        
+        
+    }
+   
+ #weather-summary{
+     padding:10px;
+     margin-top:20px;
+ }
+}
