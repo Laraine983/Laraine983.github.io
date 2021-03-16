@@ -80,5 +80,91 @@
     text-transform: uppercase;
     color:darkslategray;
 }
+.images-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 5px;
+    padding: 10px;
+    margin-right: 30px;
+    justify-content: center;
+    
+}
+.images-gallery img:hover{
+    box-shadow: 5px 5px 5px 5px darkslategrey;
 
+}
+
+#image-1{
+    grid-column: 1/2;
+    grid-row:1;
+    width: 250px;
+    
+}
+#image-2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 250px;
+    
+    
+}
+#image-3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 250px;
+}
+#image-4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 250px;
+}
+#image-5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 250px;
+}
+#image-6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 250px;
+}
+#image-7{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 250px;
+}
+#image-8{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 250px;
+}
+#image-9{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 250px
+}
+figcaption{
+    min-width: 246px;
+    
+}
+
+    }
+    
+    @media only screen and (min-width:1800px){
+        header, nav, footer, body{
+           max-width: 1500px;
+        }
+        .images-gallery{
+           grid-gap: 200px;
+           padding-top: 50px;
+           padding-bottom: 50px;
+           justify-content: center;  
+           margin-right: 120px;
+        }
+        figure img , img[data-src], figcaption{
+            min-width:350px;
+            
+        }
+       
+   
     }
