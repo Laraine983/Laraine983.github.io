@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../lesson-5/Images/faveicon.ico" />
+<link href="CSS/small.css" rel="stylesheet">
+<link href="CSS/medium.css" rel="stylesheet">
+<link href="CSS/large.css" rel="stylesheet">
+    
+    <title> Rise and Shine Weather </title>
+
+    </head>
+    <body >
+        <header>  
+            <div id="friday-banner"></div>
+        <img id="logo" src="../lesson-3/WDD-weather-logo-4.png" alt="picutre of sun peeking out of clouds">
+        <h1 id="head-1">Rise and Shine Weather</h1> 
+        <h4 id="motto">Rise and Shine - We've Got The Rest</h4>
+        </header>
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../lesson-11/index.html">Home</a></li>
+            <li class="active"><a href="../lesson-11/preston.html">Preston</a></li> <!--add wayfinding to Preston tab on nav-->
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson-11/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-11/gallery.html">Gallery</a></li>
+        </ul>
+        </nav>
+        
+       
+        
+
+<main>
+    <section id="sec-1">
+        <picture id="banner-img">
+            <source srcset="Images/hero-small.jpg" media="(max-width: 425px)">
+                        <source srcset="Images/hero-medium.jpg" media="(min-width: 426px) and (max-width: 768px)">
+                        <source srcset="Images/hero-large.jpg" media="(min-width: 769px)">
+                        <img src="Images/preston-banner.jpeg" alt="hero image original"/>
+            </picture>
+            
+            
+            <p id="weather-summary">
+                
+               <b><u> Weather Summary:</u></b> <br>
+            
+                Currently: <i><span id="current-temperature" ></span>&deg;F <br></i>
+                High: <i><span id="temperature"></span>&deg;F <br></i>
+                Low: <i><span id="low-temperature" ></span>&deg;F <br></i>
+                Humidity: <i><span id="humidity" ></span>% <br></i>
+                Wind Speed: <i><span id="windSpeed"></span> mph <br></i>
+                Wind Chill: <i><span id="windChill"></span>&deg;F <br></i>
+            </p>  
+            
+            
+    </section>
+
+<section>
+   
+    
+        <h1 id="forecast-title">Five Day Forecast</h1>              
+
+        <div class="forecastWeek">                                  <!--have each div hold weekday, icon image, and temp-->
+            <div class="card">
+                <span id="dayofweek1"></span>
+                <img src="source" alt="description" id="icon1">
+              <i> <span id=temperature1></span>°F</i>
+            </div>
+
+            <div class="card">
+                <span id="dayofweek2"></span>
+                <img src="source" alt="description" id="icon2">
+               <i> <span id="temperature2"></span>°F</i>
+            </div>
+
+            <div class="card">
+                <span id="dayofweek3"></span>
+                <img src="source" alt="description" id="icon3">
+               <i> <span id="temperature3"></span>°F</i>
+            </div>
+
+            <div class="card">
+                <span id="dayofweek4"></span>
+                <img src="source" alt="description" id="icon4">
+               <i> <span id="temperature4"></span>°F</i>
+            </div>
+
+            <div class="card">
+                <span id="dayofweek5"></span>
+                <img src="source" alt="description" id="icon5">
+                <i><span id="temperature5"></span>°F</i>
+            </div>
+        </div>
+
+
+</section>
+
+
+    <section id="sec-3">
+       <h4 id="article-head"> BBQ in the Park!</h4>
+       <p id="article">
+        This Saturday the Preston police department will be hosting a BBQ in Preston Park. Come join the fun at 5:00 p.m.
+        and bring your family and friends. All food will be provided by the police department and other volunteers,
+        all you need to do is show up and enjoy! Vegeterian options will also be provided. 
+       </p>
+       <img id="article-pic" src="Images/pexels-kaboompics-com-6026.jpg" alt="man grilling hot dogs">
+    </section>
+    <section id="sec-4">
+        <img id="map" src="/lesson-10/Images/preston-map.png" alt="map of Preston">
+        <h4 id="contact">Rise and Shine Weather<br>
+            30 N 1st E <br>
+            Preston, ID 83263<br>
+            999-999-9999<br>
+            sbed13@byui.edu
+        </h4>
+        <ul class="social-icons"> 
+            <li><a href="http://www.facebook.com"><img src="Images/iconfinder_Facebook_483484.png" alt="Facebook icon" /></a></li>
+            <li><a href="http://www.twitter.com"><img src="Images/iconfinder_Twitter_483457.png" alt="Twitter icon"/></a></li>
+            <li><a href="http://www.youtube.com"><img src="Images/iconfinder_youtube_727233.png" alt="YouTube icon" /></a></li>
+        </ul>
+        
+    </section>
+
+</main>
+<footer>
+    <p>
+    &copy; Rise and Shine Weather | Sierra Porter | 2021<br>
+    </p>
+    <div id="currentDate"></div>
+    <p id="source-link"> Live weather source: <a href="https://openweathermap.org/">https://openweathermap.org/</a> </p>
+
+    <script src="JS/date.js"></script>
+    <script src="JS/preston.js"></script>
+    <script src="JS/banner.js"></script>
+    <script src="JS/prestonapi.js"></script>
+    
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+WebFont.load({
+google: {
+families: [
+   'Yusei Magic'
+]
+}
+});
+</script>
+    
+    </body>
+
+
+</html>
