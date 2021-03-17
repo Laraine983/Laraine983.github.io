@@ -7,7 +7,7 @@ body{
    
 }
 main{
-    background-color: lightcyan;
+    background-color:aliceblue;      /* white or lightcyan? aliceblue?*/
 }
 #logo{
     display: block;
@@ -24,6 +24,8 @@ footer{
     background-color: lightslategray;
     color: white;
     padding: 0.5px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 nav, footer{
       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedce7+0,596a72+88 */
@@ -104,7 +106,7 @@ img[data-src] {
 }
 
 section{
-    
+   
     text-align: center;
     padding: 1em;
     margin:20px;
@@ -167,7 +169,9 @@ form{
 #header{
     text-align:center;
     font-size: 35px;
+    
 }
+
 form legend{
     padding: 10px;
     font-size: 25px;
@@ -275,8 +279,24 @@ p:nth-child(2){
     color:darkgrey;
     font-size: 15px;
 }
+#contact-header{
+    border-bottom: 1px solid black;
+}
+#sec-4{
+    background-color: aliceblue;
+    padding-bottom:20px;
+   height: 300px;
+   margin:0;
+   
+}
+#sec-3{
+    background-color:white;
+   
+}
 
 
+
+/* -----------------------------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -336,6 +356,7 @@ p:nth-child(2){
      #weather-summary{
         background-color: lightgray;
         opacity: 0.8;
+        color:black;
         text-align: left;
         width: 150px;
         margin: 0 auto;

@@ -37,6 +37,7 @@
     #weather-summary{
         background-color: lightgray;
         opacity: 0.8;
+        color:black;
         text-align: left;
         width: 150px;
         padding: 25px;
