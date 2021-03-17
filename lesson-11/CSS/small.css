@@ -127,6 +127,12 @@ section{
 #map{
     width: 300px;
     height: 200px;
+    float: left;
+}
+#map-idaho{
+    width:240px;
+    height:200px;
+    float:left;
 }
 #article{
     text-align: center;
@@ -136,9 +142,7 @@ border: 2px solid lightslategray;
 background-color: white;
 
 }
-#map{
-    float: left;
-}
+
 .social-icons{
     list-style-type: none;
     display:flex;
@@ -290,10 +294,12 @@ p:nth-child(2){
    border: 2px solid grey;
    
 }
-#sec-3{
+#sec-3-home{
+    margin:0 auto;
+    border: 2px solid gray;                         /*fix fonts*/
     background-color:white;
-   
-   
+    width:95%;
+    margin-bottom:20px;
 }
 #home-map{
    width:200px;
