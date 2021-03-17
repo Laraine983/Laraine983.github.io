@@ -295,6 +295,10 @@ p:nth-child(2){
    
    
 }
+#home-map{
+   width:200px;
+   height: 250px;
+}
 .townEvents, #sec-3{
 margin:0 auto;
 border: 2px solid gray;                         /*fix fonts*/
