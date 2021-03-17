@@ -95,14 +95,7 @@ images.forEach(image => {           /* cannot apply one imgObserver to entire li
     imgObserver.observe(image);
 });
 
-//load fonts
-WebFont.load({
-  google: {
-  families: [
-     'Yusei Magic'
-  ]
-  }
-  });
+
 
 
 //friday banner
@@ -125,6 +118,15 @@ WebFont.load({
 //get date - footer
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+
+//load fonts
+WebFont.load({
+  google: {
+  families: [
+     'Yusei Magic'
+  ]
+  }
+  });
 
 
 

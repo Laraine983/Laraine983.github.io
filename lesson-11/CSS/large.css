@@ -106,7 +106,6 @@
     grid-row: 1/2;
     width: 250px;
     
-    
 }
 #image-3{
     grid-column: 3/4;
@@ -147,9 +146,43 @@ figcaption{
     min-width: 246px;
     
 }
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    justify-content: center;
+    
+       
+}
+.cards section{
+ height:500px;
+ margin:10px;
+ 
+ 
+}
+.cards section img{
+   padding:20px;
+}
+
+.cards section:nth-child(odd) img{
+margin:10px;
+}
+.cards section:nth-child(even) img{
+margin: 10px ;
+
+}
+.cards section:nth-child(even) p, .cards section:nth-child(even) h2{
+ text-align: center;
+ margin:15px;
+ 
+}
+picture img{
+    width: 95%;
+    height:250px;
+}
 
     }
-    
+
     @media only screen and (min-width:1800px){
         header, nav, footer, body{
            max-width: 1500px;
@@ -165,6 +198,18 @@ figcaption{
             min-width:350px;
             
         }
+        .cards section:nth-child(odd) img{
+            margin:45px;
+           }
+           .cards section:nth-child(even) img{
+           margin: 45px ;
+            
+            }
+            .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
+             text-align: center;
+             margin:15px;
+             
+           }
        
    
     }

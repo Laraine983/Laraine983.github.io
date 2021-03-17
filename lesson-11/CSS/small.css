@@ -161,7 +161,120 @@ background-color: white;
 #source-link{
     font-size: 10px;
 }
+form{
+    padding: 20px;
+}
+#header{
+    text-align:center;
+    font-size: 35px;
+}
+form legend{
+    padding: 10px;
+    font-size: 25px;
+}
+form fieldset{
+    background: lightcyan;
+    border: 2px double black;
+    border-radius: 7px;
+    padding:25px;
+    padding-left: 50px;
+    font-size: 15px;
+    font-weight:lighter;
+    
+}
+input:hover,textarea:hover{
+background-color:ghostwhite;
+}
+textarea{
+    height: 150px;
+    width: 300px;
+    margin-top: 8px;
+}
+form input, select{
+    margin-bottom: 25px;
+    width: 200px;
+    height: 44px;
+    margin-top: 8px;
+}
+.side input{
+    height: 20px;
 
+}
+form label, form div{
+    letter-spacing: 2px;
+}
+ #subButton{                
+
+    color: black;
+    font-family: Yusei Magic, serif;
+    background-color: goldenrod;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px lightgrey;
+    border: 2px solid goldenrod;
+    border-style: outset;
+    font-size: 15px;
+    
+}
+#subButton:hover{
+    border: 3px solid gold;
+    border-style: inset;
+    
+}
+#ratingAmt{
+    display:inline-block;
+    color: lightslategray;
+}
+.thanks{
+    background-color: lightcyan;
+    height: 300px;
+    padding: 40px;
+    margin: 20px;
+}
+.cards section img{
+    border: 1px solid lightgray;
+    background-color: white;
+    padding:20px;
+    margin:10px;
+    
+    }
+
+footer{
+    padding-bottom: 20px;
+}
+
+#header{
+    text-align:center;
+    font-size: 35px;
+}
+
+
+.cards section{
+    border: 2px solid grey;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+
+picture img{
+    padding-top: 10px;
+                            /* center image */
+    
+}
+h2{
+color: darkcyan;
+
+}
+p:nth-child(2){
+    font-style: italic;
+    color:darkgrey;
+    font-size: 15px;
+}
 
 
 
@@ -313,5 +426,41 @@ background-color: white;
 figcaption{
     max-width: 246px;
 }
+.side input{
+    height: 20px;
+    display: inline-block;
+    position: absolute;
 
+}
+
+ form fieldset{
+ 
+    align-content: center;
+  
+}
+textarea{
+    width: 170px;
+}
+form legend{
+    font-size: 20px;
+}
+#ratingAmt{
+   position: absolute;
+   
+}
+.cards{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+picture img{
+    width: 100%;         
+}
+iframe{
+        
+    width: 240px;
+    padding: 35px;
+    margin:25px;
+    margin-left:-5px;
+
+}
 }

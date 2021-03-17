@@ -129,4 +129,42 @@
 figcaption{
   max-width: 246px;
 }
+.cards{
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin:20px;
+    
+    
+  }
+ 
+  
+  .cards section{
+    height:270px;
+  }
+ 
+  .cards section:nth-child(odd) img{
+   float:right;
+   padding: 20px;
+   margin-top: -200px;
+   margin-right: 50px;
+  }
+  .cards section:nth-child(even) img{
+   float:left;
+   margin-top: -180px;
+   margin-left: 50px;
+  
+  }
+  .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
+   text-align:right;
+   margin-right: 70px;
+  
+ }
+
+  .cards section:nth-child(odd) p, .cards section:nth-child(odd) h2{
+    text-align:left;
+    margin-left: 70px;
+  }
+  picture img{
+   width: 95%;           
 }
