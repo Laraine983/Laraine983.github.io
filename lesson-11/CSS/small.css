@@ -362,10 +362,16 @@ margin-bottom:20px;
         max-height: 500px;
     }
     #map{
-        display: flex;
-        justify-content: center;
         width: 240px;
     padding: 25px;
+    height: 150px;
+    width:200px;
+    
+    
+    }
+    #contact{
+        font-size: 15px;
+        padding-top:200px;
     }
     #forecast-img{
         display: none;
@@ -516,5 +522,8 @@ iframe{
 }
 .townEvents{
     width:250px;
+}
+#sec-3{
+    max-width:90%;
 }
 }
