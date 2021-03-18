@@ -82,6 +82,7 @@ fetch(townURL)
    let event1 = document.createElement('p'); 
    let event2 = document.createElement('p');
    let event3 = document.createElement('p');
+   let event4 = document.createElement('p');
            
   
     
@@ -89,12 +90,14 @@ fetch(townURL)
    event1.textContent = towns[i].events["0"];
    event2.textContent = towns[i].events["1"];
    event3.textContent = towns[i].events["2"];
+   event4.textContent = towns[i].events["3"];
     
   
       
    card.appendChild(event1);
    card.appendChild(event2);
    card.appendChild(event3);
+   card.appendChild(event4);
           
 
     document.querySelector('div.events').appendChild(card);
