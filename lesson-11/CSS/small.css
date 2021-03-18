@@ -136,6 +136,7 @@ section{
 }
 #article{
     text-align: center;
+    color: black;
 }
 #sec-3-preston{
 border: 2px solid lightslategray;
@@ -248,6 +249,7 @@ form label, form div{
     margin:10px;
     
     }
+    
 
 footer{
     padding-bottom: 20px;
@@ -279,7 +281,7 @@ color: darkcyan;
 
 }
 p:nth-child(2){
-    font-style: italic;
+    
     color:darkgrey;
     font-size: 15px;
 }
@@ -312,11 +314,22 @@ background-color:white;
 width:400px;
 margin-bottom:20px;
 
+
 }
 
 .events p{
     color:black;
-    text-decoration: none;
+    
+}
+#ski-pic{
+    width:300px;
+    height:200px;
+    margin:20px;
+}
+#article-box{
+    border: 2px solid lightslategray;
+    background-color: white;
+
 }
 
 /* -----------------------------------------------------------------------------------------------------------------------------*/
@@ -526,4 +539,5 @@ iframe{
 #sec-3{
     max-width:90%;
 }
+
 }
