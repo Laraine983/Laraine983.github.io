@@ -102,7 +102,7 @@ img[data-src] {
     text-align: center;
     position: relative;
     top: -28px;
-    padding: 2px;
+    padding: 5px;
 }
 
 section{
@@ -267,6 +267,7 @@ footer{
     background-color: aliceblue;
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey;
+    padding:5px;
     
 }
 
@@ -285,8 +286,21 @@ p:nth-child(2){
     color:darkgrey;
     font-size: 15px;
 }
+#sec-2{
+    margin:0 auto;
+    border: 2px solid gray;                         /*fix fonts*/
+    background-color:white;
+    width:95%;
+    margin-bottom:20px;
+}
+#summer{
+    color:black;
+}
 #contact-header{
     border-bottom: 1px solid black;
+}
+#sec-3-home{
+    padding-bottom:50px;
 }
 #sec-4{
     background-color: white;
@@ -489,6 +503,7 @@ margin-bottom:20px;
 }
 figcaption{
     max-width: 246px;
+    
 }
 .side input{
     height: 20px;
@@ -515,6 +530,13 @@ form legend{
 .cards{
     display:grid;
     grid-template-columns: 1fr;
+    
+    
+}
+.cards section{
+    padding:5px;
+    margin-left:0;
+   
 }
 picture img{
     width: 100%;         

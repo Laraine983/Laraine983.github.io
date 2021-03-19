@@ -145,6 +145,7 @@
 }
 figcaption{
     min-width: 246px;
+    padding:5px;
     
 }
 .cards{
@@ -175,7 +176,13 @@ margin: 10px ;
 .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
  text-align: center;
  margin:15px;
+ max-width:300px;
  
+}
+.cards section:nth-child(odd) p, .cards section:nth-child(odd) h2{
+    text-align: center;
+    margin:15px;
+    max-width:300px;
 }
 picture img{
     width: 95%;
@@ -199,18 +206,93 @@ picture img{
             min-width:350px;
             
         }
+       
+        .cards section{
+         height:500px;
+         margin:10px;
+         
+         
+        }
+        .cards section img{
+           padding:20px;
+        }
+        
         .cards section:nth-child(odd) img{
-            margin:45px;
-           }
-           .cards section:nth-child(even) img{
-           margin: 45px ;
+        margin:50px;
+        }
+        .cards section:nth-child(even) img{
+        margin: 50px ;
+        
+        }
+        .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
+         text-align: center;
+         margin:15px;
+         max-width:500px;
+         
+        }
+        .cards section:nth-child(odd) p, .cards section:nth-child(odd) h2{
+            text-align: center;
+            margin:15px;
+            max-width:500px;
+        }
+        form{
+            padding: 20px;
+        }
+      
+        
+        form legend{
+            padding: 10px;
+            font-size: 25px;
             
-            }
-            .cards section:nth-child(even) p, .cards section:nth-child(even) h2{
-             text-align: center;
-             margin:15px;
-             
-           }
+        }
+        form fieldset{
+            background: lightcyan;
+            border: 2px double black;
+            border-radius: 7px;
+            padding:25px;
+            padding-left: 50px;
+            font-size: 15px;
+            font-weight:lighter;
+            margin-left:50px;
+            margin-right: 50px;
+            
+        }
+        input:hover,textarea:hover{
+        background-color:ghostwhite;
+        }
+        textarea{
+            height: 250px;
+            width: 400px;
+            margin-top: 8px;
+        }
+        form input, select{
+            margin-bottom: 40px;
+            width: 400px;
+            height: 50px;
+            margin-top: 20px;
+            
+            
+        }
+        .side input{
+            height: 20px;
+        
+        }
+        form label, form div{
+            letter-spacing: 2px;
+        }
+        #subButton{                
+
+            width: 300px;
+            margin-left:70px;
+            
+        }
+        figcaption{
+            min-width: 340px;
+            padding:5px;
+        }
+        footer{
+            margin-top:50px;
+        }
        
    
     }
