@@ -321,11 +321,7 @@ margin-bottom:20px;
     color:black;
     
 }
-#ski-pic{
-    width:300px;
-    height:200px;
-    margin:20px;
-}
+
 #article-box{
     border: 2px solid lightslategray;
     background-color: white;
@@ -367,12 +363,17 @@ margin-bottom:20px;
    
     }
     #article-pic{
-        width:70%;
+        width: 300px;
+        height:200px;
+        max-width:70%;
     }
     #article, #article-head{
         display: flex;
         max-width:300px;
         max-height: 500px;
+    }
+    #article-head{
+        justify-content: center;
     }
     #map{
         width: 240px;
