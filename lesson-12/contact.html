@@ -3,16 +3,66 @@
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Contact</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+    <title>City of Denton</title>
   </head>
   <body>
+    <header >
+      <!--add logo-->
+      <h1 id="heading"> Chamber of Commerce</h1> 
+      <h3 id="city-heading">City of Denton</h3>
+    </header>
+   
+      <nav class="clearfix">
+        <button onclick="toggleMenu()"> &#9776; Menu</button>
+        <ul id="mainNavigation" class="hide">
+            <li><a class="active" href="/lesson-12/index.html">Home</a></li>
+            <li><a href="/lesson-12/city.html">Denton</a></li>
+            <li><a href="/lesson-12/join.html">Join</a></li>
+            <li><a href="/lesson-12/directory.html">Directory</a></li>
+            <li><a href="/lesson-12/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<main>
 
+
+  
     <!--
        - regular contact information
        - an embedded Google map (Links to an external site.) of the city
        - a basic Contact Us form asking for name, phone, and email with, of course, a comment.
        - a list of the board of directors
     -->
-  
+
+
+
+    <section id="contact">
+      <h3 id="contact-head">Contact Us</h3>
+
+
+      <div id="social">
+          <a href="https://www.facebook.com"><img src="/lesson-12/images/facebook-icon.png"></a>
+          <a href="https://www.instagram.com"><img src="/lesson-12/images/instagram-icon.png"></a>
+          <a href="https://www.twitter.com"><img src="/lesson-12/images/twitter-icon.png"></a>
+
+      </div>
+  </section>
+    </main>
+
+    <!-- 
+    provides historical and current demographic information about the city.
+    Use current imagery and include current city events.  
+    Promote your city through any other creative method of content you determine would be effective.
+-->
+  <footer>
+    <p> &copy; 2021 | Sierra Porter | <a href="/lesson-12/attributions.html"> Attributions</a> </p>
+
+    <script src="/lesson-12/js/denton.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/lesson-12/js/webfont.js"></script>
+  </footer>
   </body>
 </html>

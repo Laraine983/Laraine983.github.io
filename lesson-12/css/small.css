@@ -59,12 +59,15 @@ color:#A02C02;
 body{
     font-family: 'Raleway' , sans-serif;
     background-color: #BDD5EA;
+    padding:20px;
 }
+
 main{
     background-color: white;
     width:100%;
+    
 }
-h3{
+h2, h3{
     font-family: 'Oswald', sans-serif;
 }
 
@@ -93,16 +96,25 @@ h3{
     margin:0;
     display:flex;
     justify-content: center;
-    margin:10px;
+    padding-top:30px;
+    
     
 }
 #business-1, #business-2, #business-3{
     flex-wrap: wrap;
-    border:2px solid black;
+    border:2px double #A02C02;
     text-align: center;
     padding:30px;
     margin:10px;
-
+    background-color: white;
+}
+#contact{
+    padding:20px;
+    
+}
+#contact-head{
+    border-bottom: 2px solid black;
+    text-align:center;
 }
 
 
@@ -116,7 +128,7 @@ h3{
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+        width: 80%;
        
     }
     nav ul.hide{
@@ -125,12 +137,37 @@ h3{
     .clearfix{
         position: relative;
         display: inline-block;
-        width: 100%;
+        width: 97%;
     }
  
     nav{
        text-align: center;
+      
        
+    }
+    .business-cards{
+        background-color:#BDD5EA;
+        justify-content: center;
+       margin:10px;
+       padding:5px;
+       display: grid;
+       grid-template-columns: 1fr;
+    
+    }
+    #business-head{
+        margin:0;
+        display:flex;
+        justify-content: center;
+        padding-top:20px;
+        
+        
+    }
+    #business-1, #business-2, #business-3{
+        border:2px double #A02C02;
+        text-align: center;
+        padding:20px;
+        margin:5px;
+        background-color: white;
     }
    
 }
