@@ -1,5 +1,5 @@
 
-nav{
+nav, footer{
     background-color: #333D48;
     margin: 0;
     padding: 5px;
@@ -7,6 +7,15 @@ nav{
     justify-content: center;
     list-style-type: none;
    
+}
+footer{
+    padding:20px;
+}
+footer p{
+    color:white;
+}
+footer a:hover{
+    color: #BDD5EA;
 }
 nav ul{
     font-family: 'Oswald', sans-serif;
@@ -36,13 +45,11 @@ nav ul li a{
     
     
 }
-nav ul li.active a{
-    background-color: rgba(0, 0, 0, 0.1);
-    color: lightblue;
-}
+
 nav ul li a:hover{
-    background-color: #BDD5EA;
+    background-color: white;
     color: #A02C02;
+    box-shadow: 1px 1px 5px 1px;
     
 }
 .active{
@@ -55,14 +62,47 @@ body{
 }
 main{
     background-color: white;
+    width:100%;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
 }
 
 #heading{
     font-family: 'Oswald' , sans-serif;
+    margin-left:50px;
 }
 
 #city-heading{
     font-family: 'Raleway', sans-serif;
+    margin-left:50px;
+}
+#home-hero img{
+    max-width:100%;
+}
+
+.business-cards{
+    background-color:#BDD5EA;
+    display:flex;
+    justify-content: center;
+   margin:50px;
+   padding:20px;
+
+}
+#business-head{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    margin:10px;
+    
+}
+#business-1, #business-2, #business-3{
+    flex-wrap: wrap;
+    border:2px solid black;
+    text-align: center;
+    padding:30px;
+    margin:10px;
+
 }
 
 
