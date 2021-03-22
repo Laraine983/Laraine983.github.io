@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+  <!--add faveicon-->
+    <title>Home</title>
+  </head>
+  <body>
+      <header >
+        <!--add logo-->
+        <h1 id="heading"> Chamber of Commerce</h1> 
+        <h2 id="city-heading">City of Denton</h2>
+      </header>
+
+      <nav class="clearfix">
+          <button onclick="toggleMenu()">&#9776; Menu</button>
+          <ul class="navigation">
+              <li><a href="/lesson-12/index.html">Home</a></li>
+              <li><a href="/lesson-12/city.html">Denton</a></li>
+              <li><a href="/lesson-12/join.html">Join</a></li>
+              <li><a href="/lesson-12/directory.html">Directory</a></li>
+              <li><a href="/lesson-12/contact.html">Contact</a></li>
+          </ul>
+      </nav>
+
+        <main>
+
+            <!--hero image of denton square-->
+            <section class="home-hero">
+                <picture id="home-hero">                            <!--resize for each device-->
+                                <source srcset="#" media="(max-width: 425px)">
+                                <source srcset="#" media="(min-width: 426px) and (max-width: 767px)">
+                                <source srcset="#" media="(min-width: 768px)">
+                                <img src="/lesson-12/images/denton-home-hero.jpg" alt="Denton Square hero image"/>
+                    </picture>
+                    </section>
+
+                      <!--3 local company "cards" w/info and services, highlights-->
+            <section class="business-cards">
+
+                <div id="business-1"> Business 1 info & img</div>
+
+                <div id="business-2">Business 2 info & img</div>
+
+                <div id="business-3">Business 3 info & img</div>
+
+            </section>
+          
+            <!--call to action to join chamber w/ link to membership application (join page?)-->
+            <section class="action">
+                <h3>Join the Chamber</h3>
+                <p>
+                    Are you a local business owner looking to network, expand, and meet new people?
+                    The Chamber of Commerce has resources to help you. Join us and become a better part of the Denton community.
+                </p>
+                <p> Click <a href="/lesson-12/join.html">here</a> to fill out an application.</p>
+            </section>
+
+            <!--describe purpose and goals of chamber -->
+
+            <!--contact info (address, phone #, etc)-->
+
+            <!--links to facebook, twitter, maybe instagram-->
+            
+            <!--upcoming events-->
+
+            <!--weather API (One Call, not same as weather site)-->
+
+
+</main>
+<footer>
+    <a href="/lesson-12/attributions.html">Attributions</a>
+</footer>
+  
+  </body>
+</html>
