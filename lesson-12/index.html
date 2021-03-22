@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -14,13 +15,13 @@
       <header >
         <!--add logo-->
         <h1 id="heading"> Chamber of Commerce</h1> 
-        <h2 id="city-heading">City of Denton</h2>
+        <h3 id="city-heading">City of Denton</h3>
       </header>
 
       <nav class="clearfix">
-          <button onclick="toggleMenu()">&#9776; Menu</button>
-          <ul class="navigation">
-              <li><a href="/lesson-12/index.html">Home</a></li>
+          <button onclick="toggleMenu()"> &#9776; Menu</button>
+          <ul id="mainNavigation" class="hide">
+              <li><a class="active" href="/lesson-12/index.html">Home</a></li>
               <li><a href="/lesson-12/city.html">Denton</a></li>
               <li><a href="/lesson-12/join.html">Join</a></li>
               <li><a href="/lesson-12/directory.html">Directory</a></li>
@@ -62,20 +63,43 @@
             </section>
 
             <!--describe purpose and goals of chamber -->
+            <section class="purpose">
+               <h3>What is our Purpose?</h3>
+                <p>
+                The Chamber of Commerce serves the community of Denton through the work of business owners and professionals.
+                We strive to make our city a thriving community for every business owner, big and small. 
+                We work to meet each others' goals and find ways to help each business grow and become a better part of the community. 
+                With our diverse team of members, we can help develop a plan of action to meet the community's needs. 
+                </p>
+
+            </section>
+
+            <!--upcoming events-->
+            <section class="events">
+                <h3>Upcoming Events:</h3>
+                <p id="event-1">Event 1</p>
+                <p id="event-2">Event 2</p>
+                <p id="event-3">Event 3</p>
+            </section>
+            
+
+            <!--weather API (One Call, not same as weather site)-->
 
             <!--contact info (address, phone #, etc)-->
 
             <!--links to facebook, twitter, maybe instagram-->
-            
-            <!--upcoming events-->
-
-            <!--weather API (One Call, not same as weather site)-->
-
-
 </main>
 <footer>
     <a href="/lesson-12/attributions.html">Attributions</a>
+
+    <script src="/lesson-12/js/denton.js"></script>
 </footer>
-  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="/lesson-12/js/webfont.js"></script>
+
+
+
   </body>
 </html>

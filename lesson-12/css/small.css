@@ -1,0 +1,96 @@
+
+nav{
+    background-color: #333D48;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+}
+nav ul{
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    list-style-type: none;
+    margin: 0;
+    
+}
+nav button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5px;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+    color:  white;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul li a{
+    display:block;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: lightblue;
+}
+nav ul li a:hover{
+    background-color: #BDD5EA;
+    color: #A02C02;
+    
+}
+.active{
+color:#A02C02;
+}
+
+body{
+    font-family: 'Raleway' , sans-serif;
+    background-color: #BDD5EA;
+}
+main{
+    background-color: white;
+}
+
+#heading{
+    font-family: 'Oswald' , sans-serif;
+}
+
+#city-heading{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    li a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+       
+    }
+    nav ul.hide{
+        display:none;
+    }
+    .clearfix{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+ 
+    nav{
+       text-align: center;
+       
+    }
+   
+}
