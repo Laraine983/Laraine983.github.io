@@ -85,11 +85,12 @@ h2, h3{
 }
 
 .business-cards{
-    background-color:#BDD5EA;
+    background-color:#333D48;
     display:flex;
     justify-content: center;
    margin:50px;
    padding:20px;
+   box-shadow: 1px 1px 5px black;
 
 }
 #business-head{
@@ -102,7 +103,7 @@ h2, h3{
 }
 #business-1, #business-2, #business-3{
     flex-wrap: wrap;
-    border:2px double #A02C02;
+    border:4px double #A02C02;
     text-align: center;
     padding:30px;
     margin:10px;
@@ -116,12 +117,38 @@ h2, h3{
     border-bottom: 2px solid black;
     text-align:center;
 }
+.business-cards p{
+    width:250px;
+}
+.action{
+    background-color:#BDD5EA;
+    display:flex;
+    height:200px;
+   padding:20px;
+   border: 1px solid black;
+  
+}
+#join-head{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    padding-top:30px;
+}
+
+
+
+   
+/* ----------------------------------------------------------------------------------------------------*/
 
 
 
 
 
 @media only screen and (max-width: 767px) {
+    body, main{
+        width:100%;
+       
+    }
 
     li a {
         display: flex;
@@ -145,15 +172,24 @@ h2, h3{
       
        
     }
+ 
     .business-cards{
-        background-color:#BDD5EA;
+        background-color:#333D48;
         justify-content: center;
        margin:10px;
        padding:5px;
        display: grid;
        grid-template-columns: 1fr;
+      
+       
     
     }
+    .business-cards p{
+       max-width: 150px;
+       padding:20px;
+       
+    }
+
     #business-head{
         margin:0;
         display:flex;
@@ -163,11 +199,32 @@ h2, h3{
         
     }
     #business-1, #business-2, #business-3{
-        border:2px double #A02C02;
+        border:4px double #A02C02;
         text-align: center;
         padding:20px;
         margin:5px;
         background-color: white;
     }
-   
+    .action{
+        width: 90%;
+        height:400px;
+      margin:0 auto;
+      text-align: center;
+    }
+    #join-head{
+        padding:10px;
+        margin-top:40px;
+    }
+    #action-1{
+        margin:10px;
+       width:200px;
+       position:absolute;
+       
+        }
+        #action-2{
+            position:relative;
+            margin-top:300px;
+            margin-left:30px;
+            
+        }
 }
