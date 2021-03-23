@@ -28,17 +28,42 @@
     </nav>
 <main>
 
+  <h1 id="form-header">Apply for Membership</h1>
+  <form method="get" action="thanks.html"> <!--add page-->
+      <fieldset>
+          <legend>Your Information</legend>
+          <label class="top">First Name:*<br><input type="text" name="firstname" pattern="[A-Za-z]{5,}" required></label><br> 
+          <label class="top">Last Name:*<br><input type="text" name="lastname" pattern="[A-Za-z]{5,}" required></label><br> 
+          <label class="top">Title<br><input type="text" name="title" ></label><br> 
+          <label class="top">Email:*<br><input type="email" name="email" placeholder="name@email.com" required></label><br>
+          <label class="top">Cell Phone Number:*<br><input type="tel" name="phone" placeholder="(123) 456-7890" required></label><br>
+          <label class="top">Business Name:*<br><input type="text" name="busname" required></label><br>
+          <label class="top">Business Address:<br><input type="text" name="address" ></label><br>
+          <label class="top">Business Website:<br><input type="text" name="website" ></label><br>
+          <label class="top">Business Description:<br><textarea placeholder="Describe your business..."></textarea><br>
+      
+      
+             <label class="top">Membership Level:<br>
+              
+              <select name="region"> 
+                  <option value="select" selected disabled>Select Level...</option>
+                  <option value="nonProfit">Non-profit ($100)</option>
+                  <option value="bronze">Bronze ($200)</option>
+                  <option value="silver">Silver ($400)</option>
+                  <option value="gold">Gold ($1000)</option>
+              </select>
+             </label>
+      
+         <br>
+         <label class="more">Comments: <br><textarea placeholder="Type additional information here..."></textarea></label>
+      </fieldset>
+      <input id="subButton" type="submit" value="Submit Application">
+  </form>
 
-
-
-
-
-
-
-
-
-
-
+<section>
+<p id="key"> The different levels have different perks which you can explain on the page in a key. 
+  Things like directory listings, business trainings, social media posts, luncheon tickets, sponsorships with levels of advertising, etc.</p>
+</section>
 
     <section id="contact">
       <h3 id="contact-head">Contact Us</h3>
@@ -54,24 +79,7 @@
     </main>
 
    
-    <!--
-    1)contains information about the benefit of joining the chamber and a membership application form. The form should be well designed
-     and use appropriate form elements and lead to a confirmation page that has the same basic design as the other pages. 
-     Collect the following information:
-        - first name - required
-        - last name - required
-        - title
-        - email - required
-        - cell phone
-        - business name - required
-        - business address
-        - business website
-        - business description
-        - membership level selection that displays the annual fees (only one option is allowed)
-There are four options: Non-profit ($100), Bronze ($200), Silver ($400), Gold ($1000)
-The different levels have different perks which you can explain on the page in a key. 
-Things like directory listings, business trainings, social media posts, luncheon tickets, sponsorships with levels of advertising, etc.
-    -->
+    
   <footer>
     <p> &copy; 2021 | Sierra Porter | <a href="/lesson-12/attributions.html"> Attributions</a> </p>
 
