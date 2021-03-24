@@ -1,0 +1,54 @@
+{
+    "businesses": [
+        {
+            "name": "JT Clothiers",
+            "phone": "(940) 387-0761",
+            "website": "www.jtclothiers.com",
+            "logo": "#"
+
+        },
+        {
+            "name": "True Leaf Studio",
+            "phone": "(940) 218-1133",
+            "website": "www.trueleafstudio.com",
+            "logo": "#"
+        },
+        {
+            "name": "Rusty Taco",
+            "phone": "(940) 483-8226",
+            "website": "https://rustytaco.com/",
+            "logo": "#"
+
+        },
+        {
+            "name": "Serve Denton",
+            "phone": "(940) 735-3234",
+            "website": "https://www.servedenton.org/",
+            "logo": "#"
+        },
+        {
+            "name": "Captiva Salon and Spa",
+            "phone": "(940) 566-1999",
+            "website": "https://www.captivasalonandspa.com/",
+            "logo": "#"
+        },
+        {
+            "name": "Denton County Animal ER",
+            "phone": "(940) 271-1200",
+            "website": "https://www.dcaer.com/",
+            "logo": "#"
+        },
+        {
+            "name": "Denton Florist",
+            "phone": "(940) 387-6191",
+            "website": "https://www.dentonflorist.com/",
+            "logo": "#"
+        },
+        {
+            "name": "Connections Wellness Group",
+            "phone": "(940) 231-9669",
+            "website": "https://connectionswellnessgroup.com/",
+            "logo": "#"
+        } 
+    ]
+}
