@@ -1,36 +1,36 @@
-const directURL = "/lesson-12/json/directory.json";
+const directURL = "https://laraine983.github.io/lesson-12/json/directory.json";
 
-fetch(townURL)
+fetch(directURL)
   .then(function (response) {       // .then returns a promise (proxy for unknown value) 
     return response.json();
   })
   .then(function (jsonObject) {
     console.table(jsonObject);       // temporary checking for valid response and data parsing
 
-    const towns = jsonObject['towns'];
-    for (let i = 0; i < towns.length; i++) {
-      if (towns[i].name == "Preston" ) {       //select the town to be displayed
+    const businesses = jsonObject['business'];
+    for (let i = 0; i < businesses.length; i++) {
+         
     
    
    let card = document.createElement('section');        // add html elements
-   let event1 = document.createElement('p'); 
-   let event2 = document.createElement('p');
-   let event3 = document.createElement('p');
+   let phone = document.createElement('p'); 
+   let website = document.createElement('p');
+   let logo = document.createElement('p');
            
   
     
     
-    event1.textContent = towns[i].events["0"];
-    event2.textContent = towns[i].events["1"];
-    event3.textContent = towns[i].events["2"];
+    phone.textContent = business[i].phone;
+    website.textContent = business[i].website;
+    logo.textContent = business[i].logo;
     
   
-    card.appendChild(event1);
-    card.appendChild(event2);
-    card.appendChild(event3);
+    card.appendChild(phone);
+    card.appendChild(website);
+    card.appendChild(logo);
           
 
-    document.querySelector('div.events').appendChild(card);
+    document.querySelector('div.businesses').appendChild(card);
 
     
   }
