@@ -167,6 +167,29 @@ iframe{
 .events h2{
     color:#A02C02;
 }
+#perks , #mem-key{
+    padding:20px;
+}
+form{
+    margin:20px;
+}
+ form input:hover,textarea:hover{
+    background-color:ghostwhite;
+    box-shadow:0 0 5px grey;
+    }
+
+    fieldset{
+        background-color: #BDD5EA;
+       
+    }
+
+form input, textarea, select{
+    padding:10px;
+  margin:10px 0;
+  width:200px;
+  border-radius:5px;
+ 
+}
 
 
 

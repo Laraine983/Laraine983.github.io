@@ -28,7 +28,7 @@
     </nav>
 <main>
   
-  <section>
+  <section id="perks">
     <p>Joining the Chamber of Commerce is a simple and effective way to bring awareness of your business to the community and
       helps other businesses as well. 
       <br><br>
@@ -47,7 +47,7 @@
     <p>*Perks only available to certain membership levels</p>
   </section>
 
-  <section>
+  <section id="mem-key">
     <p id="key"> 
     <u> MEMBERSHIP KEY:</u>
     <br><br>
@@ -62,23 +62,23 @@
     </section>
 
   <h1 id="form-header">Apply for Membership</h1>
-  <form method="get" action="thanks.html"> <!--add page-->
+  <form method="get" action="thanks.html"> 
       <fieldset>
           <legend>Your Information</legend>
-          <label class="top">First Name:*<br><input type="text" name="firstname" pattern="[A-Za-z]{5,}" required></label><br> 
-          <label class="top">Last Name:*<br><input type="text" name="lastname" pattern="[A-Za-z]{5,}" required></label><br> 
-          <label class="top">Title<br><input type="text" name="title" ></label><br> 
-          <label class="top">Email:*<br><input type="email" name="email" placeholder="name@email.com" required></label><br>
-          <label class="top">Cell Phone Number:*<br><input type="tel" name="phone" placeholder="(123) 456-7890" required></label><br>
-          <label class="top">Business Name:*<br><input type="text" name="busname" required></label><br>
-          <label class="top">Business Address:<br><input type="text" name="address" ></label><br>
-          <label class="top">Business Website:<br><input type="text" name="website" ></label><br>
-          <label class="top">Business Description:<br><textarea placeholder="Describe your business..."></textarea><br>
+          <label id="fname" class="top">First Name:*<br><input type="text" name="firstname" pattern="[A-Za-z]{5,}" required></label><br> 
+          <label id="lname" class="top">Last Name:*<br><input type="text" name="lastname" pattern="[A-Za-z]{5,}" required></label><br> 
+          <label id="title" class="top">Title<br><input type="text" name="title" ></label><br> 
+          <label id="email" class="top">Email:*<br><input type="email" name="email" placeholder="name@email.com" required></label><br>
+          <label id="phone" class="top">Cell Phone Number:*<br><input type="tel" name="phone" placeholder="(123) 456-7890" required></label><br>
+          <label id="busname" class="top">Business Name:*<br><input type="text" name="busname" required></label><br>
+          <label id="busadd" class="top">Business Address:<br><input type="text" name="address" ></label><br>
+          <label id="bussite" class="top">Business Website:<br><input type="text" name="website" ></label><br>
+          <label id="busdesc" class="top">Business Description:<br><textarea placeholder="Describe your business..."></textarea></label><br>
       
-      
-             <label class="top">Membership Level:<br>
+            
+             <label id="mem">Membership Level:<br>
               
-              <select name="region"> 
+              <select id="mem" name="region"> 
                   <option value="select" selected disabled>Select Level...</option>
                   <option value="nonProfit">Non-profit ($100)</option>
                   <option value="bronze">Bronze ($200)</option>
@@ -88,7 +88,7 @@
              </label>
       
          <br>
-         <label class="more">Comments: <br><textarea placeholder="Type additional information here..."></textarea></label>
+         <label id="comments" class="more">Comments: <br><textarea placeholder="Type additional information here..."></textarea></label>
       </fieldset>
       <input id="subButton" type="submit" value="Submit Application">
   </form>
