@@ -36,7 +36,6 @@ nav ul.hide{
   .action{
     
     height:200px;
-   width:95%;
    padding:20px;
  
   }
@@ -50,6 +49,16 @@ nav ul.hide{
         position:relative;
         margin-top:160px;
         margin-left:100px;
+    }
+    .purpose p{
+        position:absolute;
+    }
+    .purpose img{
+        position: relative;
+    }
+    .purpose{
+        height:200px;
+        padding:20px;
     }
 
 }

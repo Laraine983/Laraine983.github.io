@@ -15,7 +15,7 @@
         height:50px;
     }
     .business-cards{
-        width:1000px;
+        width:95%;
         margin: 0 auto;
     }
     #business-1 , #business-2, #business-3{
@@ -25,14 +25,18 @@
         width:250px;
         
     }
-    .action{
-        text-align: center;
-        width:97%
+    .action p{
+        letter-spacing: 2px;
+        left:8%; 
+       
     }
     .action img{
-        margin-left: 500px;
+       margin-left:30%;
+       width:400px;
+        height:200px;
         
     }
+   
     #action-1{
     margin:10px;
    width:600px;
@@ -45,6 +49,34 @@
         margin-left:200px;
         
     }
+    .purpose p{
+       width:500px;
+       left:50%;
+       letter-spacing: 2px;
+      
+      
+    }
+    .purpose img{
+        left:8%;
+        width:400px;
+        height:200px;
+    }
+    .events{
+       width:500px;
+       height:220px;
+      padding:10px;
+       margin: 0 auto;
+       margin-top:40px;
+       text-align: center;
+    }
+    .events div{
+      width:400px;
+      height:200px;
+      margin:0 auto;
+     padding: 5px;
+        
+    }
   
 
 }
+/* add 4k screen size */
