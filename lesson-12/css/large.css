@@ -27,17 +27,23 @@
     }
     .action{
         text-align: center;
+        width:97%
+    }
+    .action img{
+        margin-left: 500px;
+        
     }
     #action-1{
     margin:10px;
-   width:1000px;
+   width:600px;
    position:absolute;
    
     }
     #action-2{
         position:relative;
         margin-top:100px;
-        margin-left:400px;
+        margin-left:200px;
+        
     }
   
 

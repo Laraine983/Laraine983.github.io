@@ -38,19 +38,18 @@ nav ul.hide{
     height:200px;
    width:95%;
    padding:20px;
-   border: 1px solid black;
-  
+ 
   }
   #action-1{
     margin:10px;
-   width:500px;
+   width:300px;
    position:absolute;
    
     }
     #action-2{
         position:relative;
-        margin-top:150px;
-        margin-left:200px;
+        margin-top:160px;
+        margin-left:100px;
     }
 
 }

@@ -62,7 +62,7 @@ color:#A02C02;
 body{
     font-family: 'Raleway' , sans-serif;
     background-color: #BDD5EA;
-    padding:20px;
+    
 }
 
 main{
@@ -128,7 +128,8 @@ h2, h3{
     display:flex;
     height:200px;
    padding:20px;
-   border: 1px solid black;
+   box-shadow: 1px 1px 5px black;
+   
   
 }
 #join-head{
@@ -223,9 +224,16 @@ iframe{
     }
     .action{
         width: 90%;
-        height:400px;
+        height:450px;
       margin:0 auto;
       text-align: center;
+    }
+    .action img{
+        width:280px;
+        height:200px;
+        position:absolute;
+        margin-top:250px;
+
     }
     #join-head{
         padding:10px;
@@ -233,14 +241,15 @@ iframe{
     }
     #action-1{
         margin:10px;
-       width:200px;
+       width:250px;
        position:absolute;
        
         }
         #action-2{
             position:relative;
-            margin-top:300px;
+            margin-top:200px;
             margin-left:30px;
+
             
         }
 }

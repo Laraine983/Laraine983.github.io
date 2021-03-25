@@ -1,30 +1,32 @@
-const directURL = "https://laraine983.github.io/lesson-12/json/directory.json";
+const directURL = "https://laraine983.github.io/lesson-12/json/directory.json";      //connect to my JSON file
 
 fetch(directURL)
-  .then(function (response) {       // .then returns a promise (proxy for unknown value) 
+  .then(function (response) {      
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);       // temporary checking for valid response and data parsing
+    console.table(jsonObject);       
 
-    const businesses = jsonObject['business'];
-    for (let i = 0; i < businesses.length; i++) {
+    const business = jsonObject['business'];
+    for (let i = 0; i < business.length; i++) {
          
     
    
-   let card = document.createElement('section');        // add html elements
-   let phone = document.createElement('p'); 
-   let website = document.createElement('p');
-   let logo = document.createElement('p');
+   let card = document.createElement('section');        
+   let name = document.createElement('p');          //pull business name
+   let phone = document.createElement('p');         //pull business phone number
+   let website = document.createElement('p');       //pull website link
+   let logo = document.createElement('p');          //pull logo (if available)
            
   
     
-    
+    name.textContent = business[i].name;
     phone.textContent = business[i].phone;
     website.textContent = business[i].website;
     logo.textContent = business[i].logo;
     
   
+    card.appendChild(name);
     card.appendChild(phone);
     card.appendChild(website);
     card.appendChild(logo);
@@ -34,5 +36,5 @@ fetch(directURL)
 
     
   }
-}
-  });
+});
+ 
