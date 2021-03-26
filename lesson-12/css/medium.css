@@ -60,7 +60,7 @@ nav ul.hide{
         height:200px;
         padding:20px;
     }
-    fieldset{
+    .join-form{
         padding:30px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -128,9 +128,6 @@ grid-row: 6/7;
  grid-column: 2/3;
  grid-row: 5/6;
 }
-#contact-form{
-    width: 300px;
-    margin: 0;
-}
+
 
 }

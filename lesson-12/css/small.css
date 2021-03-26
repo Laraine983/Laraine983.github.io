@@ -183,7 +183,7 @@ form{
        
     }
 
-form input, textarea, select{
+form input, #busdesc, #comments, select{
     padding:10px;
   margin:10px 0;
   width:200px;
