@@ -13,10 +13,10 @@ fetch(directURL)
     
    
    let card = document.createElement('section');        
-   let name = document.createElement('p');          //pull business name
+   let name = document.createElement('h3');          //pull business name
    let phone = document.createElement('p');         //pull business phone number
    let website = document.createElement('p');       //pull website link
-   let logo = document.createElement('p');          //pull logo (if available)
+   let logo = document.createElement('p');          //pull logo (if available) -- make img instead of p??
            
   
     

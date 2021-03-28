@@ -190,7 +190,35 @@ form input, #busdesc, #comments, select{
   border-radius:5px;
  
 }
-
+.businesses{
+    background-color: #333D48;
+}
+.businesses section{
+    background-color: white;
+    border: 4px double #A02C02;
+   
+}
+#key{
+    background-color: white;
+    border: 3px double black;
+    padding:10px;
+    width:300px;
+}
+#key p{
+   margin:0 auto;
+}
+#gold{
+    color:darkgoldenrod;
+}
+#silver{
+    color:grey;
+}
+#bronze{
+    color: sienna;
+}
+#profit{
+    color:seagreen;
+}
 
 
 
@@ -299,6 +327,21 @@ form input, #busdesc, #comments, select{
             margin-left:30px;
 
             
+        }
+        .businesses{
+           margin: 0 auto;
+           text-align: center;
+           justify-content: center;
+           width:350px;
+          padding:5px;
+           
+        }
+        .businesses section{
+         margin:10px auto;
+          width:300px;
+          height:300px;
+          
+           
         }
        
 }
