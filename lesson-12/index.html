@@ -88,7 +88,7 @@
                     The Chamber of Commerce has resources to help you. Join us and become a better part of the Denton community.
                 </p>
                 <p id="action-2"> <b>Click <a href="/lesson-12/join.html">here</a> to fill out an application.</b></p>
-                <img src="/lesson-12/images/join.jpg">    <!--lazy load images-->
+                <img src="/lesson-12/images/placeholder.jpg" data-src="/lesson-12/images/join.jpg">    <!--lazy load images-->
             </section>
 
 
@@ -101,7 +101,7 @@
                 We work to meet each others' goals and find ways to help each business grow and become a better part of the community. 
                 With our diverse team of members, we can help develop a plan of action to meet the community's needs. 
                 </p>
-                <img src="/lesson-12/images/purpose.jpg">   <!--lazy load images-->
+                <img src="/lesson-12/images/placeholder.jpg" data-src="/lesson-12/images/purpose.jpg">   <!--lazy load images-->
             </section>
 
             <!--upcoming events-->
@@ -114,43 +114,22 @@
                 <p id="event-3"><b>October 1-3:</b><i> Denton Arts & Jazz Festival</i></p>
                 </div>
             </section>
+
+            <p id="weather-summary">
+                
+              <b><u> Weather Summary:</u></b> <br>
+           
+               Currently: <i><span id="current-temperature" ></span>&deg;F <br></i>
+               Humidity: <i><span id="humidity" ></span>% <br></i>
+               Condition: <i><span id="condition"></span></i><br>
+               Alerts: <i><span id="alerts"></span></i>
+           </p> 
             
 
-            <!--weather API (One Call, not same as weather site)-->
-            <section class="weather">
-              <div class="forecastWeek">                                  <!--have each div hold weekday, icon image, and temp-->
-                <div class="card">
-                    <span id="dayofweek1"></span>
-                    <img src="source" alt="description" id="icon1">
-                  <i> <span id=temperature1></span>°F</i>
-                </div>
-    
-                <div class="card">
-                    <span id="dayofweek2"></span>
-                    <img src="source" alt="description" id="icon2">
-                   <i> <span id="temperature2"></span>°F</i>
-                </div>
-    
-                <div class="card">
-                    <span id="dayofweek3"></span>
-                    <img src="source" alt="description" id="icon3">
-                   <i> <span id="temperature3"></span>°F</i>
-                </div>
-    
-                <div class="card">
-                    <span id="dayofweek4"></span>
-                    <img src="source" alt="description" id="icon4">
-                   <i> <span id="temperature4"></span>°F</i>
-                </div>
-    
-                <div class="card">
-                    <span id="dayofweek5"></span>
-                    <img src="source" alt="description" id="icon5">
-                    <i><span id="temperature5"></span>°F</i>
-                </div>
-            </div>
+            <!-- display and label a three day forecast of the "day" temperature using the current date-->
+           <div class="homeFor"></div>
 
-            </section>
+     
             
             <!--contact info (address, phone #, etc)-->
             <!--links to facebook, twitter, maybe instagram-->

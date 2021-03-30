@@ -1,16 +1,9 @@
 
-function toggleMenu() {
-    console.log(document.getElementById("mainNavigation").classList);
-    document.getElementById("mainNavigation").classList.toggle("hide");
-  }
-
-
-
 // Original Creator: Kevin Powell  https://www.youtube.com/watch?v=mC93zsEsSrg&feature=emb_logo 
 
 //lazy load images
 
-  const images = document.querySelectorAll("[data-src]");  
+const images = document.querySelectorAll("[data-src]");  
 
 function preloadImage(img){ 
     const src = img.getAttribute("data-src"); 
