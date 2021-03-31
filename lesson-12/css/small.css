@@ -191,12 +191,15 @@ form input, #busdesc, #comments, select{
   border-radius:5px;
  
 }
-.businesses{
+.list{
     background-color: #333D48;
+    
+    
 }
-.businesses section{
+.grid{
     background-color: white;
     border: 4px double #A02C02;
+    
    
 }
 #key{
@@ -244,7 +247,48 @@ figcaption{
     padding: 2px;
 }
 
+#subButton{
+    background-color: #A02C02;
+    color: white;
+}
+.list, .grid {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .grid {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Style the buttons */
+  .viewButton {
+    padding: 10px;
+    width:50px;
+    height:50px;
+    background-color: #A02C02;
+    border-radius: 10px;
+    float: right;
+    margin-top:-2%;
+    
+  
+  }
+ 
+  
+  .viewButton:hover {
+    box-shadow: 1px 1px 5px black;
+    background-color: lightcoral;
+  }
+  
 
+  
 
 
 

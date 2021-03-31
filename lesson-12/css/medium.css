@@ -128,19 +128,15 @@ grid-row: 6/7;
  grid-column: 2/3;
  grid-row: 5/6;
 }
-.businesses{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+.list{
+   
     text-align: center;
     justify-content: center;
-    width:700px;
-   padding:15px;
-   margin:auto;
+  
     
  }
- .businesses section{
-  margin:30px ;
+ .grid{
+  margin:0 auto;
    width:300px;
    height:320px;
    
