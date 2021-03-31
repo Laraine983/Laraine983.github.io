@@ -61,7 +61,7 @@
         width:400px;
         height:200px;
     }
-    .events{
+    .events, #city-events{
        width:500px;
        height:220px;
       padding:10px;
@@ -69,7 +69,7 @@
        margin-top:40px;
        text-align: center;
     }
-    .events div{
+    .events div, #city-events div{
       width:400px;
       height:200px;
       margin:0 auto;
@@ -119,6 +119,11 @@ margin-left:8%;
  #mem-key{
 margin-left:65%;
 
+ }
+ #gallery{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
  }
 
 }
