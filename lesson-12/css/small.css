@@ -364,14 +364,14 @@ figcaption{
         margin:5px;
         background-color: white;
     }
-    .action{
+    .action, .purpose{
         width: 90%;
         height:450px;
       margin:0 auto;
       text-align: center;
       justify-content: center;
     }
-    .action img{
+    .action img, .purpose img{
         width:280px;
         height:200px;
         position:absolute;

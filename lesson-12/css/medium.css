@@ -48,10 +48,11 @@ nav ul.hide{
     #action-2{
         position:relative;
         margin-top:160px;
-        margin-left:100px;
+        margin-left:150px;
     }
     .purpose p{
         position:absolute;
+        margin-left:45%;
     }
     .purpose img{
         position: relative;

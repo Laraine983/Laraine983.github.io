@@ -51,7 +51,7 @@
     }
     .purpose p{
        width:500px;
-       left:50%;
+       left:10%;
        letter-spacing: 2px;
       
       
@@ -122,6 +122,27 @@ margin-left:65%;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 1fr 1fr;
+ }
+ #contact-home-info{
+     display: flex;
+     
+ }
+ #map-home{
+     margin-left:40%;
+ }
+ #address{
+     position:absolute;
+     margin-left: 10%;
+ }
+ #number{
+     position:relative;
+     margin-top:8%;
+     margin-left:10%;
+
+ }
+ #social{
+     margin-top:12%;
+     margin-left:-10%;
  }
 
 }
