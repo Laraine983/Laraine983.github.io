@@ -173,6 +173,10 @@ margin-left:65%;
      margin: 0 auto;
      margin-bottom: 20px;
  }
+ .forecastWeek{
+    display: flex;
+    justify-content: center;
+}
 
 
 }

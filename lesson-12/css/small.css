@@ -335,6 +335,31 @@ figcaption{
  .thanks h1{
      color:#A02C02;
  }
+ .card{
+    box-shadow: 1px 1px 5px black;
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    background-color:#BDD5EA;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+#dayofweek1, #dayofweek2, #dayofweek3{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #A02C02;
+}
+#weather-summary{
+    border: 2px double #A02C02;
+    text-align:center;
+    width:200px;
+    height: 150px;
+    margin: 100px auto;
+    padding:20px;
+    line-height: 30px;
+}
 
   
 
@@ -389,16 +414,11 @@ figcaption{
        display: grid;
        grid-template-columns: 1fr;
       
-       
-    
     }
     .business-cards p{
        max-width: 200px;
        padding:20px;
       
-  
-  
-       
     }
 
     #business-head{
@@ -494,5 +514,10 @@ figcaption{
       #contact-info, #board{
         text-align: center;
     }
+    .card{
+        margin: 10px auto;
+       
+    }
+ 
        
 }

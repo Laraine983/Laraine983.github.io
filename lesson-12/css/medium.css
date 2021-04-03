@@ -155,5 +155,9 @@ grid-row: 6/7;
  #contact-info, #board{
     text-align: center;
 }
+.forecastWeek{
+    display: flex;
+    justify-content: center;
+}
 
 }
