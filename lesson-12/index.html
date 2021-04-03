@@ -13,6 +13,8 @@
     <title>Home</title>
   </head>
   <body>
+    <div id="banner"></div>
+    
       <header >
         <img id="logo" src="/lesson-12/images/logo.png">
         <h1 id="heading"> Chamber of Commerce</h1> 
@@ -88,7 +90,7 @@
                     The Chamber of Commerce has resources to help you. Join us and become a better part of the Denton community.
                 </p>
                 <p id="action-2"> <b>Click <a href="/lesson-12/join.html">here</a> to fill out an application.</b></p>
-                <img src="/lesson-12/images/placeholder.jpg" data-src="/lesson-12/images/join.jpg">    <!--lazy load images-->
+                <img src="/lesson-12/images/join.jpg">   
             </section>
 
 
@@ -101,7 +103,7 @@
                 We work to meet each others' goals and find ways to help each business grow and become a better part of the community. 
                 With our diverse team of members, we can help develop a plan of action to meet the community's needs. 
                 </p>
-                <img src="/lesson-12/images/placeholder.jpg" data-src="/lesson-12/images/purpose.jpg">   <!--lazy load images-->
+                <img src="/lesson-12/images/purpose.jpg">   
             </section>
 
             <!--upcoming events-->
@@ -127,7 +129,7 @@
             
 
        
-                
+                <h3 id="forecast-head">3 Day Forecast</h3>
            <div class="forecastWeek">                                  <!--have each div hold weekday, icon image, and temp-->
             <div class="card">
                 <span id="dayofweek1"></span>
@@ -176,8 +178,12 @@
             </section>
 </main>
 <footer>
-    
-   <p> &copy; 2021 | Sierra Porter | <a href="/lesson-12/attributions.html"> Attributions</a> </p>
+  
+   <p> &copy; 2021 | Sierra Porter | <a href="/lesson-12/attributions.html"> Attributions</a></p>
+   <div id="currentDate"></div>
+  
+
+ 
    
   <script src="/lesson-12/js/3day.js"></script>
     <script src="/lesson-12/js/denton.js"></script>

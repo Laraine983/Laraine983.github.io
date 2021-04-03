@@ -10,9 +10,12 @@ nav, footer{
 }
 footer{
     padding:20px;
+   
 }
-footer p{
+footer p, footer div{
     color:white;
+  
+   
 }
 footer a:hover{
     color: #BDD5EA;
@@ -360,6 +363,10 @@ figcaption{
     padding:20px;
     line-height: 30px;
 }
+#forecast-head{
+    text-align: center;
+}
+
 
   
 

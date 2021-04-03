@@ -38,4 +38,7 @@ let dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   document.getElementById("dayofweek3").innerHTML = dayOfWeek[nextDay.getDay()+1];
   document.getElementById("temperature3").innerHTML = Math.round(forecast.daily[2].temp.day);
   document.getElementById("icon3").setAttribute('src','https://openweathermap.org/img/w/' + forecast.current.weather[0].icon + '.png');
+
+  document.getElementById("banner").innerHTML =  forecast.alerts.description;
+  document.getElementById("banner").style.display = "block";
 });
