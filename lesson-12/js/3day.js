@@ -12,29 +12,57 @@ fetch(forecastURL)
 
 console.log(forecast);
 
-const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']; 
-
-const today = new Date()
-const tomorrow = new Date(today)
 
 
-let card = document.createElement("section");
-let day1 = document.createElement("p");
-let temp = document.createElement("p");
-let day2 = document.createElement("p");
-let day3 = document.createElement("p");
+const today = new Date();
+const tomorrow = new Date(today);
+tomorrow.setDate(tomorrow.getDate() + 1);
+const nextDay = new Date(today);
+nextDay.setDate(nextDay.getDate() + 2);
 
 
-day1.textContent = 'April' +  (tomorrow.getDate() + 1);
-day2.textContent = 'April' + (tomorrow.getDate() + 2);
-day3.textContent = 'April' + (tomorrow.getDate() + 3);
-temp.textContent = forecast.current.temp;
+const dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']; 
 
-card.appendChild(day1);
-card.appendChild(day2);
-card.appendChild(day3);
-card.appendChild(temp);
+  document.getElementById("dayofweek1").innerHTML =  dayOfWeek[today.getDay()+1];
+  document.getElementById("temperature1").innerHTML = forecast.daily[0].temp.day;
+  document.getElementById("icon1").setAttribute('src','https://openweathermap.org/img/w/' + forecast.current.weather[0].icon + '.png');
 
-document.querySelector('div.forecast').appendChild(card);
-  
+
+ 
+  document.getElementById("dayofweek2").innerHTML = dayOfWeek[nextDay.getDay()];
+  document.getElementById("temperature2").innerHTML = forecast.daily[1].temp.day;
+  document.getElementById("icon2").setAttribute('src','https://openweathermap.org/img/w/' + forecast.current.weather[0].icon + '.png');
+
+
+
+  document.getElementById("dayofweek3").innerHTML = dayOfWeek[nextDay.getDay()+1];
+  document.getElementById("temperature3").innerHTML = forecast.daily[2].temp.day;
+  document.getElementById("icon3").setAttribute('src','https://openweathermap.org/img/w/' + forecast.current.weather[0].icon + '.png');
 });
+
+
+
+/*const today = new Date();
+const tomorrow = new Date(today);
+let day1 = tomorrow.setDate(tomorrow.getDate() + 1);
+let i=0;
+
+forecast.forEach(x => {
+
+const date1=document.querySelector('#dayofweek1');
+const temperature1 = document.querySelector('#temperature1');
+const temperature2 = document.querySelector('#temperature2');
+
+
+
+date1.textContent = day1;
+temperature1.textContent = forecast.current.temp;
+temperature2.textContent = Math.round(forecast.current.temp);
+alerts.textContent = forecast.alerts;
+
+*/
+
+
+//const today = new Date();
+//const tomorrow = new Date(today);
+//let nextDay = tomorrow.setDate(tomorrow.getDate() + 1);
