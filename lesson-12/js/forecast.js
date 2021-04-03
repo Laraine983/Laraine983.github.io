@@ -8,16 +8,15 @@ fetch(apiURL)
 .then((response) =>response.json())
 .then((jsObject) => {
 
-   // console.log(jsObject);
 const temperature = document.querySelector('#current-temperature');
 const humidity = document.querySelector('#humidity');
 const condition = document.querySelector('#condition');
-const alerts = document.querySelector('#alerts');
+
 
 temperature.textContent = Math.round(jsObject.current.temp);
 humidity.textContent = jsObject.current.humidity;
 condition.textContent = jsObject.current.weather[0].description;
-alerts.textContent = jsObject.alerts;
+
 
 
 
