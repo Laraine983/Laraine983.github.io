@@ -139,9 +139,9 @@ margin-left:65%;
      display: flex;
      
  }
- #map-home{
-     margin-left:40%;
- }
+#map-home{
+    margin-left: 200%;
+}
  #address{
      position:absolute;
      margin-left: 10%;

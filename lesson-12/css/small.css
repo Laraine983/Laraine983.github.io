@@ -367,6 +367,13 @@ figcaption{
     text-align: center;
 }
 
+#map:hover , #map-home:hover{
+    box-shadow: 0px 0px 5px #333D48;
+    opacity: 0.8;
+}
+
+
+
 
   
 
