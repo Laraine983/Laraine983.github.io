@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 1024px){
 
 
     body, main{
@@ -19,6 +19,7 @@
         width:95%;
         margin: 0 auto;
     }
+   
     #business-1 , #business-2, #business-3{
         width:40%;
     }
@@ -26,14 +27,19 @@
         width:250px;
         
     }
+    .action, .purpose{
+        width:90%;
+        height:50%;
+       margin: auto;
+    }
     .action p{
-        letter-spacing: 2px;
         left:8%; 
-       
+        max-width: 550px;
+        
     }
     .action img{
        margin-left:20%;
-       width:350px;
+       width:325px;
         height:200px;
         
     }
@@ -46,20 +52,24 @@
     }
     #action-2{
         position:relative;
-        margin-top:100px;
+        margin-top:150px;
         margin-left:200px;
         
     }
+    #action-2 a:hover{
+        color:white;
+        text-shadow: 1px 1px 10px black;
+    }
     .purpose p{
-       width:500px;
-       left:10%;
-       letter-spacing: 2px;
+       max-width:550px;
+       left:1%;
+      
       
       
     }
     .purpose img{
         left:8%;
-        width:350px;
+        width:325px;
         height:200px;
     }
     .events, #city-events{
@@ -133,6 +143,7 @@ margin-left:65%;
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 1fr 1fr;
      text-align: center;
+   
      
  }
  #contact-home-info{
@@ -140,7 +151,8 @@ margin-left:65%;
      
  }
 #map-home{
-    margin-left: 150%;
+    margin-left: 85%;
+    margin-top:5%;
 }
  #address{
      position:absolute;
@@ -157,7 +169,7 @@ margin-left:65%;
      margin-left:7%;
  }
  #social-home{
-    
+    margin-left: 5%;
      margin-top: 10%;
     
     

@@ -146,8 +146,19 @@ h2{
     display:flex;
     height:200px;
    padding:20px;
-   box-shadow: 1px 1px 5px black;
+  
    
+  
+}
+.action img, .purpose img{
+    box-shadow: 0px 0px 5px black;
+}
+#action-2 a:hover{
+    color:white;
+    text-shadow: 1px 1px 10px black;
+}
+.business-cards a:hover, .directory a:hover{
+    color: #A02C02;
   
 }
 #join-head, #purpose-head, #business-head{
@@ -265,7 +276,9 @@ figcaption{
     height:20px;
     text-align: center;
     padding: 5px;
-    margin: 0 auto;
+    margin:  auto;
+    margin-top: -3px;
+    text-shadow: 1px 1px 5px black;
     
    
 }
@@ -482,7 +495,7 @@ figcaption{
     }
     .action, .purpose{
         width: 90%;
-        height:450px;
+        height:600px;
       margin:0 auto;
       text-align: center;
       justify-content: center;
@@ -491,7 +504,7 @@ figcaption{
         width:280px;
         height:200px;
         position:absolute;
-        margin-top:250px;
+        margin-top:400px;
         
 
     }
@@ -501,7 +514,7 @@ figcaption{
     }
     #action-1{
         margin:10px;
-       width:250px;
+       width:75%;
        position:absolute;
       
        
@@ -510,7 +523,7 @@ figcaption{
         #action-2{
             
             position:relative;
-            margin-top:200px;
+            margin-top:330px;
             margin-left:30px;
 
             
@@ -582,6 +595,13 @@ figcaption{
        margin:0 auto;
       padding: 5px;
          
+     }
+     #demographics{
+         max-width: 90%;
+         
+     }
+     #contact-home-info{
+         text-align: center;
      }
  
        
