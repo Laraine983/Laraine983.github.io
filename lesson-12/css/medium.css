@@ -159,6 +159,20 @@ grid-row: 6/7;
     display: flex;
     justify-content: center;
 }
-
+.events, #city-events{
+    width:500px;
+    height:220px;
+   padding:10px;
+    margin: 0 auto;
+    margin-top:40px;
+    text-align: center;
+ }
+ .events div, #city-events div{
+   width:400px;
+   height:200px;
+   margin:0 auto;
+  padding: 5px;
+     
+ }
 
 }

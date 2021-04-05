@@ -4,10 +4,10 @@ fetch(directURL)
   .then(function (response) {      
     return response.json();
   })
-  .then(function (jsonObject) {
-    console.table(jsonObject);       
+  .then(function (directory) {
+    console.table(directory);       
 
-    const business = jsonObject['business'];
+    const business = directory['business'];
     for (let i = 0; i < business.length; i++) {
          
     document.getElementById("heading-1").textContent = business[0].name;
@@ -64,7 +64,7 @@ fetch(directURL)
     }
   });
   
-  //source:  https://www.w3schools.com/howto/howto_js_list_grid_view.asp
+  //original source:  https://www.w3schools.com/howto/howto_js_list_grid_view.asp
 
 let businesses = document.getElementsByClassName("grid");
 

@@ -76,6 +76,14 @@ main{
 h2, h3{
     font-family: 'Oswald', sans-serif;
 }
+h2{
+    color: #A02C02;
+}
+#direct-head{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
 
 #heading{
     font-family: 'Oswald' , sans-serif;
@@ -147,15 +155,15 @@ h2, h3{
     margin-bottom:20px;
     margin-top:40px;
 }
-iframe{
-    width:300px;
-    height:200px;
+#action-2{
+    color: #A02C02;
+    padding:10px;
 }
-#social img{
+#social img, #social-home img{
     width:50px;
     height:50px;
 }
-#social img:hover{
+#social img:hover, #social-home img:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -246,12 +254,17 @@ form input, #busdesc, #comments, select{
     border: 2px double #A02C02;
     text-align: center;
 }
+
 figcaption{
-    background-color: #BDD5EA;
-    width: 300px;
+    background-color: #A02C02;
+    color: white;
+    width: 290px;
+    height:20px;
     text-align: center;
-    padding: 2px;
+    padding: 5px;
     margin: 0 auto;
+    
+   
 }
 
 #subButton{
@@ -371,6 +384,14 @@ figcaption{
     box-shadow: 0px 0px 5px #333D48;
     opacity: 0.8;
 }
+#foot{
+    position:absolute;
+    padding:15px;
+}
+#currentDate{
+    position: relative;
+    padding:15px;
+}
 
 
 
@@ -477,6 +498,7 @@ figcaption{
        
         }
         #action-2{
+            
             position:relative;
             margin-top:200px;
             margin-left:30px;
@@ -501,8 +523,12 @@ figcaption{
         #gallery{
             display: grid;
             grid-template-columns: 1fr;
-            text-align: center;
             margin: 0 auto;
+           
+        }
+        #gallery figure{
+            text-align: center;
+            margin: 20px auto;
            
         }
        
@@ -532,6 +558,21 @@ figcaption{
         margin: 10px auto;
        
     }
+    .events, #city-events{
+        width:100%;
+        height:220px;
+       padding:10px 0px;
+        margin: 0 auto;
+        margin-top:40px;
+        text-align: center;
+     }
+     .events div, #city-events div{
+       width:85%;
+       height:200px;
+       margin:0 auto;
+      padding: 5px;
+         
+     }
  
        
 }
