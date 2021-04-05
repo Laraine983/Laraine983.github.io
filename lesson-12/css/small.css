@@ -500,6 +500,7 @@ figcaption{
       justify-content: center;
       border: 1px solid black;
     }
+    
     .action img, .purpose img{
         width:280px;
         height:200px;
