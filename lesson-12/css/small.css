@@ -123,11 +123,14 @@ h2{
     text-align: center;
     padding:30px;
     margin:10px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 #contact{
     padding:20px;
     
+}
+#contact-home-info{
+    background-color: whitesmoke;
 }
 
 #contact-head{
@@ -247,11 +250,11 @@ form input, #busdesc, #comments, select{
     background-color:white;
 }
 #denton-abt h3{
-    background-color:white;
-    color: black;
-    padding: 10px;
-    box-shadow: 1px 1px 5px black;
-    border: 2px double #A02C02;
+    background-color:whitesmoke;
+    color: #A02C02;
+    padding: 20px;
+    font-size: 25px;
+    box-shadow: 0px 0px 1px black;
     text-align: center;
 }
 
@@ -274,12 +277,14 @@ figcaption{
 .list, .grid {
     box-sizing: border-box;
     text-align: center;
+   
   }
   
   .grid {
     float: left;
     width: 50%;
     padding: 10px;
+    background-color: whitesmoke;
 
   }
   
@@ -320,25 +325,28 @@ figcaption{
   }
   #denton-intro{
       text-align: center;
-      margin: 0 auto;
-      background-color: #BDD5EA;
+      margin: 20px auto;
+      background-color: whitesmoke;
       padding: 10px;
+      box-shadow: 0px 0px 1px black;
+    
      
     
   }
   #veterans{
-      border: 2px double #A02C02;
+     
       margin: 0 auto;
       margin-bottom: 10px;
       padding: 10px;
+      background-color: whitesmoke;
+      box-shadow: 0px 0px 1px black;
   }
   #gallery img{
     box-shadow: 1px 1px 5px black;
    
   }
   #perks{
-    background-color: white;
-    border: 2px double #A02C02;
+    background-color: whitesmoke;
     margin-top: 20px;
    
   }
@@ -352,7 +360,7 @@ figcaption{
      color:#A02C02;
  }
  .card{
-    box-shadow: 1px 1px 5px black;
+    
     height: 100px;
     width: 150px;
     padding: 10px;
@@ -368,13 +376,14 @@ figcaption{
     color: #A02C02;
 }
 #weather-summary{
-    border: 2px double #A02C02;
     text-align:center;
     width:200px;
     height: 150px;
     margin: 100px auto;
     padding:20px;
     line-height: 30px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 5px black;
 }
 #forecast-head{
     text-align: center;
@@ -450,6 +459,7 @@ figcaption{
        grid-template-columns: 1fr;
       
     }
+   
     .business-cards p{
        max-width: 200px;
        padding:20px;
@@ -468,7 +478,7 @@ figcaption{
         border:4px double #A02C02;
         padding:20px;
         margin:5px;
-        background-color: white;
+       
     }
     .action, .purpose{
         width: 90%;

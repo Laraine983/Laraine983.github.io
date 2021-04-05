@@ -163,14 +163,18 @@ margin-left:65%;
     
  }
  
- #denton-intro{
-     max-width: 900px;
-     margin: 0 auto;
+ #denton-intro {
+     width: 900px;
+     
+ }
+ #perks{
+    padding-left: 50px;
  }
  #veterans{
-     max-width: 900px;
-     margin: 0 auto;
-     margin-bottom: 20px;
+     max-width: 1000px;
+     margin: 20px auto;
+     padding:30px;
+     
  }
  .forecastWeek{
     display: flex;

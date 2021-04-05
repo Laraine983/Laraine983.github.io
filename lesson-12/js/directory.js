@@ -64,20 +64,20 @@ fetch(directURL)
     }
   });
   
-  //original source:  https://www.w3schools.com/howto/howto_js_list_grid_view.asp
+  
 
 let businesses = document.getElementsByClassName("grid");
 
 let i;
 
-function listView() {
+function list() {
   for (i = 0; i < businesses.length; i++) {
     businesses[i].style.width = "100%";
   }
 }
 
 
-function gridView() {
+function grid() {
   for (i = 0; i < businesses.length; i++) {
     businesses[i].style.width = "50%";
   }

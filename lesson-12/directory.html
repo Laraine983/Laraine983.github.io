@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" />
   <link rel="stylesheet" href="css/normalize.css">
   <link href="css/small.css" rel="stylesheet">
   <link href="css/medium.css" rel="stylesheet">
@@ -31,8 +32,8 @@
 <br>
 <h2 id="direct-head">Business Directory</h2>
 <div id="changeView">
-  <button id="listButton" class="viewButton" onclick="listView()"><i></i><img src="https://img.icons8.com/metro/26/000000/list.png"/></button> 
-  <button id="gridButton" class="viewButton" onclick="gridView()"><i ></i><img src="https://img.icons8.com/ios-glyphs/30/000000/activity-grid-2.png"/></button>
+  <button id="listButton" class="viewButton" onclick="list()"><i></i><img src="https://img.icons8.com/metro/26/000000/list.png"/></button> 
+  <button id="gridButton" class="viewButton" onclick="grid()"><i ></i><img src="https://img.icons8.com/ios-glyphs/30/000000/activity-grid-2.png"/></button>
 </div>
 <br>
 <section class="directory">
@@ -109,7 +110,7 @@
 
 
   <footer>
-    <p> &copy; 2021 | Sierra Porter | <a href="/lesson-12/attributions.html"> Attributions</a> </p>
+    <p id="foot"> &copy; 2021 | Sierra Porter | <a href="/lesson-12/attributions.html"> Attributions</a> </p>
     <div id="currentDate"></div>
 
     <script src="/lesson-12/js/denton.js"></script>
