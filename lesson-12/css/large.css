@@ -62,10 +62,6 @@
     }
     .purpose p{
        max-width:450px;
-       
-      
-      
-      
     }
     .purpose img{
         left:8%;
@@ -107,7 +103,7 @@ margin-left:8%;
   height:500px;
   position: absolute;
   top: 250px;
-  left: 700px;
+  left: 580px;
 }
 #contact-form textarea{
     width:300px;
@@ -196,4 +192,45 @@ margin-left:65%;
 
 }
 
-/* add 4k screen size */
+@media only screen and (min-width:1800px){
+
+body, main, nav{
+    max-width: 1800px;
+    margin: auto;
+    padding:10px;
+}
+#contact-form fieldset{
+    width:400px;
+  height:500px;
+  position: absolute;
+  top: 350px;
+  left: 1500px;
+}
+#action-1{
+    margin-left: 15%;
+   margin-top: 80px;
+}
+#action-2{
+    margin-top: 300px;
+}
+.action img{
+    left:15%;
+    width:400px;
+    height:300px;
+    margin-bottom: 50px;
+     
+ }
+ .purpose img{
+    left:15%;
+    width:400px;
+    height:300px;
+    margin-bottom: 50px;
+}
+.purpose p{
+   left: 5%;
+   margin-top: 80px;
+}
+
+
+
+}

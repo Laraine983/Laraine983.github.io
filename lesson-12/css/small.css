@@ -493,14 +493,14 @@ figcaption{
        
     }
     .action, .purpose{
-        width: 90%;
+        width: 85%;
         height:600px;
       margin:0 auto;
       text-align: center;
       justify-content: center;
       border: 1px solid black;
     }
-    
+
     .action img, .purpose img{
         width:280px;
         height:200px;
