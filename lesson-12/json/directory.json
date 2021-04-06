@@ -3,7 +3,7 @@
         {
             "name": "JT Clothiers",
             "phone": "(940) 387-0761",
-            "website": "www.jtclothiers.com",
+            "website": "jtclothiers.com",
             "address" : "200 West Oak Street",
             "hours" : "11am-6pm"
 
@@ -11,14 +11,14 @@
         {
             "name": "True Leaf Studio",
             "phone": "(940) 218-1133",
-            "website": "www.trueleafstudio.com",
+            "website": "trueleafstudio.com",
             "address" : "301 South Locust Street",
             "hours" : "10am-5pm"
         },
         {
             "name": "Rusty Taco",
             "phone": "(940) 483-8226",
-            "website": "https://rustytaco.com/",
+            "website": "rustytaco.com",
             "address" : "210 E Hickory Street",
             "hours" : "7am-10pm"
 
@@ -26,35 +26,35 @@
         {
             "name": "Serve Denton",
             "phone": "(940) 735-3234",
-            "website": "https://www.servedenton.org/",
+            "website": "servedenton.org",
             "address" : "306 N Loop 288",
             "hours" : "9am-5pm"
         },
         {
             "name": "Captiva Salon and Spa",
             "phone": "(940) 566-1999",
-            "website": "https://www.captivasalonandspa.com/",
+            "website": "captivasalonandspa.com",
             "address" : "204 West Oak Street",
             "hours" : "9am-7pm"
         },
         {
             "name": "Denton County Animal ER",
             "phone": "(940) 271-1200",
-            "website": "https://www.dcaer.com/",
+            "website": "dcaer.com",
             "address" : "4145 South Interstate 35 East #101",
             "hours" : "5pm-8am"
         },
         {
             "name": "Denton Florist",
             "phone": "(940) 387-6191",
-            "website": "https://www.dentonflorist.com/",
+            "website": "dentonflorist.com",
             "address" : "2926 East University Drive STE 103",
             "hours" : "9am-5pm"
         },
         {
             "name": "Connections Wellness Group",
             "phone": "(940) 231-9669",
-            "website": "https://connectionswellnessgroup.com/",
+            "website": "connectionswellnessgroup.com",
             "address" : "2701 Shoreline Drive",
             "hours" : "8am-6pm"
         } 

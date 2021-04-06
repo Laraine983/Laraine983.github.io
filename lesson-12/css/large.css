@@ -99,11 +99,11 @@ margin-left:8%;
 
 
 #contact-form fieldset{
-  width:400px;
+  width:340px;
   height:500px;
   position: absolute;
   top: 250px;
-  left: 580px;
+  left: 640px;
 }
 #contact-form textarea{
     width:300px;
@@ -162,8 +162,8 @@ margin-left:65%;
 
  }
  #social{
-     margin-top:5%;
-     margin-left:7%;
+     margin-top:2%;
+     margin-left:1%;
  }
  #social-home{
     margin-left: 5%;
@@ -205,7 +205,7 @@ body, main, nav{
   height:500px;
   position: absolute;
   top: 350px;
-  left: 2000px;
+  left: 1500px;
 }
 #action-1{
     margin-left: 15%;
