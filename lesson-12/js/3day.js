@@ -43,10 +43,9 @@ let dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   document.getElementById("banner").style.display = "block";
 });
 
-window.onload = function(){
-  document.getElementById('close').onclick = function(){
-      this.parentNode.parentNode.parentNode
-      .removeChild(this.parentNode.parentNode);
-      return false;
-  };
-};
+
+function closeBox() {
+  document.getElementById('close').style.display='none';
+  
+  document.getElementById('banner').style.display='none';
+}
