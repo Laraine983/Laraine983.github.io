@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* small */
+
+main{
+    background-color: #FAEBD7;
+    padding:20px;
+}
+body{
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+article{
+    background-color: white;
+}
+
+header{
+    background-color: #6495ED;
+    padding: 20px;
+   
+}
+hr{
+    background-color: #6495ED;
+    margin: 20px;
+}
+header ul li{
+    list-style-type: none;
+}
+
+
+
+
+nav a, header h1 a, nav a:visited, header h1 a:visited{
+   color: #FAEBD7;
+   text-decoration: none;
+}
+nav a:active, header h1 a:active{
+    color: #DEB887;
+}
+nav a:hover, header h1 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+article h2 a, article h2 a:visited{
+    color: black;
+    text-decoration: none;
+}
+article h2 a:active{
+    color: #DEB887;
+}
+article h2 a:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+a, a:visited{
+    color: #6495ED;
+    text-decoration: none;
+    }
+    a:active{
+        color: #DEB887;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+h1, h2{
+    font-family: 'Lora';
+}
+article img, article p{
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media only screen and (min-width: 600px) {
+/*medium ----might not need if only doing small and large screens??*/
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 768px) {
+ /*large*/
+  }
