@@ -5,29 +5,39 @@
 main{
     background-color: #FAEBD7;
     padding:20px;
+   
+    
 }
 body{
     font-family: 'Helvetica', 'Arial', 'sans-serif';
+    
+  
 }
 article{
     background-color: white;
+    padding: 20px;
+    margin: 25px 5px;
+    box-shadow: 2px 2px 5px grey;
 }
 
 header{
     background-color: #6495ED;
     padding: 20px;
    
+   
 }
 hr{
     background-color: #6495ED;
-    margin: 20px;
+   
 }
 header ul li{
     list-style-type: none;
+    text-align: end;
+    padding: 10px;
 }
-
-
-
+header h1{
+    text-align: end;
+}
 
 nav a, header h1 a, nav a:visited, header h1 a:visited{
    color: #FAEBD7;
@@ -65,12 +75,23 @@ a, a:visited{
 h1, h2{
     font-family: 'Lora';
 }
-article img, article p{
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
+ article p{
+    
+    width: 270px;
+    margin: auto;
+     
 }
 
+figure{
+    display: block;  
+    margin: auto;
+text-align: center;
+
+}
+figure img{
+    width: 200px;
+    padding: 10px;
+}
 
 
 
