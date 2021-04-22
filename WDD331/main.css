@@ -99,9 +99,32 @@ figure img{
   @media only screen and (min-width: 600px) {
  /*large*/
 
+ body {
+    width: 100%
+     
+ }
+ header {
+     width: 20%;
+     height: 1250px;
+     float: left;
+    
+ }
+ main{
+     margin-left: 23%;
+     height: 1250px;
+ }
+ article{
+     width: 65%;
+     margin: 25px auto;
+ }
+ article h2, .post-date{
+     padding-left: 30px;
+     padding-top: 10px;
+ }
+ article p{
+     width: 80%;
+     padding-bottom: 30px;
+ }
 
 
-
-
-
-  }
+}
