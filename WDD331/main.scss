@@ -1,130 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
-/* small */
-
-main{
-    background-color: #FAEBD7;
-    padding:20px;
-   
-    
-}
-body{
-    font-family: 'Helvetica', 'Arial', 'sans-serif';
-    
-  
-}
-article{
-    background-color: white;
-    padding: 20px;
-    margin: 25px 5px;
-    box-shadow: 2px 2px 5px grey;
-}
-
-header{
-    background-color: #6495ED;
-    padding: 20px;
-   
-   
-}
-hr{
-    background-color: #6495ED;
-   
-}
-header ul li{
-    list-style-type: none;
-    text-align: end;
-    padding: 10px;
-}
-header h1{
-    text-align: end;
-}
-
-nav a, header h1 a, nav a:visited, header h1 a:visited{
-   color: #FAEBD7;
-   text-decoration: none;
-}
-nav a:active, header h1 a:active{
-    color: #DEB887;
-}
-nav a:hover, header h1 a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-article h2 a, article h2 a:visited{
-    color: black;
-    text-decoration: none;
-}
-article h2 a:active{
-    color: #DEB887;
-}
-article h2 a:hover{
-    color: #6495ED;
-    text-decoration: underline;
-}
-a, a:visited{
-    color: #6495ED;
-    text-decoration: none;
-    }
-    a:active{
-        color: #DEB887;
-    }
-    a:hover{
-        text-decoration: underline;
-    }
-h1, h2{
-    font-family: 'Lora';
-}
- article p{
-    
-    width: 270px;
-    margin: auto;
-     
-}
-
-figure{
-    display: block;  
-    margin: auto;
-text-align: center;
-
-}
-figure img{
-    width: 200px;
-    padding: 10px;
-}
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
 
 
+$main-blue: #6495ED;
+$main-background:#FAEBD7;
+$nav-visited:#FAEBD7;
+$link-active:#DEB887;
+$other-link-visited:#6495ED;
 
 
-  @media only screen and (min-width: 600px) {
- /*large*/
+@mixin text-padding{
+    padding-left: 30px;
+	padding-top: 10px;
+}
 
- body {
-    width: 100%
-     
- }
- header {
-     width: 20%;
-     height: 1250px;
-     float: left;
-    
- }
- main{
-     margin-left: 23%;
-     height: 1250px;
- }
- article{
-     width: 65%;
-     margin: 25px auto;
- }
- article h2, .post-date{
-     padding-left: 30px;
-     padding-top: 10px;
- }
- article p{
-     width: 80%;
-     padding-bottom: 30px;
- }
-
-
+main {
+	background-color: $main-background;
+	padding: 20px;
+}
+body {
+	font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+article {
+	background-color: white;
+	padding: 20px;
+	margin: 25px 5px;
+	box-shadow: 2px 2px 5px grey;
+	h2 {
+		a {
+			color: black;
+			text-decoration: none;
+			&:visited {
+				color: black;
+				text-decoration: none;
+			}
+			&:active {
+				color: $link-active;
+			}
+			&:hover {
+				color: $other-link-visited;
+				text-decoration: underline;
+			}
+		}
+	}
+	p {
+		width: 270px;
+		margin: auto;
+	}
+}
+header {
+	background-color: $main-blue;
+	padding: 20px;
+	ul {
+		li {
+			list-style-type: none;
+			text-align: end;
+			padding: 10px;
+		}
+	}
+	h1 {
+		text-align: end;
+		a {
+			color: $nav-visited;
+			text-decoration: none;
+			&:visited {
+				color: $nav-visited;
+				text-decoration: none;
+			}
+			&:active {
+				color: $link-active;
+			}
+			&:hover {
+				color: white;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+hr {
+	background-color: $main-blue;
+}
+nav {
+	a {
+		color: $nav-visited;
+		text-decoration: none;
+		&:visited {
+			color: $nav-visited;
+			text-decoration: none;
+		}
+		&:active {
+			color: $link-active;
+		}
+		&:hover {
+			color: white;
+			text-decoration: underline;
+		}
+	}
+}
+a {
+	color: $main-blue;
+	text-decoration: none;
+	&:visited {
+		color: $other-link-visited;
+		text-decoration: none;
+	}
+	&:active {
+		color: $link-active;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+h1 {
+	font-family: 'Lora';
+}
+h2 {
+	font-family: 'Lora';
+}
+figure {
+	display: block;
+	margin: auto;
+	text-align: center;
+	img {
+		width: 200px;
+		padding: 10px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	body {
+		width: 100%;
+	}
+	header {
+		width: 20%;
+		height: 1250px;
+		float: left;
+	}
+	main {
+		margin-left: 23%;
+		height: 1250px;
+	}
+	article {
+		width: 65%;
+		margin: 25px auto;
+		h2 {
+			@include text-padding;
+		}
+		p {
+			width: 80%;
+			padding-bottom: 30px;
+		}
+	}
+	.post-date {
+		@include text-padding;
+	}
 }
