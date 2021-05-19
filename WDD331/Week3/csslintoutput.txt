@@ -1,0 +1,9 @@
+
+styles.css
+  1:1   ×  Unknown rule no-invalid-position-at-import-rule  no-invalid-position-at-import-rule
+  1:1   ×  Unknown rule no-irregular-whitespace             no-irregular-whitespace           
+  8:1   ×  Expected empty line before rule                  rule-empty-line-before            
+  8:19  ×  Expected newline after ","                       selector-list-comma-newline-after 
+ 12:1   ×  Expected empty line before at-rule               at-rule-empty-line-before         
+ 20:1   ×  Expected empty line before at-rule               at-rule-empty-line-before
+
