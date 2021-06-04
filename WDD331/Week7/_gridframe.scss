@@ -1,0 +1,68 @@
+
+$width: 35vw;
+$height: $width*1.4;
+$number-size: $width * 0.1;
+$icon-size: $width / 5;
+
+$columns: 8;
+$each-column: 100% / $num-columns;
+$loop-begin: 1;
+$loop-end: $columns+1;
+
+@mixin col($span-num) {
+  flex: 0 0 $each-column * $span-num;
+}
+
+@mixin offset($offset-num) {
+  margin-left: $each-column * $offset-num;
+}
+
+@for $index from $loop-begin to $loop-end {
+    .col-#{$index} {
+      @include col($index);
+    }
+  }
+  
+  @for $index from $loop-begin to $loop-end {
+    .offset-#{$index} {
+      @include offset($index);
+    }
+  }
+
+.card {
+    border: 2px solid black;
+    height: $height;
+    width: $width;
+    border-radius: 15px;
+    box-shadow: 8px 5px lightgrey;
+   
+}
+
+.icon {
+    width: $icon-size;
+    height: $icon-size;
+}
+
+.number {
+    font-size: $number-size;
+  .icon {
+        width: $icon-size * .5;
+        height: $icon-size *.5;
+    }
+}
+
+
+.row{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: space-between;
+  height: 100%;
+}
+
+.cell {
+  text-align:center;
+}
+
+
+   
