@@ -5,7 +5,7 @@ $number-size: $width * 0.1;
 $icon-size: $width / 5;
 
 $columns: 8;
-$each-column: 100% / $num-columns;
+$each-column: 100% / $columns;
 $loop-begin: 1;
 $loop-end: $columns+1;
 
