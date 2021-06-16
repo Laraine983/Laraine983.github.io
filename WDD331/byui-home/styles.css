@@ -1030,6 +1030,57 @@ img {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+.site-banner{
+  background-color:#056cb6;
+  width:100%;
+  height:50px;
+  position: absolute;
+  
+}
+body{
+  margin:0 auto;
+}
+#home-text{
+  display: none;
+}
+.icon-byui-logo{
+  background-color: black;
+  color: white;
+  width:50px;
+  height:50px;
+  padding:10px;
+  position: absolute;
+  top: 0px;
+  
+ 
+}
+
+.icon-search{
+  position: absolute;
+  left: 65%;
+  color: #eaeaea;
+  top: 30%;
+  font-size: 25px;
+  
+}
+.icon-audience{
+position: absolute;
+left: 75%;
+color: #eaeaea;
+top: 30%;
+font-size: 25px;
+
+}
+.icon-menu{
+position: absolute;
+left: 85%;
+color: #eaeaea;
+top: 30%;
+font-size: 25px;
+}
+form{
+  display: none;
+}
 
 
 /*# sourceMappingURL=styles.css.map */
