@@ -1016,7 +1016,7 @@
   box-sizing: border-box;
 }
 
-img {
+img, figure {
   max-width: 100%;
 }
 
@@ -1100,26 +1100,30 @@ form{
 .container{
   display: grid;
   grid-template-rows: repeat(12, 8.33%);
-  grid-gap: 50px;
+  grid-gap: 10px;
 }
 #home-img-1{
   grid-row: 2/3;
+  border: none;
+ 
 }
 #home-img-2{
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 #home-img-3{
-grid-row: 4/5;
+grid-row: 6/7;
 }
 #home-img-4{
-grid-row: 5/6;
+grid-row: 8/9;
 }
 #home-img-5, #home-img-6, #home-img-7{
   display:none;
 }
 #home-img-8{
-grid-row: 7/8;
+grid-row: 10/11;
+border: none;
 }
+
 footer{
 background-color: #eaeaea;
 text-align: center;
@@ -1134,7 +1138,21 @@ text-align: center;
   padding: 15px;
   border-radius: 30px;
 }
-
+figure{
+  border: 1px solid black;
+  height: 180px;
+  margin-top:30px;
+}
+figcaption{
+  font-family:'BYUI Open Sans' ;
+  background-color: white;
+  height: 30px;
+  padding: 5px;
+  color: #0076b6;
+}
+.icon-angle-right{
+  float: right;
+}
 
 
 /*# sourceMappingURL=styles.css.map */
