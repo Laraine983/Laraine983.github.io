@@ -1173,6 +1173,22 @@ figcaption{
   text-align: left;
   padding-left: 20px;
 }
+.dates{
+  grid-row: 12/13;
+  font-family:'BYUI Open Sans' ;
+  color: black;
+  max-width: 90%;
+ margin: auto;
+  
+}
+.dates th{
+  background-color: #0076b6;
+  width: 300px;
+ 
+}
+.dates td{
+  border-bottom: 1px solid black;
+}
 
 
 
