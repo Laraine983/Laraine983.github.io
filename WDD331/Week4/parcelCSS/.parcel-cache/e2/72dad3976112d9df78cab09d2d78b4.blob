@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Title</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- change the path below to scss/styles.scss to use SASS -->
     
-    <link rel="stylesheet" href="scss/styles.scss" />
+    <link rel="stylesheet" href="f7ac704bc8b35e8af443883733915c2b">
   </head>
 
   <body>
@@ -56,13 +56,13 @@
     <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/board.jpg" class="d-block w-100" alt="...">
+          <img src="2462147964cd94c8a86cb93b77f4dd60" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/tipsolahraga.jpg" class="d-block w-100" alt="...">
+          <img src="69e6747e9c881908dbd74de53f1d1769" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/longboard.jpg" class="d-block w-100" alt="...">
+          <img src="1d552f6536358ec5d2a704d1ced7817a" class="d-block w-100" alt="...">
         </div>
       </div>
       <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
@@ -75,9 +75,9 @@
       </a>
     </div>
     <!--JS-->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="df1c4b0fac2a832264d21d1d93449c0d" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="4c13a621c31626577ccd3f78aeb95e4d" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
  
 
-  </body>
+  </div></body>
 </html>
