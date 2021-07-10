@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+$fa-font-path:"../../node_modules/font-awesome/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
 
 
 .jumbotron {
@@ -79,4 +80,19 @@ h5.modal-title {
 
 .socialWrapper {
   margin: auto;
+}
+.interestBoxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  > div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    > button {
+      display: block;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+  }
 }
