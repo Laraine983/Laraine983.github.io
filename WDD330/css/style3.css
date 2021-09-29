@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300&display=swap');
+
+
+html{
+    background-color: teal;
+}
+body{
+    background-color:white;
+    margin: 50px 300px 50px;
+    padding: 50px;
+    box-shadow: 10px 10px black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300px;
+}
+ul h2{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+ul li{
+list-style-type:circle;
+
+}
+@media only screen and (max-width: 768px){
+    body{
+        margin: 10px;
+        padding: 10px;
+    }
+}
