@@ -29,6 +29,30 @@
            <li>to access each property, I would use aboutMe.property, i.e. aboutMe.name, aboutMe.height, etc...</li>
            <li>add new property using same notation, i.e. aboutMe.job = 'student'; adds that property to object</li>
     </ul>
-
+<ul><h2>Ch 6: Document Object Model (DOM)</h2>
+    <li>represents an HTML document as connected network, comparable to a tree</li>
+    <li>node type can be found by using nodeType (i.e. body.nodeType)</li>
+    <li>each node holds a numerical value: <br>
+        element = 1<br>
+        attribute = 2<br>
+        text = 3<br>
+        comment = 8<br>
+        body = 9<br>
+    </li>
+    <li>getElementById() grabs HTML element by its id attribute</li>
+    <li>getElementsByTagName() lists all elements with given tag name</li>
+    <li>getElementsByClassName() lists all elements with given class name</li>
+    <li>getAttribute() gives value of provided attribute</li>
+    <li>setAttribute() can change value of attribute</li>
+    <li>navigate DOM with parentNode(), previousSibling(), nextSibling(), childNodes(), and children()</li>
+</ul>
+<ul><h2>Ch 7: Events</h2>
+    <li>events link web page to user interaction</li>
+    <li>event listeners listen for event to occur and react as programmed</li>
+    <li>onclick links user interaction to javascript</li>
+    <li>remove event using removeEventListener</li>
+</ul>
+<br>
+<p>Question(s): When do you use setAttribute to change an attribute versus just changing it manually in the HTML?</p>
 </body>
 </html>
