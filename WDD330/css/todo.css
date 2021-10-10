@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+#todoTitle{
+    color: silver;
+    text-shadow: 2px 2px black;
+    
+}
+#board{
+    background-color: lavender;
+    border: 2px solid grey;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 0 lightgray;
+}
+body{
+   text-align: center;
+
+}
+.buttons{
+    margin: 20px;
+    
+    
+}
+ button{
+    padding: 10px;
+    background-color: lavenderblush;
+    color: darkslateblue;
+    border-radius: 10px;
+   
+}
+form input{
+    height: 30px;
+    width: 250px;
+}
