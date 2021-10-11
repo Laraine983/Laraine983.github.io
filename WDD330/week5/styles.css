@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    
+  }
+  main h1{
+      text-align: center;
+      background-color: darkgreen;
+      color: white;
+      max-width: 100%;
+      margin: 10px;
+      padding: 20px;
+  }
+  .hikeStyles h2{
+      color: darkgreen;
+      background-color: lightgrey;
+      padding: 10px 0;
+      
+  }
+  .hikeStyles{
+    list-style-type: none;
+    text-align: center;
+  }
+  @media only screen and (min-width: 769px){
+      img{
+          width: 300px;
+         margin: 0 20%;
+      }
+     .info{
+         float: right;
+         margin: -15% 15%;
+         width: 300px;
+         
+     }
+   
+  }

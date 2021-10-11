@@ -1,4 +1,4 @@
-//create an array of hikes
+
 const hikeList = [
     {
       name: "Bechler Falls",
@@ -54,18 +54,25 @@ const hikeList = [
   function renderOneHike(hike) {
     const item = document.createElement("li");
   
-    item.innerHTML = ` <h2>${hike.name}</h2>
+    item.innerHTML = `<h2 id="moreInfo">${hike.name}</h2>
           <div class="image"><img src="${imgBasePath}${hike.imgSrc}" alt="${hike.imgAlt}"></div>
-          <div>
+          <div class="info">
                   <div>
                       <h3>Distance</h3>
-                      <p>${hike.distance}</p>
+                      <p class=>${hike.distance}</p>
                   </div>
                   <div>
                       <h3>Difficulty</h3>
                       <p>${hike.difficulty}</p>
                   </div>
+                 <div id="desc">
+                 <h3>Description</h3>
+                 <p>${hike.description}</p>
+                 </div>
+  
           </div>`;
   
     return item;
   }
+
+ 
