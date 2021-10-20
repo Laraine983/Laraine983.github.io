@@ -40,3 +40,15 @@ form input{
     height: 30px;
     width: 250px;
 }
+#delete{
+    background-color:lightcoral;
+    color:white;
+    margin-left: 30px;
+}
+#checkmark{
+    width: 20px;
+    height: 20px;
+}
+#taskItem{
+    font-size: 25px;
+}

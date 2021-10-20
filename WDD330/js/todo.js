@@ -1,16 +1,20 @@
 
 function addTask(){
-    var p = document.createElement("p");  
-    var input = document.getElementById("inputBox");
-    p.innerHTML = input.value;
-    input.value = "";
+    let p = document.createElement("p");  
+    p.setAttribute("id", "taskItem");
+    let input = document.getElementById("inputBox");
+    p.innerHTML =  ` <label class="checkContainer">
+    <input id="checkmark" type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+  </label>` + input.value +  `<button id="delete" onclick="removeItem()">X</button>`;
+    
 
     document.getElementById("taskList").appendChild(p);
 }
 
-/*
-function removeItem(){
-    let item = document.getElementById("deleteMe");
-    item.remove();
-}
-*/
+function removeItem() {
+    let deleteItem = document. getElementById("taskItem");
+    deleteItem.remove();
+    }
+
+
