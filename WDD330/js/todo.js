@@ -4,7 +4,7 @@ function addTask(){
     p.setAttribute("id", "taskItem");
     let input = document.getElementById("inputBox");
     p.innerHTML =  ` <label class="checkContainer">
-    <input id="checkmark" type="checkbox" checked="checked">
+    <input id="checkmark" class="checkmark done" type="checkbox" checked="checked">
     <span class="checkmark"></span>
   </label>` + input.value +  `<button id="delete" onclick="removeItem()">X</button>`;
     
@@ -16,5 +16,14 @@ function removeItem() {
     let deleteItem = document. getElementById("taskItem");
     deleteItem.remove();
     }
+
+  
+
+
+
+
+
+
+  
 
 
