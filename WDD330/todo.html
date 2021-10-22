@@ -4,6 +4,7 @@
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="stylesheet" href="css/todo.css">
+		
 
 	    <title>ToDo Application</title>
 	</head>
@@ -12,7 +13,7 @@
 		<div id="myDIV" class="header">
 			<h2 id="todoTitle" >To Do</h2>
 			<input type="text" id="myInput">
-			<span onclick="newElement()" class="addTask">+</span>
+			<span class="addTask" onclick="newElement()">+</span>
 		  </div>
 		  
 		  <ul id="myUL">
@@ -25,8 +26,9 @@
 				<button id="activeButton" type="button" onclick="selectActiveTasks()">Active</button>
 				<button id="completedButton" type="button" onclick="selectCompletedTasks()">Completed</button>
 			</div> 
+			
 		</footer>
-	<script src="js/todo.js"></script>
+		<script src="js/todo.js"></script>
 	</body>
 	</html>
 

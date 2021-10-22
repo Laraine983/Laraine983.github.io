@@ -25,6 +25,7 @@ body{
 }
 .buttons{
     margin: 20px;
+    
   
 }
  button{
@@ -32,6 +33,8 @@ body{
     background-color: lavenderblush;
     color: darkslateblue;
     border-radius: 10px;
+    cursor: pointer;
+    
    
 }
 input{
@@ -46,6 +49,7 @@ input{
     color: darkslateblue;
     border: 2px solid grey;
     border-radius: 10px;
+    cursor: pointer;
 }
 div.close{
     padding: 5px;
