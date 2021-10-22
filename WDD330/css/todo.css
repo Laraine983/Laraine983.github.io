@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
 
-
 *{
     font-family: 'Exo 2', sans-serif;
 }
@@ -26,8 +25,7 @@ body{
 }
 .buttons{
     margin: 20px;
-    
-    
+  
 }
  button{
     padding: 10px;
@@ -36,20 +34,40 @@ body{
     border-radius: 10px;
    
 }
-form input{
+input{
     height: 30px;
     width: 250px;
 }
-#delete{
-    background-color:lightcoral;
-    color:white;
-    margin-left: 30px;
+.addTask{
+    background-color: lavenderblush;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    color: darkslateblue;
+    border: 2px solid grey;
+    border-radius: 10px;
 }
-#checkmark{
-    width: 20px;
-    height: 20px;
-
+div.close{
+    padding: 5px;
+    color:lightcoral;
+    font-size: 30px;
+    margin-left: 200px;
+    cursor: pointer;
 }
-#taskItem{
-    font-size: 25px;
+ul{
+    float: left;
+    cursor: pointer;
+    font-size: 18px;
 }
+ul li{
+    list-style-type: none;
+    padding: 5px 5px 5px 20px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+ul li.checked {
+    text-decoration: line-through;
+  }
+  
