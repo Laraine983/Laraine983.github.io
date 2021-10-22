@@ -10,22 +10,22 @@
 	</head>
 	<body>
 		<div id="board">
-		<div id="myDIV" class="header">
-			<h2 id="todoTitle" >To Do</h2>
-			<input type="text" id="myInput">
-			<span class="addTask" onclick="newElement()">+</span>
-		  </div>
-		  
-		  <ul id="myUL">
-			
-		  </ul>
-		  </div>
-		  <footer>
-			<div class="buttons">
-				<button id="allButton" type="button" onclick="selectAll()">All</button>
-				<button id="activeButton" type="button" onclick="selectActiveTasks()">Active</button>
-				<button id="completedButton" type="button" onclick="selectCompletedTasks()">Completed</button>
-			</div> 
+			<div id="myDIV" class="header">
+				<h2 id="todoTitle" >To Do</h2>
+				<input type="text" id="myInput">
+				<span class="addTask" onclick="addListItem()">+</span>
+			  </div>
+			  
+			  <ul id="myUL">
+				
+			  </ul>
+			  </div>
+			  <footer>
+				<div class="buttons">
+					<button class="allButton" type="button" onclick="selectAll()">All</button>
+					<button class="activeButton" type="button" onclick="activeTasks()">Active</button>
+					<button class="completedButton" type="button" onclick="completedTasks()">Completed</button>
+				</div> 
 			
 		</footer>
 		<script src="js/todo.js"></script>
