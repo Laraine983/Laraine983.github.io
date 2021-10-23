@@ -31,14 +31,16 @@ function checkItems() {
 var v = document.getElementsByClassName("taskItem");
   if (document.querySelectorAll('input[type=checkbox]:checked')) {
             v.classList.add("checkMarked");
+            
         } 
-
+       
 
 }
   function completedTasks() {
 var v = document.getElementsByClassName("taskItem");
   if (v.classList == "checkMarked") {
             v[0].style.display = 'block';
+           
         } 
 else{
   v[0].style.display = 'none';
