@@ -17,7 +17,7 @@ function addListItem(){
 }
 
 
-//delete list item 
+
 list.addEventListener('click', (e) => {
   if (e.target.classList.contains('deleteBtn') === true) {
     e.target.parentElement.remove();
@@ -26,14 +26,14 @@ list.addEventListener('click', (e) => {
 
 
 
-//not working?
+
 function checkItems() {
 var v = document.getElementsByClassName("taskItem");
   if (document.querySelectorAll('input[type=checkbox]:checked')) {
             v.classList.add("checkMarked");
         } 
 
-  //change to for loops
+
 }
   function completedTasks() {
 var v = document.getElementsByClassName("taskItem");
