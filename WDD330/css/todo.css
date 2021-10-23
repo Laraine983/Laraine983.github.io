@@ -40,6 +40,7 @@ body{
 input{
     height: 30px;
     width: 250px;
+   
 }
 .addTask{
     background-color: lavenderblush;
@@ -70,8 +71,15 @@ ul li{
     border: 1px solid grey;
     border-radius: 10px;
     
+    
 }
-ul li.checked {
+#input{
+    margin-left:-90px;
+}
+.deleteBtn{
+    margin-left:40px;
+}
+.checkMarked {
     text-decoration: line-through;
   }
   
