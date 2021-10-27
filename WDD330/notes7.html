@@ -25,6 +25,7 @@
         (function(){ const cat = 'Tabby'; console.log(`Cute ${cat}`);})();
     </li>
     <li>to use strict mode, place all code in IIFE (especially if collaborating with others) and use strict mode within that</li>
+    <li>allows you to write blocks of code that don't interfere with each other</li>
     </ul>
     <ul>
         <h3>Self-defining functions</h3>
@@ -32,27 +33,37 @@
     </ul>
     <ul>
         <h3>Recursive functions</h3>
-       <li></li>
+       <li>invokes itself until condition is met</li>
     </ul>
     <ul>
         <h3>Callbacks</h3>
-       <li></li>
+       <li>functions passed to other functions as arguments and then invoked inside the function they are passed to</li>
+       <li>too many callbacks can create messy, confusing code</li>
     </ul>
     <ul>
         <h3>Promises</h3>
-       <li></li>
+       <li>represent the future result of an asynchronous operation</li>
+       <li>help simplify process when multiple callbacks used to avoid messy, confusing code</li>
+       <li>Life cycle: <br>
+        - pending - when promise calls asynchronous operation <br>
+        - unsettled - stage where operation is taking place <br>
+        - settled - operation has been completed. <u>Outcomes of this can be:</u> <br>
+        - Resolved - asynchronous operation successfully completed<br>
+        - Rejected - asynchronous operation <i>not</i> successfully completed<br>
+       </li>
     </ul>
     <ul>
         <h3>Async functions</h3>
-       <li></li>
+       <li>preceded by asynch keyword i.e. async function()</li>
+       <li>write async code as if it was synchronous </li>
     </ul>
     <ul>
         <h3>Functions that return functions</h3>
-       <li></li>
+       <li>just like using callbacks, functions can return other functions</li>
     </ul>
     <ul>
         <h3>Closures</h3>
-       <li></li>
+       <li>inner function returned by outer function allowing access to variables declared in enclosing function</li>
     </ul>
     <ul>
         <h3>Introduction to functional programming</h3>
@@ -62,6 +73,13 @@
         <h3>Currying</h3>
        <li></li>
     </ul>
+<br>
+<br>
+<ul><h2> Ch 13: AJAX</h2>
+<li>AJAX = Asynchronous JavaScript and XML</li>
+<li>Fetch API - used for sending/receiving data async across network. Uses promises to avoid callback issues</li>
+</ul>
+
 
 </body>
 </html>
