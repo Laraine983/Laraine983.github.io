@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/WDD330/css/style3.css">
+  <title>Notes</title>
+</head>
+<body>
+    
+    <ul><h2> Ch 08: Transforms and Transitions</h2>
+        <h3>Transforms</h3>
+      <li>trasnform property lets you move, rotate, scale any element on page</li><br>
+      <li>transform: translate(<i>x, y</i>); - <i>x</i> moves items from left, <i>y</i> moves items from top</li>
+      <li>for older browsers, add: <br>
+        -webkit-transform: translate(<i>x, y</i>); <br>
+        -ms-transform: translate(<i>x, y</i>);</li>
+        <li>for simple up/down translations:<br>
+            transform: translateX(<i>x</i>);<br>
+            transform: translateY(<i>y</i>);<br>
+        </li>
+        <br>
+   <li>scale(<i>x, y</i>); x = horizontal, y = vertical</li>
+   <li>to scale only horizontally/vertically:<br>
+    transform: scaleX(<i>x</i>);<br>
+    transform: scaleY(<i>y</i>);<br>
+</li><br>
+<li>skew(<i>x, y</i>); function specifies a skew along the x and y axes. Use same as translate & scale</li><br>
+<li>transform-origin: changes origin of applied transforms (such as changing them from center)</li>
+    </ul>
+<ul><h3>Transitions</h3>
+    <li> allow the values of CSS properties to change over time, providing simple animations</li>
+    <li>steps to create transition:<br>
+    1) Declare the original state of the element in the default style declaration<br>
+    2) Declare the final state of your transitioned element; for example, a :hover state<br>
+    3) Include the transition functions in your default style declaration using the transition properties,
+     including: transition-property, transition-duration, transition-timing-function, and transition-delay<br>
+    </li>
+</ul>
+<ul><h3>Animations</h3>
+    <li>control each step with keyframes</li>
+    <li>keyframes create starting or ending point of an animation</li>
+    <li>@keyframes animationName { <br>
+        /* put animation keyframes here */<br>
+    }</li>
+    <li>animation duration defines length of animation</li>
+
+</ul>
+<ul><h2>Ch. 12: Canvas, SVG, and Drag and Drop</h2>
+    <h3>Canvas</h3>
+    <li>allows us to draw through JavaScript</li>
+    <li>in HTML, add canvas tag</li>
+    <li>set width, height, & id/class</li>
+    <li>add styles in CSS with id/class</li>
+    <li>in JavaScript:<br>
+        var canvas = document.getElementById("myCanvas"); <br>
+        var context = canvas.getContext("2d"); <br>
+        context.strokeStyle = "red";<br>
+        context.fillStyle = "rgba(0, 0, 255, 0.5)";<br>
+        context.fillRect(10, 10, 100, 100); <br>
+        context.strokeRect(10, 10, 100, 100);<br>
+    </li>
+</ul>
+<ul><h3>SVG</h3>
+<li>use svg tag</li>
+<li>viewBox attribute defines the starting location, width, and height of the SVG image</li>
+<li>desc tag lets you add description</li>
+</ul>
+<ul><h3>Drag & Drop</h3>
+    <li>steps:<br>
+       1) Set the draggable attribute on any HTML elements you’d like to be draggable<br>
+       2) Add an event listener for the dragstart event on any draggable HTML elements<br>
+       3) Add an event listener for the dragover and drop events on any elements that you want to have accept dropped items<br>
+    </li>
+<li>draggable is NOT Boolean; must be set to true</li>
+</ul>
+
+
+</body>
+</html>
