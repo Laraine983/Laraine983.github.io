@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/WDD330/css/style3.css">
+  <title>Notes</title>
+</head>
+<body>
+    
+    <ul><h2> Ch 09: Window Object</h2>
+        <h3>Browser Object Model (BOM)</h3>
+        <li>collection of properties and methods that contain information about the browser and computer screen</li>
+        <li>refer to global variables without using the window object</li>
+        <li>window.alert() method will pause the execution of the program and display a message in a dialog box</li>
+        <li>window.prompt() method will stop the execution of the program and display a dialog that shows a message as well as an input field that allows the user to enter text</li>
+    </ul>
+    <ul>
+        <h3>Browser Information</h3>
+        <li>window object has a number of properties and methods that provide information about the user’s browser:<br>
+            - navigator property - refers to navigator object which contains browser info<br>
+            - userAgent property - return info about browser and OS<br>
+        </li>
+        <li>window.location property:<br>
+            - contains info about URL<br>
+            - href property - returns URL as string<br>
+            - protocol property - returns string with info about protocol used<br>
+            - host property - returns string describing domain of URL & port number<br>
+            - pathname property - returns string of path following the domain<br>
+            - search property - returns a string that starts with a “?” followed by the query string parameters<br>
+            - hash property - returns a string that starts with a “#” followed by the fragment identifier<br>
+            - origin protocol -  returns a string that shows the protocol and domain where the current page originated from<br>
+        </li>
+        <li>window.history property can be used to access information about any previously visited pages in the current browser session</li>
+        <li>window.screen object contains information about the screen the browser is displayed on</li>
+    </ul>
+    <ul>
+        <h3>Timing Functions</h3>
+        <li>window.setTimeout() - first parameter is callback to function, second is number of milliseconds</li>
+        <li>window.clearTimeout() - cancels timeout</li>
+        <li>window.setInterval() -  repeats callback function after each given ms interval</li>
+    </ul>
+<br>
+<ul><h2> Ch 14: HTML5 APIs</h2>
+    <h3>data- attribute</h3>
+    <li>embeds data in to webpage using custom attributes ignored by browser</li>
+    <li>examples:<br>
+        data-powers = 'flight superSpeed'<br>
+        data-rating = '5' <br>
+        data-dropdown <br>
+        data-user = 'DAZ' <br>
+        data-max-length = '32'<br>
+        div id='hero' data-powers='flight superSpeed'<br>
+       
+    </li>
+    </ul>
+
+</body>
+</html>
