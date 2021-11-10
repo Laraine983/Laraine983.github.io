@@ -11,6 +11,7 @@
     "watch": "parcel watch src/index.html -d build/",
     "lint": "eslint *.js src/**/*.js"
   },
+  "type": "module",
   "author": "Shane T",
   "license": "GPL-2.0",
   "devDependencies": {
