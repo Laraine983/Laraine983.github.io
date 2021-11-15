@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/WDD330/css/style3.css">
+  <title>Notes</title>
+</head>
+<body>
+   
+    
+    <ul>
+       <h2>Validating Forms</h2>
+   <h3>What is form validation?</h3>
+   <li>browser/server checks that data is in correct form requested by app/page</li>
+   <li>examples include error messages such as "please enter valid email address" or 
+    "this field is required" if data is not in correct format</li>
+    <li>client-side: validation done in browser</li>
+    <li>server-side: validation done in server</li><br>
+    <li><u>main purposes of validating forms:</u><br>
+        - ensure data is stored in proper format to maintain functionality of app<br>
+        - protect user data<br>
+        - protect ourselves<br>
+    </li>
+    </ul>
+    <ul>
+        <h3>Built-in validation</h3>
+        <li>use within HTML form</li>
+        <li><u>required:</u> Specifies whether a form field needs to be filled in before the form can be submitted<br>
+           <u>minlength and maxlength:</u> Specifies the minimum and maximum length of textual data (strings)<br>
+            <u>min and max:</u> Specifies the minimum and maximum values of numerical input types<br>
+            <u>type:</u> Specifies whether the data needs to be a number, an email address, or some other specific preset type<br>
+            <u>pattern:</u> Specifies a regular expression that defines a pattern the entered data needs to follow</li><br>
+            <li>CSS pseudo class :valid or :invalid - apply style to valid or invalid items</li><br>
+            <li>pattern attribute:<br>
+                <u>a</u> — Matches one character that is a (not b, not aa, and so on)<br>
+                <u>abc</u> — Matches a, followed by b, followed by c<br>
+                <u>ab?c</u>—Matches a, optionally followed by a single b, followed by c. ( ac or abc)<br>
+                <u>ab*c</u>—Matches a, optionally followed by any number of bs, followed by c. ( ac , abc, abbbbbc, and so on)<br>
+                <u>a|b</u>— Matches one character that is a or b<br>
+                <u>abc|xyz</u> — Matches exactly abc or exactly xyz (but not abcxyz or a or y, and so on)<br>
+            </li>
+    </ul>
+    <ul><h3>Constraint Validation API - JavaScript</h3>
+    <li>HTMLButtonElement (represents a button element)<br>
+        HTMLFieldSetElement (represents a fieldset element)<br>
+        HTMLInputElement (represents an input element)<br>
+        HTMLOutputElement (represents an output element)<br>
+        HTMLSelectElement (represents a select element)<br>
+        HTMLTextAreaElement (represents a textarea element)</li><br>
+        <li>above elements can have following properties with the API:<br>
+            - validationMessage<br>
+            - validity<br>
+            - ValidityState<br>
+            - willValidate<br>
+        </li>
+        <br>
+        <li>methods:<br>
+            - checkValidity()<br>
+            - reportValidity()<br>
+            - preventDefault()<br>
+            - setCustomValidity(message)<br>
+        </li>
+    </ul>
+<br>
+
+
+<ul>
+    <h2>Using Fetch</h2>
+   <li>Fetch API: provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, 
+       such as requests and responses. It also provides a global fetch() method that provides an easy, 
+       logical way to fetch resources asynchronously across the network</li><br>
+       <li></li>
+</ul>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation">Source</a>
+</body>
+</html>
