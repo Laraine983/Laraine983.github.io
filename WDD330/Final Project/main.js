@@ -2,5 +2,38 @@
 //petfinder api key: xwPTzdBO8s90UmgqV0AkJ83ieYQfjSSFc41SLWmouxNOqfUcxr
 //petfinder secret: DEKXDEjqwstYy5MHM3UEPE98MzGjrHpxEI3q03sJ
 
-const apiKey = 'xwPTzdBO8s90UmgqV0AkJ83ieYQfjSSFc41SLWmouxNOqfUcxr'; // assign our key to a variable, easier to read
+//https://dog.ceo/dog-api/
+const url= "https://dog.ceo/api/breeds/image/random/6";
 
+
+fetch(url)
+.then(function (response) {       // .then returns a promise (proxy for unknown value)
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);       // temporary checking for valid response and data parsing
+ 
+    const img = jsonObject['message'];
+    for (let i = 0; i < img.length; i++ ) {
+   
+        let card = document.createElement('section');        // add html elements
+        let p = document.createElement('p');
+        let image = document.createElement('img');
+                
+        image.setAttribute('src', img[i]);              
+        image.setAttribute('class', 'randomImage');
+        p.setAttribute('class', 'info');
+        card.setAttribute('class', 'dogCard');
+
+         card.appendChild(p);
+         card.appendChild(image);
+        
+        
+      
+         document.querySelector('div.results').appendChild(card);
+   
+          
+    }
+  });
+
+    
