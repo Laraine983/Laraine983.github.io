@@ -3,6 +3,8 @@
 //petfinder secret: DEKXDEjqwstYy5MHM3UEPE98MzGjrHpxEI3q03sJ
 
 //https://dog.ceo/dog-api/
+
+/*
 const url= "https://dog.ceo/api/breeds/image/random/6";
 
 
@@ -36,11 +38,55 @@ fetch(url)
     }
   });
 
-	new Fetch('[data-fetch]', {
-		key: 'xwPTzdBO8s90UmgqV0AkJ83ieYQfjSSFc41SLWmouxNOqfUcxr',
-		secret: 'DEKXDEjqwstYy5MHM3UEPE98MzGjrHpxEI3q03sJ',
-		
-	});
+  */
+
+
+
+
+
+
+let key = 'xwPTzdBO8s90UmgqV0AkJ83ieYQfjSSFc41SLWmouxNOqfUcxr';
+let secret = 'DEKXDEjqwstYy5MHM3UEPE98MzGjrHpxEI3q03sJ';
+ 
+
+
+  fetch('https://api.petfinder.com/v2/oauth2/token', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: 'grant_type=client_credentials&client_id=' + key + '&client_secret=' + secret
+}).then(response => response.json().then(data => ({
+    data: data,
+    status: response.status})  
+).then(function(res) {
+    console.log(res.status, res.data.access_token);
+
+    
+    
+
+
+}));
+
+/* figure out how to fetch each part of api
+
+fetch('https://api.petfinder.com/v2/animals', {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded',
+}
+  .then(function (response) {       // .then returns a promise (proxy for unknown value)
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);       // temporary checking for valid response and data parsing
+  
+  
+let type = jsonObject['animals.type'];
+console.log(type);
+
+  })});
+*/
 
 
 
