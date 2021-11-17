@@ -36,6 +36,12 @@ fetch(url)
     }
   });
 
+	new Fetch('[data-fetch]', {
+		key: 'xwPTzdBO8s90UmgqV0AkJ83ieYQfjSSFc41SLWmouxNOqfUcxr',
+		secret: 'YOUR API SECRET',
+		shelter: 'DEKXDEjqwstYy5MHM3UEPE98MzGjrHpxEI3q03sJ'
+	});
+
 
 
 /*drag and drop bone image
