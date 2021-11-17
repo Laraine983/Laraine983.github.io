@@ -37,3 +37,10 @@ fetch(url)
   });
 
     
+/*
+1) use local json for info about each dog
+2) local storage??
+3) modules
+4) search function w/json
+5) next, previous pages?
+*/ 
