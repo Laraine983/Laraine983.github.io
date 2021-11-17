@@ -39,5 +39,18 @@ body{
     border: 2px solid lightskyblue;
     border-radius: 5px;
 }
+#bone {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+  }
+ 
+  
+  #bone2 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    
+  }
 
 /*create grid for larger screens*/
