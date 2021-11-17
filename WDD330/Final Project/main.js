@@ -62,11 +62,10 @@ let secret = 'DEKXDEjqwstYy5MHM3UEPE98MzGjrHpxEI3q03sJ';
 ).then(function(res) {
     console.log(res.status, res.data.access_token);
 
-    
-    
-
-
 }));
+
+
+
 
 /* figure out how to fetch each part of api
 
