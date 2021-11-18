@@ -6,9 +6,109 @@
 
 
 
+const url= "https://dog.ceo/api/breed/corgi/images/random/6";
+ 
+ 
+fetch(url)
+.then(function (response) {       // .then returns a promise (proxy for unknown value)
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);       // temporary checking for valid response and data parsing
+ 
+    const img = jsonObject['message'];
+    
+    for (let i = 0; i < img.length; i++ ) {
+   
+        let card = document.createElement('section');        // add html elements
+        let p = document.createElement('p');
+        let image = document.createElement('img');
+               
+        image.setAttribute('src', img[i]);              
+        image.setAttribute('class', 'randomImage');
+        p.setAttribute('class', 'info');
+        card.setAttribute('class', 'dogCard');
+ 
+         card.appendChild(p);
+         card.appendChild(image);
+       
+       
+     
+        document.querySelector('div.results').appendChild(card);
+   
+         
+    }
+  });
+ 
+//husky
+  const url2= "https://dog.ceo/api/breed/husky/images/random/6";
+ 
+ 
+  fetch(url2)
+  .then(function (response) {       // .then returns a promise (proxy for unknown value)
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      console.table(jsonObject);       // temporary checking for valid response and data parsing
+   
+      const img = jsonObject['message'];
+      
+      for (let i = 0; i < img.length; i++ ) {
+     
+          let card = document.createElement('section');        // add html elements
+          let p = document.createElement('p');
+          let image = document.createElement('img');
+                 
+          image.setAttribute('src', img[i]);              
+          image.setAttribute('class', 'randomImage');
+          p.setAttribute('class', 'info');
+          card.setAttribute('class', 'dogCard');
+   
+           card.appendChild(p);
+           card.appendChild(image);
+         
+         
+       
+          document.querySelector('div.results2').appendChild(card);
+     
+           
+      }
+    });
 
-
-
+    //boxer
+  const url3= "https://dog.ceo/api/breed/boxer/images/random/6";
+ 
+ 
+  fetch(url3)
+  .then(function (response) {       // .then returns a promise (proxy for unknown value)
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      console.table(jsonObject);       // temporary checking for valid response and data parsing
+   
+      const img = jsonObject['message'];
+      
+      for (let i = 0; i < img.length; i++ ) {
+     
+          let card = document.createElement('section');        // add html elements
+          let p = document.createElement('p');
+          let image = document.createElement('img');
+                 
+          image.setAttribute('src', img[i]);              
+          image.setAttribute('class', 'randomImage');
+          p.setAttribute('class', 'info');
+          card.setAttribute('class', 'dogCard');
+   
+           card.appendChild(p);
+           card.appendChild(image);
+         
+         
+       
+          document.querySelector('div.results3').appendChild(card);
+     
+           
+      }
+    });
 
 
 
