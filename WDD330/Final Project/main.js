@@ -117,5 +117,5 @@ fetch(url)
 2) local storage??
 3) modules
 4) search function w/json
-5) next, previous pages?
+5) add audio element around buttons(?)
 */ 
