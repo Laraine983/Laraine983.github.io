@@ -41,7 +41,7 @@ fetch(url)
      
         document.querySelector('div.results').appendChild(card);
       
-      //location.reload();
+     //location.reload();
 
     }
    
