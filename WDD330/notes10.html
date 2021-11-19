@@ -72,7 +72,24 @@
    <li>Fetch API: provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, 
        such as requests and responses. It also provides a global fetch() method that provides an easy, 
        logical way to fetch resources asynchronously across the network</li><br>
-       <li></li>
+       <li>Check for errors:<br>
+        fetch('flowers.jpg')<br>
+        .then(response => {<br>
+          if (!response.ok) {<br>
+            throw new Error('Network response was not OK');<br>
+          }<br>
+          return response.blob();<br>
+        })<br>
+        .then(myBlob => {<br>
+          myImage.src = URL.createObjectURL(myBlob);<br>
+        })<br>
+        .catch(error => {<br>
+          console.error('There has been a problem with your fetch operation:', error);<br>
+        });<br>
+       </li>
+       <br>
+       <li>CORS = Cross-Origin Resource Sharing</li>
+       <li>CORS lets you make requests with credentials i.e. use authentication</li>
        <br>
        <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Source</a></li>
 </ul>
