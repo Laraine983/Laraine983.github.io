@@ -6,9 +6,12 @@
 
 
 
-const url= "https://dog.ceo/api/breed/corgi/images/random/6";
- 
- 
+//works, but adds search images to current page instead of starting new page
+
+//const url= "https://dog.ceo/api/breed/corgi/images/random/6";
+function search(){
+ const url = 'https://dog.ceo/api/breed/' + document.getElementById('dropdownID').value + '/images/random/6';
+
 fetch(url)
 .then(function (response) {       // .then returns a promise (proxy for unknown value)
     return response.json();
@@ -36,14 +39,27 @@ fetch(url)
      
         document.querySelector('div.results').appendChild(card);
    
-         
+        window.location.reset(url);
     }
   });
- 
+  
+}
+
+
+
+  /*
+  function loadUrl() {
+    location.href = 'https://dog.ceo/api/breed/' + document.getElementById('dropdownID').value + '/images/random/6';
+
+  fetch(url);
+    }
+*/
+
+  /*
 //husky
   const url2= "https://dog.ceo/api/breed/husky/images/random/6";
  
- 
+
   fetch(url2)
   .then(function (response) {       // .then returns a promise (proxy for unknown value)
       return response.json();
@@ -109,8 +125,8 @@ fetch(url)
            
       }
     });
-
-
+*/
+   
 
 /*
 1) use local json for info about each dog
