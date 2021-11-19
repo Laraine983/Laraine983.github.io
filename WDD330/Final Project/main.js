@@ -9,8 +9,11 @@
 //works, but adds search images to current page instead of starting new page
 
 //const url= "https://dog.ceo/api/breed/corgi/images/random/6";
+
 function search(){
- const url = 'https://dog.ceo/api/breed/' + document.getElementById('dropdownID').value + '/images/random/6';
+ 
+  const input = document.getElementById('dropdownID').value;
+ const url = 'https://dog.ceo/api/breed/' + input + '/images/random/6';
 
 fetch(url)
 .then(function (response) {       // .then returns a promise (proxy for unknown value)
@@ -34,17 +37,17 @@ fetch(url)
  
          card.appendChild(p);
          card.appendChild(image);
-       
-       
+      
      
         document.querySelector('div.results').appendChild(card);
-   
-        window.location.reset(url);
+      
+      //location.reload();
+
     }
+   
   });
   
 }
-
 
 
   /*
