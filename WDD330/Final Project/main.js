@@ -2,14 +2,13 @@
 //petfinder api key: xwPTzdBO8s90UmgqV0AkJ83ieYQfjSSFc41SLWmouxNOqfUcxr
 //petfinder secret: DEKXDEjqwstYy5MHM3UEPE98MzGjrHpxEI3q03sJ
 
-//https://dog.ceo/dog-api/
 
 
 
 //works, but adds search images to current page instead of starting new page
 
 //const url= "https://dog.ceo/api/breed/corgi/images/random/6";
-
+/*
 function search(){
  
   const input = document.getElementById('dropdownID').value;
@@ -48,7 +47,7 @@ fetch(url)
   });
   
 }
-
+*/
 
   /*
   function loadUrl() {
