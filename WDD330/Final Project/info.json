@@ -72,164 +72,164 @@
     },
     {
       "breed": "collie",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "14-16 years",
+      "colors": ["blue merle", "black, white, & tan", "white"],
+      "origin": "United Kingdom",
+      "weight": "50-75 lbs"
     },
     {
       "breed": "corgi",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-15 years",
+      "colors": ["black", "white", "blue merle", "tan"],
+      "origin": "United Kingdom",
+      "weight": "25-30 lbs"
     },
     {
       "breed": "dachschund",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-15 years",
+      "colors": ["black", "brown", "red", "white"],
+      "origin": "Germany",
+      "weight": "8-32 lbs"
     },
     {
       "breed": "dalmation",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-14 years",
+      "colors": ["black & white"],
+      "origin": "Croatia",
+      "weight": "50-55 lbs"
     },
     {
       "breed": "dane",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "7-10 years",
+      "colors": ["black", "blue", "white", "merle"],
+      "origin": "Germany",
+      "weight": "100-200 lbs"
     },
     {
       "breed": "doberman",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-12 years",
+      "colors": ["black", "tan", "red", "white"],
+      "origin": "Germany",
+      "weight": "70-100 lbs"
     },
     {
       "breed": "germanshepherd",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-13 years",
+      "colors": ["tan", "black"],
+      "origin": "Germany",
+      "weight": "50-88 lbs"
     },
     {
       "breed": "greyhound",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-13 years",
+      "colors": ["black", "blue", "gray", "red", "white"],
+      "origin": "United Kingdom",
+      "weight": "27-80 lbs"
     },
     {
       "breed": "husky",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-14 years",
+      "colors": ["white & black", "white", "red & white"],
+      "origin": "Russia",
+      "weight": "35-60 lbs"
     },
     {
       "breed": "labradoodle",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-15 years",
+      "colors": ["black", "tan", "golden", "white"],
+      "origin": "Australia",
+      "weight": "30-70 lbs"
     },
     {
       "breed": "labrador",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-12 years",
+      "colors": ["black", "chocolate", "yellow"],
+      "origin": "Canada",
+      "weight": "55-75 lbs"
     },
     {
       "breed": "malamute",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-15 years",
+      "colors": ["black", "gray", "white", "red"],
+      "origin": "USA",
+      "weight": "70-95 lbs"
     },
     {
       "breed": "mastiff",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-12 years",
+      "colors": ["tan", "black"],
+      "origin": "United Kingdom",
+      "weight": "120-250 lbs"
     },
     {
       "breed": "pitbull",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-14 years",
+      "colors": ["black", "tan", "blue", "red", "white"],
+      "origin": "USA",
+      "weight": "22-78 lbs"
     },
     {
       "breed": "pomeranian",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-16 years",
+      "colors": ["black", "tan", "red", "white"],
+      "origin": "Germany",
+      "weight": "3-7 lbs"
     },
     {
       "breed": "poodle",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-15 years",
+      "colors": ["black", "white", "tan", "red"],
+      "origin": "France",
+      "weight": "45-70 lbs"
     },
     {
       "breed": "pug",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-15 years",
+      "colors": ["black", "tan"],
+      "origin": "China",
+      "weight": "13-20 lbs"
     },
     {
       "breed": "retriever",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-12 years",
+      "colors": ["tan", "golden"],
+      "origin": "United Kingdom",
+      "weight": "55-80 lbs"
     },
     {
       "breed": "rottweiler",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "8-11 years",
+      "colors": ["black & tan"],
+      "origin": "Germany",
+      "weight": "85-130 lbs"
     },
     {
       "breed": "schnauzer",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-15 years",
+      "colors": ["black", "grey"],
+      "origin": "Germany",
+      "weight": "30-45 lbs"
     },
     {
       "breed": "shihtzu",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-16 years",
+      "colors": ["black", "blue", "gold", "red"],
+      "origin": "China",
+      "weight": "9-16 lbs"
     },
     {
       "breed": "spaniel",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "10-14 years",
+      "colors": ["black & tan", "white & black"],
+      "origin": "United Kingdom",
+      "weight": "10-18 lbs"
     },
     {
       "breed": "terrier",
-      "lifespan": "",
-      "colors": [],
-      "origin": "",
-      "weight": ""
+      "lifespan": "12-16 years",
+      "colors": ["black & tan"],
+      "origin": "United Kingdom",
+      "weight": "4-7 lbs"
     }
   ]
 }
