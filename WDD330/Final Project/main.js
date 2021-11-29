@@ -11,7 +11,6 @@ fetch(url)
     console.table(jsonObject);       // temporary checking for valid response and data parsing
  
     const imgs = jsonObject['message'];
-   const status = jsonObject['status'];
    const deleteOne = document.querySelector('div.results');
    for (i = 0; i < imgs.length; i++) {
 
@@ -31,12 +30,33 @@ fetch(url)
          card.appendChild(p);
          card.appendChild(image);
          card.appendChild(button);
-      
-  
         document.querySelector('div.results').appendChild(card);
   
-        
 
+        //figure out this fetchhhhhh
+        fetch('./info.json')
+        .then(function (response) {       
+            return response.json();
+          })
+          .then(function (jsonObject) {
+            console.table(jsonObject);      
+         
+            const dogs = jsonObject.dogs;
+        
+           for (i = 0; i < dogs.length; i++) {
+        
+             if (input.value === dogs[i].breed){
+               let breedName = document.createElement('h2');
+              breedName.textContent = 'Breed Name:' + dogs[i].breed;
+             }
+          
+
+           }
+           });
+
+
+
+//delete btn
         deleteOne.addEventListener('click', (e) => {
           if (e.target.classList.contains('deleteItem') === true) {
             e.target.parentElement.remove();
