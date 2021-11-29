@@ -15,16 +15,58 @@
     
   </nav>
   <div class="search">
-    <input type="text" id="dropdownID" placeholder="Search by breed.."/>
-   <input type="reset" onclick="searchDogs()" value="🔍" id="searchbar"/>
+
+<!--
+    <input type="text" id="dropdownID" placeholder="Search by breed.." /><select name="dog-names" id="dog-names">
+      <option value="rigatoni">Rigatoni</option>
+    <option value="dave">Dave</option>
+    <option value="pumpernickel">Pumpernickel</option>
+    <option value="reeses">Reeses</option>
+  </select>
+-->
+<select name = "dropdown" id="dropdownID" placeholder="add breed" >
+<option id="disabled" value = "none" selected disabled>Add a breed to learn more...</option>
+<option value = "african" >african</option>
+<option value = "akita">akita</option>
+<option value = "australian">australian</option> 
+<option value = "beagle">beagle</option>
+<option value = "boxer">boxer</option>
+<option value = "bulldog">bulldog</option>
+<option value = "bullterrier">bullterrier</option>
+<option value = "chihuahua">chihuahua</option>
+<option value = "chow">chow</option>
+<option value = "cockapoo">cockapoo</option>
+<option value = "collie">collie</option>
+<option value = "corgi">corgi</option>
+<option value = "dachshund">dachshund</option>
+<option value = "dalmation">dalmation</option>
+<option value = "dane">dane</option>
+<option value = "doberman">doberman</option>
+<option value = "germanshepherd">german shepherd</option>
+<option value = "greyhound">greyhound</option>
+<option value = "husky">husky</option>
+<option value = "labradoodle">labradoodle</option>
+<option value = "labrador">labrador</option>
+<option value = "malamute">malamute</option>
+<option value = "mastiff">mastiff</option>
+<option value = "pitbull">pitbull</option>
+<option value = "pomeranian">pomeranian</option>
+<option value = "poodle">poodle</option>
+<option value = "pug">pug</option>
+<option value = "retriever">retriever</option>
+<option value = "rottweiler">rottweiler</option>
+<option value = "schnauzer">schnauzer</option>
+<option value = "shihtzu">shihtzu</option>
+</select>
+   <input type="button" onclick="searchDogs()" value="🔍" id="searchbar"/>
   </div>
 
   <div class="results">
   
   </div>
 
-      <script src="main.js" type="module"></script>
-      <script src="final.js" type="module"></script>
+      <script src="main.js" ></script>
+     
       
 
 </body>

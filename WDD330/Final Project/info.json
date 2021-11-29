@@ -1,0 +1,43 @@
+{
+    "breed": {
+        "african": [],
+        "akita": [],
+        "australian": [],
+        "beagle": [],
+        "boxer": [],
+        "bulldog": [],
+        "bullterrier":[],
+        "chihuahua": [],
+        "chow": [],
+        "cockapoo": [],
+        "collie": [],
+        "corgi": [],
+        "cotondetulear": [],
+        "dachshund": [],
+        "dalmatian": [],
+        "dane": [],
+        "doberman": [],
+        "germanshepherd": [],
+        "greyhound": [],
+        "husky": [],
+        "labradoodle": [],
+        "labrador": [],
+        "malamute": [],
+        "mastiff": [],
+        "pitbull": [],
+        "pomeranian": [],
+        "poodle": [],
+        "pug": [],
+        "retriever": [],
+        "rottweiler": [],
+        "saluki": [],
+        "samoyed": [],
+        "schipperke": [],
+        "schnauzer": [],
+        "shihtzu": [],
+        "spaniel": [],
+        "terrier": []
+        
+    }
+   
+}
