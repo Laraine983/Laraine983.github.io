@@ -15,14 +15,18 @@
   
  
   }
-    
+    //try switch statements for audio files
  */
+/*
+let barkAudio = document.getElementById('bark');
+barkAudio.setAttribute('src', './audio/' + )
+
   document.getElementById("doggo").onclick = function() {
-    var audio = document.getElementById("doggoBark");
+    var audio = document.getElementById("bark");
     if (audio.paused) audio.play();
     else audio.pause();
 };
   
   
-  
+  */
 

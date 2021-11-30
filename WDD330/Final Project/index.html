@@ -8,7 +8,63 @@
 </head>
 
 <body>
-  <div class="header">
+
+  <div class="container">
+    <header>
+      <div class="header">
+        <h1>All About Dogs!</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../Final Project/index.html">home</a></li>
+          <li><a href="../Final Project/audio.html">audio</a></li>
+          <li><a href="../Final Project/boxer.html">3</a></li>
+        </ul>
+      </nav>
+      <p>Click a breed below to learn!</p>
+
+      <select class="breeds"></select>
+    </header>
+  </div>
+
+
+  <div class="img-container">
+    <div class="container">
+      <div class="spinner">
+       
+      </div>
+      <img src="#" class="dog-img show" id="doggo" alt="doggo"/>
+      <audio class="bark" type="audio/mp3"></audio>
+    </div>
+   
+  </div>
+      <script src="main.js" ></script>
+      <script src="audio.js"></script>
+     
+      
+
+</body>
+</html>
+
+<!--
+  - add audio elements (switch statement?)
+  - add facts (json?)
+  - idk what else
+-->
+
+
+
+
+
+
+
+<!-- bone img
+  <div id="bone">
+  <div id="bone2"> 
+    <img id="bone" src="bone-2.png"></div>
+  </div>-->
+
+    <!--<div class="header">
     <p>All About Dogs!</p>
   </div>
   <nav>
@@ -21,14 +77,14 @@
   <p>Click a breed below to learn!</p>
   <div class="search">
 
-<!--
+
     <input type="text" id="dropdownID" placeholder="Search by breed.." /><select name="dog-names" id="dog-names">
       <option value="rigatoni">Rigatoni</option>
     <option value="dave">Dave</option>
     <option value="pumpernickel">Pumpernickel</option>
     <option value="reeses">Reeses</option>
   </select>
--->
+
 <select name = "dropdown" id="dropdownID" placeholder="add breed" >
 <option id="disabled" value = "none" selected disabled>Click a breed to learn more...</option>
 <option value = "african" >african</option>
@@ -69,21 +125,10 @@
   </div>
 
   <div class="results">
+    
+  </div>
+  <div>
   <h2 class="breedName"></h2>
   <p class="weight"></p>
-  </div>
-
-      <script src="main.js" ></script>
-      <script src="audio.js"></script>
-     
-      
-
-</body>
-</html>
-
-
-<!-- bone img
-  <div id="bone">
-  <div id="bone2"> 
-    <img id="bone" src="bone-2.png"></div>
-  </div>-->
+</div>
+-->

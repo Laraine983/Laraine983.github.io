@@ -1,6 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+
 body{
     margin: 0;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
 }
 .randomImage{
     width: 200px;
@@ -9,8 +13,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+nav ul li{
+    list-style-type: none;
+}
 
-.dogCard{
+.img-container{
     background-color: lightblue;
     padding-top:5px;
     padding-bottom: 150px;
@@ -18,8 +25,9 @@ body{
   border-radius: 10px;
   box-shadow: 2px 2px 0 0 darkblue;
 }
-.dogCard:nth-of-type(1){
-    margin-top:100px;
+.dog-img{
+    width:200px;
+   margin-left: 10%;
 }
 
 .header{
@@ -27,20 +35,21 @@ body{
     background-color: darkblue;
     padding: 10px;
     width: 95%;
+    font-family: 'Indie Flower', cursive;
     
 }
-.header p{
+.header h1{
     color: white;
+    
 }
-.search{
-    background-color:turquoise;
+.breeds{
+    background-color:white;
+    color:darkblue;
     margin: 10px;
     padding: 10px;
+    width: 90%;
 }
-.search select, .search button{
-    border: 2px solid lightskyblue;
-    border-radius: 5px;
-}
+
 #dropdownID{
   text-transform:lowercase;
   width: 70%;
@@ -52,9 +61,6 @@ body{
     background-color: darkblue;
     color:white;
 }
-
-
-
 
 
 /*create grid for larger screens*/
