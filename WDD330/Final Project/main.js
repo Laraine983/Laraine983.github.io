@@ -1,3 +1,4 @@
+
 function searchDogs(){
  
   const input = document.getElementById('dropdownID').value;
@@ -8,51 +9,60 @@ fetch(url)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);       // temporary checking for valid response and data parsing
+    console.table(jsonObject);       
  
     const imgs = jsonObject['message'];
    const deleteOne = document.querySelector('div.results');
    for (i = 0; i < imgs.length; i++) {
 
-        let card = document.createElement('section');        // add html elements
-        let p = document.createElement('p');
+        let card = document.createElement('section');        
         let image = document.createElement('img');
         let button = document.createElement('button');
         let x = document.createTextNode("X");
                
+        card.setAttribute('class', 'dogCard');
         image.setAttribute('src', imgs[0]);              
         image.setAttribute('class', 'randomImage');
-        p.setAttribute('class', 'info');
-        card.setAttribute('class', 'dogCard');
         button.setAttribute('class', 'deleteItem');
         button.appendChild(x);  
 
-         card.appendChild(p);
+       
          card.appendChild(image);
          card.appendChild(button);
-        document.querySelector('div.results').appendChild(card);
+       document.querySelector('div.results').appendChild(card);
   
 
-        //figure out this fetchhhhhh
-        fetch('./info.json')
-        .then(function (response) {       
-            return response.json();
-          })
-          .then(function (jsonObject) {
-            console.table(jsonObject);      
-         
-            const dogs = jsonObject.dogs;
-        
-           for (i = 0; i < dogs.length; i++) {
-        
-             if (input.value === dogs[i].breed){
-               let breedName = document.createElement('h2');
-              breedName.textContent = 'Breed Name:' + dogs[i].breed;
-             }
-          
 
-           }
-           });
+
+
+//JSON - figure out how to have info set for each card, not change each time you add new dog
+fetch('./info.json')
+  .then(function (response) {       
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);      
+
+    const dogs = jsonObject['dogs'];
+    for(let i = 0; i < dogs.length; i++ ) { 
+
+   if(input === dogs[i].breed){ //this grabs whatever input currently is and is changing info to match that...need it to add instead
+      
+   let breed = document.querySelector('h2.breedName');
+   breed.textContent = dogs[i].breed;
+   
+    let weight = document.querySelector('p.weight');
+    weight.textContent = dogs[i].weight;
+
+
+ 
+    }
+ 
+  }
+  });
+
+
+
 
 
 
