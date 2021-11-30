@@ -13,6 +13,7 @@ fetch(mainurl)
     const breedsArray = Object.keys(breedsObject);
     for (let i = 0; i < breedsArray.length; i++) {
       const option = document.createElement('option');
+      option.setAttribute('class', 'doggoOption');
       option.value = breedsArray[i];
       option.innerText = breedsArray[i];
       select.appendChild(option);
