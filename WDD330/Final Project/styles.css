@@ -43,7 +43,8 @@ body{
 }
 #dropdownID{
   text-transform:lowercase;
-  width: 200px;
+  width: 70%;
+  height: 50px;
 }
 .deleteItem{
     width: 50px;

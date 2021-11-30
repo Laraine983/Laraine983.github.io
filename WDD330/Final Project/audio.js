@@ -1,10 +1,10 @@
 
-function searchAudio(){
- const audioSrc = document.querySelector('li.audioItem').value;
- const input = document.getElementById('audioInput');
 
+ const audioSrc = document.querySelector('li.audioItem').innerHTML;
+ const input = document.getElementById('audioInput');
+ /*function searchAudio(){
     if(input === audioSrc){
-        audioSrc.style.display = '';
+        audioSrc.style.display = 'block';
 
     }
     else{
@@ -16,8 +16,12 @@ function searchAudio(){
  
   }
     
- 
-  
+ */
+  document.getElementById("doggo").onclick = function() {
+    var audio = document.getElementById("doggoBark");
+    if (audio.paused) audio.play();
+    else audio.pause();
+};
   
   
   

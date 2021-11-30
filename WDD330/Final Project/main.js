@@ -3,9 +3,9 @@ function searchDogs(){
  
   const input = document.getElementById('dropdownID').value;
  const url = 'https://dog.ceo/api/breed/' + input + '/images/random/1';
-
+let jsonURL = './info.json';
 fetch(url)
-.then(function (response) {       // .then returns a promise (proxy for unknown value)
+.then(function (response) {      
     return response.json();
   })
   .then(function (jsonObject) {
@@ -20,6 +20,8 @@ fetch(url)
         let button = document.createElement('button');
         let x = document.createTextNode("X");
                
+    
+
         card.setAttribute('class', 'dogCard');
         image.setAttribute('src', imgs[0]);              
         image.setAttribute('class', 'randomImage');
@@ -36,29 +38,28 @@ fetch(url)
 
 
 //JSON - figure out how to have info set for each card, not change each time you add new dog
+
 fetch('./info.json')
   .then(function (response) {       
     return response.json();
   })
   .then(function (jsonObject) {
     console.table(jsonObject);      
-
-    const dogs = jsonObject['dogs'];
-    for(let i = 0; i < dogs.length; i++ ) { 
-
-   if(input === dogs[i].breed){ //this grabs whatever input currently is and is changing info to match that...need it to add instead
-      
-   let breed = document.querySelector('h2.breedName');
-   breed.textContent = dogs[i].breed;
-   
-    let weight = document.querySelector('p.weight');
-    weight.textContent = dogs[i].weight;
-
-
+   const dogs = jsonObject['dogs'];
+        for(let i = 0; i < dogs.length; i++ ) { 
+    
+       if(input === dogs[i].breed){ //this grabs whatever input currently is and is changing info to match that...need it to add instead
+          
+       let breed = document.querySelector('h2.breedName');
+       breed.textContent = dogs[i].breed;
+       
+        let weight = document.querySelector('p.weight');
+        weight.textContent = dogs[i].weight;
+    
+    
+       }
+        }
  
-    }
- 
-  }
   });
 
 
@@ -73,6 +74,7 @@ fetch('./info.json')
             }
         }); 
 };
+
   
 });
  
