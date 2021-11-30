@@ -12,7 +12,8 @@
       "lifespan": "10-14 years",
       "colors": ["black", "red", "white"],
       "origin": "Japan",
-      "weight": "75-120 lbs"
+      "weight": "75-120 lbs",
+      "bark": "./audio/akita.mp3"
     },
     {
       "breed": "australian",
@@ -26,7 +27,8 @@
       "lifespan": "12-15 years",
       "colors": ["black & tan", "red", "white"],
       "origin": "United Kingdom",
-      "weight": "20-25 lbs"
+      "weight": "20-25 lbs",
+      "bark": "./audio/beagle.mp3"
     },
     {
       "breed": "boxer",

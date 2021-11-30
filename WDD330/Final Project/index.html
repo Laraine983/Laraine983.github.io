@@ -23,21 +23,34 @@
       </nav>
       <p>Click a breed below to learn!</p>
 
-      <select class="breeds"></select>
+      <select class="breeds">
+         <option value="Select a breed..." selected disabled>Select a breed...</option>
+      </select>
+     
     </header>
   </div>
-
+ 
 
   <div class="img-container">
     <div class="container">
       <div class="spinner">
        
       </div>
+      
+    
       <img src="#" class="dog-img show" id="doggo" alt="doggo"/>
       <audio id="bark" type="audio/mp3" src="./audio/akita.mp3"></audio>
+     
     </div>
    
+    <h2 class="breedName" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h2>
+ 
   </div>
+  <button id="faves" >❤️</button>
+  
+
+
+ <div id="myData"></div>
       <script src="main.js" ></script>
       <script src="audio.js"></script>
      

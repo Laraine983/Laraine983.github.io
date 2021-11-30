@@ -61,6 +61,8 @@ nav ul li{
     background-color: darkblue;
     color:white;
 }
-
+.active{
+    background-color:blue;
+}
 
 /*create grid for larger screens*/
