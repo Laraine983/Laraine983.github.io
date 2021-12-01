@@ -17,14 +17,14 @@ fetch('./info.json', {
 .then(function(json) {
   let dogs = json['dogs'];
   let selectedValue = document.getElementById("breeds").value;
-for (let i = 0; i < dogs.length; i) {
+for (let i = 0; i < dogs.length; i++) {
   
   let weight = dogs[i].weight; 
   let breeds = dogs[i].breed;
 
   if(selectedValue = breeds){     
                                                 //need to match content with selected dog, not all dogs
- document.querySelector('p.weight').textContent = 'Weight:' + '' + weight;
+
 
  //card
  let infoCard = document.createElement('section');
@@ -47,10 +47,10 @@ else{
 });
 
 
-
+//get breed name from select value
 function getSelectValue()
 {
-  let selectedValue = document.getElementById("breeds").value;
+  let selectedValue = document.querySelector("select.breeds").value;
     let breedName = document.querySelector('h2.breedName');
     breedName.innerHTML = selectedValue;
 }
