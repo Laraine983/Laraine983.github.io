@@ -62,5 +62,6 @@ document.getElementById('faves').onclick = function() {
 function getSelectValue()
 {
     var selectedValue = document.getElementById("breeds").value;
-    alert(selectedValue);//works, just make it appear as text instead of alert
+    let breedName = document.querySelector('h2.breedName');
+    breedName.innerHTML = selectedValue;
 }
