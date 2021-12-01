@@ -64,5 +64,8 @@ nav ul li{
 .active{
     background-color:blue;
 }
+#pg2.active{
+    display:block;
+}
 
 /*create grid for larger screens*/
