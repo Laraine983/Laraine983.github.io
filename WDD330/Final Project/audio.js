@@ -8,6 +8,6 @@ barkAudio.setAttribute('src', './audio/akita.mp3')
     else audio.pause();
 };
 
-//fetch json file
+
 
 

@@ -1,5 +1,5 @@
 
-/*@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
 
 body{
     margin: 0;
@@ -51,10 +51,19 @@ nav ul li{
     width: 90%;
 }
 
-#dropdownID{
-  text-transform:lowercase;
-  width: 70%;
-  height: 50px;
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 40px;
+}
+
+figcaption{
+    background-color: white;
+    color: darkblue;
+    font-size: 20px;
+    width: 200px;
+   margin-left: 10%;
 }
 .deleteItem{
     width: 50px;

@@ -14,14 +14,8 @@
       <div class="header">
         <h1>All About Dogs!</h1>
       </div>
-      <nav>
-        <ul>
-          <li><a href="../Final Project/index.html">home</a></li>
-          <li><a href="../Final Project/audio.html">audio</a></li>
-          <li><a href="../Final Project/boxer.html">3</a></li>
-        </ul>
-      </nav>
-      <p>Click a breed below to learn!</p>
+     
+      <p>Click a breed below to learn more!</p>
 
       <select class="breeds" id="breeds" onchange="change()" >
         <option id="disabled" value = "none" disabled>Click a breed to learn more...</option>
@@ -70,11 +64,13 @@
       <div class="spinner">
        
       </div>
-      
+      <figure>
     
       <img src="#" class="dog-img show" id="doggo" alt="doggo"/>
+      <figcaption>Click my picture to hear me bark!</figcaption>
       <audio id="bark" type="audio/mp3" src="./audio/akita.mp3"></audio>
      
+    </figure>
     </div>
    
     <h2 class="breedName" >Doggos!</h2>
@@ -82,6 +78,7 @@
       <p class="weight"></p>
       <p class="lifespan"></p>
       <p class="colors"></p>
+      <p class="origin"></p>
     </div>
  
   </div>
@@ -99,89 +96,8 @@
 </body>
 </html>
 
-<!--
-  - add audio elements (switch statement?)
-  - add facts (json?)
-  - idk what else
--->
 
 
 
 
 
-
-
-<!-- bone img
-  <div id="bone">
-  <div id="bone2"> 
-    <img id="bone" src="bone-2.png"></div>
-  </div>-->
-
-    <!--<div class="header">
-    <p>All About Dogs!</p>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="../Final Project/index.html">home</a></li>
-      <li><a href="../Final Project/audio.html">audio</a></li>
-      <li><a href="../Final Project/boxer.html">3</a></li>
-    </ul>
-  </nav>
-  <p>Click a breed below to learn!</p>
-  <div class="search">
-
-
-    <input type="text" id="dropdownID" placeholder="Search by breed.." /><select name="dog-names" id="dog-names">
-      <option value="rigatoni">Rigatoni</option>
-    <option value="dave">Dave</option>
-    <option value="pumpernickel">Pumpernickel</option>
-    <option value="reeses">Reeses</option>
-  </select>
-
-<select name = "dropdown" id="dropdownID" placeholder="add breed" >
-<option id="disabled" value = "none" selected disabled>Click a breed to learn more...</option>
-<option value = "african" >african</option>
-<option value = "akita">akita</option>
-<option value = "australian">australian</option> 
-<option value = "beagle">beagle</option>
-<option value = "boxer">boxer</option>
-<option value = "bulldog">bulldog</option>
-<option value = "bullterrier">bullterrier</option>
-<option value = "chihuahua">chihuahua</option>
-<option value = "chow">chow</option>
-<option value = "cockapoo">cockapoo</option>
-<option value = "collie">collie</option>
-<option value = "corgi">corgi</option>
-<option value = "dachshund">dachshund</option>
-<option value = "dalmation">dalmation</option>
-<option value = "dane">dane</option>
-<option value = "doberman">doberman</option>
-<option value = "germanshepherd">german shepherd</option>
-<option value = "greyhound">greyhound</option>
-<option value = "husky">husky</option>
-<option value = "labradoodle">labradoodle</option>
-<option value = "labrador">labrador</option>
-<option value = "malamute">malamute</option>
-<option value = "mastiff">mastiff</option>
-<option value = "pitbull">pitbull</option>
-<option value = "pomeranian">pomeranian</option>
-<option value = "poodle">poodle</option>
-<option value = "pug">pug</option>
-<option value = "retriever">retriever</option>
-<option value = "rottweiler">rottweiler</option>
-<option value = "schnauzer">schnauzer</option>
-<option value = "shihtzu">shihtzu</option>
-<option value = "spaniel">spaniel</option>
-<option value = "terrier">terrier</option>
-</select>
-   <input type="button" onclick="searchDogs()" value="🔍" id="searchbar"/>
-  </div>
-
-  <div class="results">
-    
-  </div>
-  <div>
-  <h2 class="breedName"></h2>
-  <p class="weight"></p>
-</div>
--->

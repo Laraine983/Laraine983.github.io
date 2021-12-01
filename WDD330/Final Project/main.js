@@ -53,6 +53,8 @@ img.addEventListener('load', () => {
   
 });
 
+
+
 //add active class to favorites button
 document.getElementById('faves').onclick = function() {
   this.classList.toggle('active');
