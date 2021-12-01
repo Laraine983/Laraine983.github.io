@@ -1,12 +1,12 @@
 {
   "dogs": [
     {
-      "breed": "african",
+      "breed":"african",
       "lifespan": "10-20 years",
       "colors": ["black", "tan", "white"],
       "origin": "South Africa",
       "weight": "55-100 lbs"
-    },
+      },
     {
       "breed": "akita",
       "lifespan": "10-14 years",
