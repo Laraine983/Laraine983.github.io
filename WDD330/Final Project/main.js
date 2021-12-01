@@ -58,4 +58,9 @@ document.getElementById('faves').onclick = function() {
   this.classList.toggle('active');
 }
 
-//show favorited items on separate page
+//show favorited items on separate page?
+function getSelectValue()
+{
+    var selectedValue = document.getElementById("breeds").value;
+    alert(selectedValue);//works, just make it appear as text instead of alert
+}
