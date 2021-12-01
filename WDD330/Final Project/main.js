@@ -3,7 +3,7 @@
 const mainurl = 'https://dog.ceo/api/breeds/list/all';
 
 const select = document.querySelector('.breeds');
-
+const selectedValue = document.getElementById("breeds").value;
 
 
 fetch(mainurl)
@@ -59,9 +59,6 @@ document.getElementById('faves').onclick = function() {
 }
 
 //show favorited items on separate page?
-function getSelectValue()
-{
-    var selectedValue = document.getElementById("breeds").value;
-    let breedName = document.querySelector('h2.breedName');
-    breedName.innerHTML = selectedValue;
-}
+
+
+
