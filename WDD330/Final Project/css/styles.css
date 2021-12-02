@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
 
 body{
     margin: 0;
@@ -51,7 +50,7 @@ option{
 }
 .header h1{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     
 }
 .breeds{
@@ -71,6 +70,7 @@ p{
 }
 h2{
     font-size: 40px;
+    letter-spacing: 5px;
 }
 
 figcaption{
@@ -96,7 +96,21 @@ margin-left: 10px;
 }
 #moreInfo{
    margin-top:200px;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 10px;
+   color: darkblue;
+   background-color: lavenderblush;
+   border: 1px solid grey;
 }
+#displayMore{
+    display: none;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
+    padding: 20px;
+}
+
 
 
 @media only screen and (min-width:426px){
@@ -127,6 +141,16 @@ background-color: white;
 font-size: 30px;
 float: left;
 margin-left: 20px;
+}
+.header h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+p{
+    font-size: 40px;
+}
+h2{
+    font-size: 50px;
 }
 
 }
