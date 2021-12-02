@@ -15,7 +15,7 @@ fetch(mainurl)
     const breedsArray = Object.keys(breedsObject);
     for (let i = 0; i < breedsArray.length; i++) {
       const option = document.createElement('option');
-      const option1 = document.createElement('option');
+      
       option.setAttribute('class', 'placeholder');
       option.value = breedsArray[i];
       option.innerText = breedsArray[i];

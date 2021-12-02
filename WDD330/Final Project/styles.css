@@ -19,7 +19,8 @@ nav ul li{
 }
 
 .img-container{
-    background-color: lightblue;
+    background: rgb(248,248,255);
+    background: linear-gradient(90deg, rgba(248,248,255,1) 0%, rgba(140,228,251,1) 0%, rgba(104,224,249,1) 31%, rgba(0,212,255,1) 59%, rgba(135,225,244,1) 79%);
     padding-top:5px;
     padding-bottom: 150px;
     margin: 10px;
