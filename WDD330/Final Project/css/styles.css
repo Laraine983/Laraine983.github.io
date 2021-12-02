@@ -102,6 +102,8 @@ margin-left: 10px;
    color: darkblue;
    background-color: lavenderblush;
    border: 1px solid grey;
+   font-family: 'Quicksand', sans-serif;
+   box-shadow: 2px 2px 0 grey;
 }
 #displayMore{
     display: none;
