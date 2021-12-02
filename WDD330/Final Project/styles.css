@@ -46,7 +46,7 @@ option{
     border-radius: 10px;
     padding: 10px;
     width: 95%;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Amatic SC', cursive;
     
 }
 .header h1{
@@ -56,10 +56,14 @@ option{
 }
 .breeds{
     background-color:white;
+    border: 1px solid black;
+    border-radius:5px;
     color:darkblue;
     margin: 10px;
     padding: 10px;
     width: 90%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
 
 p{
@@ -89,6 +93,9 @@ background-color: white;
 font-size: 20px;
 float: left;
 margin-left: 10px;
+}
+#moreInfo{
+   margin-top:200px;
 }
 
 
