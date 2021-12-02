@@ -5,7 +5,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Amatic SC', cursive;
-   
+    background-color:white;
 }
 .randomImage{
     width: 200px;
@@ -14,27 +14,36 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-nav ul li{
-    list-style-type: none;
+#learnMore{
+    color:black;
+    text-shadow: 3px 3px 5px mediumpurple;
+    font-weight: 500;
+}
+
+option{
+    background-color: lavender;
+  
 }
 
 .img-container{
-    background: rgb(248,248,255);
-    background: linear-gradient(90deg, rgba(248,248,255,1) 0%, rgba(140,228,251,1) 0%, rgba(104,224,249,1) 31%, rgba(0,212,255,1) 59%, rgba(135,225,244,1) 79%);
+   background-color: lavender;
     padding-top:5px;
     padding-bottom: 150px;
     margin: 10px;
+    border:1px solid black;
   border-radius: 10px;
-  box-shadow: 2px 2px 0 0 darkblue;
+  box-shadow: 4px 4px 0 0 black;
 }
 .dog-img{
     width:200px;
    margin-left: 10%;
+   border-radius: 10px;
 }
 
 .header{
     text-align: center;
-    background-color: darkblue;
+    background-color: rgb(56, 14, 66);
+    border-radius: 10px;
     padding: 10px;
     width: 95%;
     font-family: 'Indie Flower', cursive;
@@ -42,6 +51,7 @@ nav ul li{
 }
 .header h1{
     color: white;
+    font-size: 40px;
     
 }
 .breeds{
@@ -60,23 +70,56 @@ h2{
 }
 
 figcaption{
-    background-color: white;
+   
     color: darkblue;
     font-size: 20px;
     width: 200px;
    margin-left: 10%;
 }
-.deleteItem{
+
+.active{
+    border: 2px solid black;
+    box-shadow: 3px 3px 0 red;
+}
+#faves{
     width: 50px;
     height: 50px;
-    background-color: darkblue;
-    color:white;
-}
-.active{
-    background-color:blue;
-}
-#pg2.active{
-    display:block;
+border-radius: 10px;
+background-color: white;
+font-size: 20px;
+float: left;
+margin-left: 10px;
 }
 
-/*create grid for larger screens*/
+
+@media only screen and (min-width:426px){
+    body{
+        min-width: 600px;
+        max-width: 800px;
+        margin: 0 auto;
+       
+        
+    }
+.dog-img{
+    margin-left: -5%;
+    width: 500px;
+    height: 400px;
+}
+figcaption{
+    width: 500px;
+    margin-left: 28%;
+}
+#learnMore{
+    font-size: 40px;
+}
+#faves{
+    width: 70px;
+    height: 70px;
+border-radius: 10px;
+background-color: white;
+font-size: 30px;
+float: left;
+margin-left: 20px;
+}
+
+}

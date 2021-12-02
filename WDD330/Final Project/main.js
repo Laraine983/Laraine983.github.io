@@ -21,7 +21,7 @@ fetch(mainurl)
       option.innerText = breedsArray[i];
       select.appendChild(option);
     }
-    //console.log(breedsArray);
+   
   });
 
 select.addEventListener('change', e => {

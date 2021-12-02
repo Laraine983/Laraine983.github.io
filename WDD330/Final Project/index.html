@@ -15,10 +15,10 @@
         <h1>All About Dogs!</h1>
       </div>
      
-      <p>Click a breed below to learn more!</p>
+      <p id="learnMore">Click a breed below to learn more!</p>
 
       <select class="breeds" id="breeds" onchange="change()" >
-        <option id="disabled" value = "none" disabled>Click a breed to learn more...</option>
+        <option id="disabled" value = "none" disabled selected>Click a breed to learn more...</option>
       </select>-
       
      
@@ -31,9 +31,10 @@
       <div class="spinner">
        
       </div>
+      <button id="faves" >❤️</button>
       <figure>
     
-      <img src="#" class="dog-img show" id="doggo" alt="doggo"/>
+      <img src="doggos.png" class="dog-img show" id="doggo" alt="doggo"/>
       <figcaption>Click my picture to hear me bark!</figcaption>
       <audio id="bark" type="audio/mp3" src="./audio/akita.mp3"></audio>
      
@@ -47,9 +48,11 @@
       <p class="colors"></p>
       <p class="origin"></p>
     </div>
+    
+   
  
   </div>
-  <button id="faves" >❤️</button>
+
   
 
 
