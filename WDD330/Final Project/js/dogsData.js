@@ -634,6 +634,9 @@ const dogsData = [
   },
 ];
 
+//put this into json file and fetch instead
+
+
 function change() {
   var e = document.querySelector("select.breeds");
   var strUser = e.options[e.selectedIndex].text;

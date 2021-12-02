@@ -1,4 +1,6 @@
 
+//get audio file, play/pause when img is clicked
+
 let barkAudio = document.getElementById('bark');
 barkAudio.setAttribute('src', './audio/akita.mp3')
 

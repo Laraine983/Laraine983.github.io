@@ -5,7 +5,7 @@ const mainurl = 'https://dog.ceo/api/breeds/list/all';
 const select = document.querySelector('.breeds');
 const selectedValue = document.getElementById("breeds").value;
 
-
+//fetch breed list & create select option for each breed 
 fetch(mainurl)
   .then(res => {
     return res.json();
@@ -24,13 +24,14 @@ fetch(mainurl)
    
   });
 
+  //get url for images, change when new option is clicked
 select.addEventListener('change', e => {
   let url = `https://dog.ceo/api/breed/${e.target.value}/images/random`;
   getDoggo(url);
 });
 
 
-
+//change the class on image to show
 const img = document.querySelector('.dog-img');
 const spinner = document.querySelector('.spinner');
 
@@ -63,6 +64,8 @@ document.getElementById('faves').onclick = function() {
 //show favorited items on separate page?
 
 
+
+//show/hide div with more info about each doggo
 function moreInfo() {
   var x = document.getElementById("displayMore");
   if (x.style.display === "none") {
