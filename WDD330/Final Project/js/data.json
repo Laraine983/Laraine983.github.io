@@ -125,14 +125,14 @@
     {
         "breed": "greyhound",
         "lifespan": "10-13 years",
-        " colors": ["black", "blue", "gray", "red", "white"],
+        "colors": ["black", "blue", "gray", "red", "white"],
         "origin": "United Kingdom",
-        " weight": "27-80 lbs"
+        "weight": "27-80 lbs"
     },
     {
         "breed": "husky",
         "lifespan": "12-14 years",
-        " colors": ["white & black", "white", "red & white"],
+        "colors": ["white & black", "white", "red & white"],
         "origin": "Russia",
         "weight": "35-60 lbs"
     },
@@ -144,7 +144,7 @@
         "weight": "30-70 lbs"
     },
     {
-        " breed": "labrador",
+        "breed": "labrador",
         "lifespan": "10-12 years",
         "colors": ["black", "chocolate", "yellow"],
         "origin": "Canada",
@@ -167,23 +167,23 @@
     {
         "breed": "pitbull",
         "lifespan": "10-14 years",
-        " colors": ["black", "tan", "blue", "red", "white"],
-        " origin": "USA",
+        "colors": ["black", "tan", "blue", "red", "white"],
+        "origin": "USA",
         "weight": "22-78 lbs"
     },
     {
         "breed": "pomeranian",
         "lifespan": "12-16 years",
         "colors": ["black", "tan", "red", "white"],
-        " origin": "Germany",
+        "origin": "Germany",
         "weight": "3-7 lbs"
     },
     {
-        " breed": "poodle",
+        "breed": "poodle",
         "lifespan": "12-15 years",
         "colors": ["black", "white", "tan", "red"],
-        " origin": "France",
-        " weight": "45-70 lbs"
+        "origin": "France",
+        "weight": "45-70 lbs"
     },
     {
         "breed": "pug",
@@ -193,28 +193,28 @@
         "weight": "13-20 lbs"
     },
     {
-        " breed": "retriever",
+        "breed": "retriever",
         "lifespan": "10-12 years",
         "colors": ["tan", "golden"],
         "origin": "United Kingdom",
         "weight": "55-80 lbs"
     },
     {
-        " breed": "rottweiler",
+        "breed": "rottweiler",
         "lifespan": "8-11 years",
         "colors": ["black & tan"],
         "origin": "Germany",
-        " weight": "85-130 lbs"
+        "weight": "85-130 lbs"
     },
     {
         "breed": "schnauzer",
         "lifespan": "12-15 years",
-        " colors": ["black", "grey"],
+        "colors": ["black", "grey"],
         "origin": "Germany",
-        " weight": "30-45 lbs"
+        "weight": "30-45 lbs"
     },
     {
-        " breed": "shihtzu",
+        "breed": "shihtzu",
         "lifespan": "10-16 years",
         "colors": ["black", "blue", "gold", "red"],
         "origin": "China",
@@ -232,12 +232,12 @@
         "lifespan": "12-16 years",
         "colors": ["black & tan"],
         "origin": "United Kingdom",
-        " weight": "4-7 lbs"
+        "weight": "4-7 lbs"
     },
     {
         "breed": "affenpinscher",
         "lifespan": "12-14 years",
-        " colors": ["black", "tan", "grey"],
+        "colors": ["black", "tan", "grey"],
         "origin": "Germany",
         "weight": "7-10 lbs"
     },
@@ -245,7 +245,7 @@
         "breed": "airedale",
         "lifespan": "10-12 years",
         "colors": ["black & tan"],
-        " origin": "England",
+        "origin": "England",
         "weight": "40-64 lbs"
     },
     {
@@ -256,32 +256,32 @@
         "weight": "48-70 lbs"
     },
     {
-        " breed": "basenji",
+        "breed": "basenji",
         "lifespan": "13-14 years",
         "colors": ["black", "white", "tan"],
         "origin": "Dominican Republic of the Congo",
         "weight": "22-24 lbs"
     },
     {
-        " breed": "bluetick",
+        "breed": "bluetick",
         "lifespan": "11-12 years",
         "colors": ["blue", "white", "tan", "black"],
-        " origin": "USA",
-        " weight": "45-80 lbs"
+        "origin": "USA",
+        "weight": "45-80 lbs"
     },
     {
-        " breed": "borzoi",
+        "breed": "borzoi",
         "lifespan": "7-10 years",
-        " colors": ["white", "black", "grey", "blue"],
-        " origin": "Russia",
+        "colors": ["white", "black", "grey", "blue"],
+        "origin": "Russia",
         "weight": "55-100 lbs"
     },
     {
         "breed": "bouvier",
-        " lifespan": "10-12 years",
-        " colors": ["black", "grey"],
+        "lifespan": "10-12 years",
+        "colors": ["black", "grey"],
         "origin": "France",
-        " weight": "60-88 lbs"
+        "weight": "60-88 lbs"
     },
     {
         "breed": "brabancon",
@@ -322,7 +322,7 @@
         "breed": "coonhound",
         "lifespan": "10-12 years",
         "colors": ["black & tan"],
-        " origin": "USA",
+        "origin": "USA",
         "weight": "55-75 lbs"
     },
     {
@@ -377,15 +377,15 @@
     {
         "breed": "eskimo",
         "lifespan": "13-15 years",
-        " colors": ["white", "beige"],
-        " origin": "Germany",
+        "colors": ["white", "beige"],
+        "origin": "Germany",
         "weight": "18-35 lbs"
     },
     {
         "breed": "finnish",
         "lifespan": "12-14 years",
-        " colors": ["black, white & tan"],
-        " origin": "Finland",
+        "colors": ["black, white & tan"],
+        "origin": "Finland",
         "weight": "33-53 lbs"
     },
     {
@@ -456,13 +456,13 @@
         "lifespan": "10-14 years",
         "colors": ["black", "tan"],
         "origin": "Belgium",
-        " weight": "61-100 lbs"
+        "weight": "61-100 lbs"
     },
     {
         "breed": "maltese",
         "lifespan": "12-15 years",
         "colors": ["white"],
-        " origin": "Malta",
+        "origin": "Malta",
         "weight": "4-7 lbs"
     },
     {
@@ -481,14 +481,14 @@
     },
     {
         "breed": "mountain",
-        " lifespan": "6-8 years",
-        " colors": ["black, tan & white"],
+        "lifespan": "6-8 years",
+        "colors": ["black, tan & white"],
         "origin": "Switzerland",
         "weight": "79-110 lbs"
     },
     {
-        " breed": "newfoundland",
-        " lifespan": "8-10 years",
+        "breed": "newfoundland",
+        "lifespan": "8-10 years",
         "colors": ["black", "brown"],
         "origin": "Canada",
         "weight": "99-150 lbs"
@@ -519,13 +519,13 @@
         "lifespan": "12-15 years",
         "colors": ["tan & black"],
         "origin": "China",
-        " weight": "8-14 lbs"
+        "weight": "8-14 lbs"
     },
     {
         "breed": "pembroke",
         "lifespan": "12-15 years",
         "colors": ["black", "tan", "white"],
-        " origin": "Wales",
+        "origin": "Wales",
         "weight": "22-31 lbs"
     },
     {
@@ -533,13 +533,13 @@
         "lifespan": "12-14 years",
         "colors": ["black", "tan"],
         "origin": "Germany",
-        " weight": "25-45 lbs"
+        "weight": "25-45 lbs"
     },
     {
         "breed": "pointer",
         "lifespan": "12-17 years",
         "colors": ["white", "grey", "brown", "black"],
-        " origin": "England",
+        "origin": "England",
         "weight": "45-75 lbs"
     },
     {
@@ -589,13 +589,13 @@
         "lifespan": "12-14 years",
         "colors": ["white"],
         "origin": "Russia",
-        " weight": "35-65 lbs"
+        "weight": "35-65 lbs"
     },
     {
         "breed": "schipperke",
         "lifespan": "12-15 years",
         "colors": ["black", "brown"],
-        " origin": "Belgium",
+        "origin": "Belgium",
         "weight": "10-16 lbs"
     },
     {
@@ -603,14 +603,14 @@
         "lifespan": "10-12 years",
         "colors": ["blue", "black", "white", "brown"],
         "origin": "Ireland",
-        " weight": "35-65 lbs"
+        "weight": "35-65 lbs"
     },
     {
         "breed": "sheepdog",
-        " lifespan": "10-12 years",
+        "lifespan": "10-12 years",
         "colors": ["black", "white", "grey"],
-        " origin": "England",
-        " weight": "60-90 lbs"
+        "origin": "England",
+        "weight": "60-90 lbs"
     },
     {
         "breed": "spaniel",
@@ -624,7 +624,7 @@
         "lifespan": "12-14 years",
         "colors": ["brown", "white"],
         "origin": "England",
-        " weight": "40-55 lbs"
+        "weight": "40-55 lbs"
     },
     {
         "breed": "stbernard",
