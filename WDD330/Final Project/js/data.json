@@ -632,6 +632,55 @@
         "colors": ["brown", "black", "white"],
         "origin": "Switzerland",
         "weight": "120-180 lbs"
+    },
+    {
+        "breed": "shiba",
+        "lifespan": "12-15 years",
+        "colors": ["red", "black", "cream"],
+        "origin": "Japan",
+        "weight": "15-24 lbs"
+    },
+    {
+        "breed": "tervuren",
+        "lifespan": "12-14 years",
+        "colors": ["black", "cream", "tan"],
+        "origin": "Belgium",
+        "weight": "44-66 lbs"
+    },
+    {
+        "breed": "vizsla",
+        "lifespan": "12-15 years",
+        "colors": ["gold", "red"],
+        "origin": "Hungary",
+        "weight": "40-64 lbs"
+    },
+    {
+        "breed": "waterdog",
+        "lifespan": "12-15 years",
+        "colors": ["black", "white", "brown"],
+        "origin": "Portugal",
+        "weight": "35-60 lbs"
+    },
+    {
+        "breed": "weimaraner",
+        "lifespan": "11-14 years",
+        "colors": ["grey", "silver"],
+        "origin": "Germany",
+        "weight": "55-88 lbs"
+    },
+    {
+        "breed": "whippet",
+        "lifespan": "12-15 years",
+        "colors": ["brown", "black", "white", "beige"],
+        "origin": "England",
+        "weight": "15-42 lbs"
+    },
+    {
+        "breed": "wolfhound",
+        "lifespan": "6-10 years",
+        "colors": ["brown", "black", "white", "beige"],
+        "origin": "Ireland",
+        "weight": "105-155 lbs"
     }
 
     ]}
