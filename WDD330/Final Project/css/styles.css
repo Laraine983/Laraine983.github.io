@@ -12,6 +12,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 #learnMore{
     color:black;
@@ -37,6 +38,7 @@ option{
     width:200px;
    margin-left: 10%;
    border-radius: 10px;
+   cursor: pointer;
 }
 
 .header{
@@ -63,6 +65,7 @@ option{
     width: 90%;
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
+    cursor: pointer;
 }
 
 p{
@@ -71,6 +74,17 @@ p{
 h2{
     font-size: 40px;
     letter-spacing: 5px;
+}
+
+#textDiv{
+    background-color: white;
+    margin: 35px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.breedName{
+    background-color: lavenderblush;
+    text-shadow: 3px 3px 5px grey;
 }
 
 figcaption{
@@ -104,6 +118,7 @@ margin-left: 10px;
    border: 1px solid grey;
    font-family: 'Quicksand', sans-serif;
    box-shadow: 2px 2px 0 grey;
+   cursor: pointer;
 }
 #displayMore{
     display: none;
