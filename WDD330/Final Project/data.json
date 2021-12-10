@@ -1,0 +1,637 @@
+{
+    "dogsData":[
+    {
+      "breed": "african",
+      "lifespan": "10-20 years",
+      "colors": ["black", "tan", "white"],
+      "origin": "South Africa",
+      "weight": "55-100 lbs"
+    },
+  
+    {
+      "breed": "akita",
+      "lifespan": "10-14 years",
+      "colors": ["black", "red", "white"],
+      "origin": "Japan",
+      "weight": "75-120 lbs",
+      "bark": "./audio/akita.mp3"
+    },
+    {
+        "breed": "australian",
+        "lifespan": "12-15 years",
+        "colors": ["black", "blue merle", "red merle"],
+        "origin": "USA",
+        "weight": "40-65 lbs"
+    },
+    {
+        "breed": "beagle",
+        "lifespan": "12-15 years",
+        "colors": ["black & tan", "red", "white"],
+        "origin": "United Kingdom",
+        "weight": "20-25 lbs",
+        "bark": "./audio/beagle.mp3"
+    },
+    {
+        "breed": "boxer",
+        "lifespan": "10-12 years",
+        "colors": ["brown", "white"],
+        "origin": "Germany",
+        "weight": "53-70 lbs"
+    },
+    {
+        "breed": "bulldog",
+        "lifespan": "10-12 years",
+        "colors": ["tan", "white", "red"],
+        "origin": "United Kingdom",
+        "weight": "49-55 lbs"
+    },
+    {
+        "breed": "bullterrier",
+        "lifespan": "10-12 years",
+        "colors": ["black", "brown", "white"],
+        "origin": "United Kingdom",
+        "weight": "45-80 lbs"
+    },
+    {
+        "breed": "chihuahua",
+        "lifespan": "14-18 years",
+        "colors": ["black", "chocolate", "red", "white"],
+        "origin": "Mexico",
+        "weight": "2-6 lbs"
+    },
+    {
+        "breed": "chow",
+        "lifespan": "13-15 years",
+        "colors": ["black", "blue", "cream", "red"],
+        "origin": "China",
+        "weight": "45-70 lbs"
+    },
+    {
+        "breed": "cockapoo",
+        "lifespan": "14-18 years",
+        "colors": ["black", "tan", "red", "white"],
+        "origin": "USA",
+        "weight": "12-24 lbs"
+    },
+    {
+        "breed": "collie",
+        "lifespan": "14-16 years",
+        "colors": ["blue merle", "black, white, & tan", "white"],
+        "origin": "United Kingdom",
+        "weight": "50-75 lbs"
+    },
+    {
+        "breed": "corgi",
+        "lifespan": "12-15 years",
+        "colors": ["black", "white", "blue merle", "tan"],
+        "origin": "United Kingdom",
+        "weight": "25-30 lbs"
+    },
+    {
+        "breed": "dachschund",
+        "lifespan": "12-15 years",
+        "colors": ["black", "brown", "red", "white"],
+        "origin": "Germany",
+        "weight": "8-32 lbs"
+    },
+    {
+        "breed": "dalmation",
+        "lifespan": "12-14 years",
+        "colors": ["black & white"],
+        "origin": "Croatia",
+        "weight": "50-55 lbs"
+    },
+    {
+        "breed": "dane",
+        "lifespan": "7-10 years",
+        "colors": ["black", "blue", "white", "merle"],
+        "origin": "Germany",
+        "weight": "100-200 lbs"
+    },
+    {
+        "breed": "doberman",
+        "lifespan": "10-12 years",
+        "colors": ["black", "tan", "red", "white"],
+        "origin": "Germany",
+        "weight": "70-100 lbs"
+    },
+    {
+        "breed": "germanshepherd",
+        "lifespan": "10-13 years",
+        "colors": ["tan", "black"],
+        "origin": "Germany",
+        "weight": "50-88 lbs"
+    },
+    {
+        "breed": "greyhound",
+        "lifespan": "10-13 years",
+        " colors": ["black", "blue", "gray", "red", "white"],
+        "origin": "United Kingdom",
+        " weight": "27-80 lbs"
+    },
+    {
+        "breed": "husky",
+        "lifespan": "12-14 years",
+        " colors": ["white & black", "white", "red & white"],
+        "origin": "Russia",
+        "weight": "35-60 lbs"
+    },
+    {
+        "breed": "labradoodle",
+        "lifespan": "12-15 years",
+        "colors": ["black", "tan", "golden", "white"],
+        "origin": "Australia",
+        "weight": "30-70 lbs"
+    },
+    {
+        " breed": "labrador",
+        "lifespan": "10-12 years",
+        "colors": ["black", "chocolate", "yellow"],
+        "origin": "Canada",
+        "weight": "55-75 lbs"
+    },
+    {
+        "breed": "malamute",
+        "lifespan": "12-15 years",
+        "colors": ["black", "gray", "white", "red"],
+        "origin": "USA",
+        "weight": "70-95 lbs"
+    },
+    {
+        "breed": "mastiff",
+        "lifespan": "10-12 years",
+        "colors": ["tan", "black"],
+        "origin": "United Kingdom",
+        "weight": "120-250 lbs"
+    },
+    {
+        "breed": "pitbull",
+        "lifespan": "10-14 years",
+        " colors": ["black", "tan", "blue", "red", "white"],
+        " origin": "USA",
+        "weight": "22-78 lbs"
+    },
+    {
+        "breed": "pomeranian",
+        "lifespan": "12-16 years",
+        "colors": ["black", "tan", "red", "white"],
+        " origin": "Germany",
+        "weight": "3-7 lbs"
+    },
+    {
+        " breed": "poodle",
+        "lifespan": "12-15 years",
+        "colors": ["black", "white", "tan", "red"],
+        " origin": "France",
+        " weight": "45-70 lbs"
+    },
+    {
+        "breed": "pug",
+        "lifespan": "12-15 years",
+        "colors": ["black", "tan"],
+        "origin": "China",
+        "weight": "13-20 lbs"
+    },
+    {
+        " breed": "retriever",
+        "lifespan": "10-12 years",
+        "colors": ["tan", "golden"],
+        "origin": "United Kingdom",
+        "weight": "55-80 lbs"
+    },
+    {
+        " breed": "rottweiler",
+        "lifespan": "8-11 years",
+        "colors": ["black & tan"],
+        "origin": "Germany",
+        " weight": "85-130 lbs"
+    },
+    {
+        "breed": "schnauzer",
+        "lifespan": "12-15 years",
+        " colors": ["black", "grey"],
+        "origin": "Germany",
+        " weight": "30-45 lbs"
+    },
+    {
+        " breed": "shihtzu",
+        "lifespan": "10-16 years",
+        "colors": ["black", "blue", "gold", "red"],
+        "origin": "China",
+        "weight": "9-16 lbs"
+    },
+    {
+        "breed": "spaniel",
+        "lifespan": "10-14 years",
+        "colors": ["black & tan", "white & black"],
+        "origin": "United Kingdom",
+        "weight": "10-18 lbs"
+    },
+    {
+        "breed": "terrier",
+        "lifespan": "12-16 years",
+        "colors": ["black & tan"],
+        "origin": "United Kingdom",
+        " weight": "4-7 lbs"
+    },
+    {
+        "breed": "affenpinscher",
+        "lifespan": "12-14 years",
+        " colors": ["black", "tan", "grey"],
+        "origin": "Germany",
+        "weight": "7-10 lbs"
+    },
+    {
+        "breed": "airedale",
+        "lifespan": "10-12 years",
+        "colors": ["black & tan"],
+        " origin": "England",
+        "weight": "40-64 lbs"
+    },
+    {
+        "breed": "appenzeller",
+        "lifespan": "12-14 years",
+        "colors": ["black, tan & white"],
+        "origin": "Switzerland",
+        "weight": "48-70 lbs"
+    },
+    {
+        " breed": "basenji",
+        "lifespan": "13-14 years",
+        "colors": ["black", "white", "tan"],
+        "origin": "Dominican Republic of the Congo",
+        "weight": "22-24 lbs"
+    },
+    {
+        " breed": "bluetick",
+        "lifespan": "11-12 years",
+        "colors": ["blue", "white", "tan", "black"],
+        " origin": "USA",
+        " weight": "45-80 lbs"
+    },
+    {
+        " breed": "borzoi",
+        "lifespan": "7-10 years",
+        " colors": ["white", "black", "grey", "blue"],
+        " origin": "Russia",
+        "weight": "55-100 lbs"
+    },
+    {
+        "breed": "bouvier",
+        " lifespan": "10-12 years",
+        " colors": ["black", "grey"],
+        "origin": "France",
+        " weight": "60-88 lbs"
+    },
+    {
+        "breed": "brabancon",
+        "lifespan": "10-15 years",
+        "colors": ["black", "tan"],
+        "origin": "Belgium",
+        "weight": "8-10 lbs"
+    },
+    {
+        "breed": "briard",
+        "lifespan": "10-12 years",
+        "colors": ["black", "white", "grey"],
+        "origin": "France",
+        "weight": "50-90 lbs"
+    },
+    {
+        "breed": "buhund",
+        "lifespan": "13-15",
+        "colors": ["black", "beige", "red"],
+        "origin": "Norway",
+        "weight": "26-40 lbs"
+    },
+    {
+        "breed": "cattledog",
+        "lifespan": "13-15 years",
+        "colors": ["black", "white", "tan"],
+        "origin": "Australia",
+        "weight": "31-35 lbs"
+    },
+    {
+        "breed": "clumber",
+        "lifespan": "10-12 years",
+        "colors": ["white", "beige"],
+        "origin": "England",
+        "weight": "55-85 lbs"
+    },
+    {
+        "breed": "coonhound",
+        "lifespan": "10-12 years",
+        "colors": ["black & tan"],
+        " origin": "USA",
+        "weight": "55-75 lbs"
+    },
+    {
+        "breed": "cotondetulear",
+        "lifespan": "14-16 years",
+        "colors": ["white", "black & white"],
+        "origin": "Madagascar",
+        "weight": "7-13 lbs"
+    },
+    {
+        "breed": "dalmation",
+        "lifespan": "10-13 years",
+        "colors": ["black & white"],
+        "origin": "Croatia",
+        "weight": "33-71 lbs"
+    },
+    {
+        "breed": "deerhound",
+        "lifespan": "8-11 years",
+        "colors": ["grey", "blue"],
+        "origin": "Scotland",
+        "weight": "75-110 lbs"
+    },
+    {
+        "breed": "dhole",
+        "lifespan": "10-16 years",
+        "colors": ["tan"],
+        "origin": "Asia",
+        "weight": "26-44 lbs"
+    },
+    {
+        "breed": "dingo",
+        " lifespan": "10 years",
+        " colors": ["tan & white"],
+        " origin": "Australia",
+        " weight": "22-33 lbs"
+    },
+    {
+        "breed": "elkhound",
+        "lifespan": "13-14 years",
+        "colors": ["black & white"],
+        "origin": "Norway",
+        "weight": "49-55 lbs"
+    },
+    {
+        "breed": "entlebucher",
+        "lifespa": "11-15 years",
+        "colors": ["black, white & tan"],
+        "origin": "Switzerland",
+        "weight": "45-65 lbs"
+    },
+    {
+        "breed": "eskimo",
+        "lifespan": "13-15 years",
+        " colors": ["white", "beige"],
+        " origin": "Germany",
+        "weight": "18-35 lbs"
+    },
+    {
+        "breed": "finnish",
+        "lifespan": "12-14 years",
+        " colors": ["black, white & tan"],
+        " origin": "Finland",
+        "weight": "33-53 lbs"
+    },
+    {
+        "breed": "frise",
+        "lifespan": "12-15 lbs",
+        "colors": ["white"],
+        "origin": "8-15 lbs",
+        "weight": "10-18 lbs"
+    },
+    {
+        "breed": "groendael",
+        "lifespan": "13-14 years",
+        "colors": ["black"],
+        "origin": "Belgium",
+        "weight": "44-66 lbs"
+    },
+    {
+        "breed": "havanese",
+        "lifespan": "13-15 years",
+        "colors": ["black", "white", "tan", "grey"],
+        "origin": "Cuba",
+        "weight": "9-16 lbs"
+    },
+    {
+        "breed": "keeshond",
+        "lifespan": "13-15 years",
+        "colors": ["beige", "white", "black"],
+        "origin": "Holland",
+        "weight": "35-45 lbs"
+    },
+    {
+        "breed": "kelpie",
+        "lifespan": "12-15 years",
+        "colors":["black", "tan"],
+        "origin": "Australia",
+        "weight": "31-46 lbs"
+    },
+    {
+        "breed": "komondor",
+        "lifespan": "10-12 years",
+        "colors": ["white"],
+        "origin": "Hungary",
+        "weight": "88-130 lbs"
+    },
+    {
+        "breed": "kuvasz",
+        "lifespan": "8-10 years",
+        "colors": ["white"],
+        "origin": "Hungary",
+        "weight": "70-115 lbs"
+    },
+    {
+        "breed": "leonberg",
+        "lifespan": "8-9 years",
+        "colors": ["black & tan"],
+        "origin": "Germany",
+        "weight": "90-160 lbs"
+    },
+    {
+        "breed": "lhasa",
+        "lifespan": "12-14 years",
+        "colors": ["beige", "white"],
+        "origin": "Tibet",
+        "weight": "11-18 lbs"
+    },
+    {
+        "breed": "malinois",
+        "lifespan": "10-14 years",
+        "colors": ["black", "tan"],
+        "origin": "Belgium",
+        " weight": "61-100 lbs"
+    },
+    {
+        "breed": "maltese",
+        "lifespan": "12-15 years",
+        "colors": ["white"],
+        " origin": "Malta",
+        "weight": "4-7 lbs"
+    },
+    {
+        "breed": "mexicanhairless",
+        "lifespan": "12-14 years",
+        "colors": ["black", "brown"],
+        "origin": "Mexico",
+        "weight": "26-60 lbs"
+    },
+    {
+        "breed": "mix",
+        "lifespan": "",
+        "colors": [""],
+        "origin": "",
+        "weight": ""
+    },
+    {
+        "breed": "mountain",
+        " lifespan": "6-8 years",
+        " colors": ["black, tan & white"],
+        "origin": "Switzerland",
+        "weight": "79-110 lbs"
+    },
+    {
+        " breed": "newfoundland",
+        " lifespan": "8-10 years",
+        "colors": ["black", "brown"],
+        "origin": "Canada",
+        "weight": "99-150 lbs"
+    },
+    {
+        "breed": "otterhound",
+        "lifespan": "10-13 years",
+        "colors": ["tan", "black", "grey", "white"],
+        "origin": "England",
+        "weight": "80-115 lbs"
+    },
+    {
+        "breed": "ovcharka",
+        "lifespan": "10-12 years",
+        "colors": ["tan", "black", "white"],
+        "origin": "Georgia",
+        "weight": "110-220 lbs"
+    },
+    {
+        "breed": "papillon",
+        "lifespan": "13-15 years",
+        "colors": ["white", "black", "tan"],
+        "origin": "France",
+        "weight": "4-9 lbs"
+    },
+    {
+        "breed": "pekinese",
+        "lifespan": "12-15 years",
+        "colors": ["tan & black"],
+        "origin": "China",
+        " weight": "8-14 lbs"
+    },
+    {
+        "breed": "pembroke",
+        "lifespan": "12-15 years",
+        "colors": ["black", "tan", "white"],
+        " origin": "Wales",
+        "weight": "22-31 lbs"
+    },
+    {
+        "breed": "pinscher",
+        "lifespan": "12-14 years",
+        "colors": ["black", "tan"],
+        "origin": "Germany",
+        " weight": "25-45 lbs"
+    },
+    {
+        "breed": "pointer",
+        "lifespan": "12-17 years",
+        "colors": ["white", "grey", "brown", "black"],
+        " origin": "England",
+        "weight": "45-75 lbs"
+    },
+    {
+        "breed": "poodle",
+        "lifespan": "12-15 years",
+        "colors": ["black", "white", "grey", "tan"],
+        "origin": "France",
+        "weight": "40-55 lbs"
+    },
+    {
+        "breed": "puggle",
+        "lifespan": "10-15 years",
+        "colors": ["black", "white", "tan", "red"],
+        "origin": "USA",
+        "weight": "15-30 lbs"
+    },
+    {
+        "breed": "pyrenees",
+        "lifespan": "10-12 years",
+        "colors": ["white", "beige"],
+        "origin": "France",
+        "weight": "80-120 lbs"
+    },
+    {
+        "breed": "redbone",
+        "lifespan": "11-12 years",
+        "colors": ["brown"],
+        "origin": "USA",
+        "weight": "45-70 lbs"
+    },
+    {
+        "breed": "ridgeback",
+        "lifespan": "10-12 years",
+        "colors": ["brown", "black"],
+        "origin": "South Africa",
+        "weight": "64-90 lbs"
+    },
+    {
+        "breed": "saluki",
+        "lifespan": "12-14 years",
+        "colors": ["white", "brown", "black"],
+        "origin": "Iran",
+        "weight": "40-60 lbs"
+    },
+    {
+        "breed": "samoyed",
+        "lifespan": "12-14 years",
+        "colors": ["white"],
+        "origin": "Russia",
+        " weight": "35-65 lbs"
+    },
+    {
+        "breed": "schipperke",
+        "lifespan": "12-15 years",
+        "colors": ["black", "brown"],
+        " origin": "Belgium",
+        "weight": "10-16 lbs"
+    },
+    {
+        "breed": "setter",
+        "lifespan": "10-12 years",
+        "colors": ["blue", "black", "white", "brown"],
+        "origin": "Ireland",
+        " weight": "35-65 lbs"
+    },
+    {
+        "breed": "sheepdog",
+        " lifespan": "10-12 years",
+        "colors": ["black", "white", "grey"],
+        " origin": "England",
+        " weight": "60-90 lbs"
+    },
+    {
+        "breed": "spaniel",
+        "lifespan": "12-15 years",
+        "colors": ["blue", "brown", "white", "black"],
+        "origin": "England",
+        "weight": "26-35 lbs"
+    },
+    {
+        "breed": "springer",
+        "lifespan": "12-14 years",
+        "colors": ["brown", "white"],
+        "origin": "England",
+        " weight": "40-55 lbs"
+    },
+    {
+        "breed": "stbernard",
+        "lifespan": "8-10 years",
+        "colors": ["brown", "black", "white"],
+        "origin": "Switzerland",
+        "weight": "120-180 lbs"
+    }
+
+    ]}
