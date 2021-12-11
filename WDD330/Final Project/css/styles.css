@@ -4,7 +4,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Amatic SC', cursive;
-    background-color:white;
+    background-color:#FFFBFA;
 }
 .randomImage{
     width: 200px;
@@ -16,17 +16,18 @@ body{
 }
 #learnMore{
     color:black;
-    text-shadow: 3px 3px 5px mediumpurple;
+    text-shadow: 3px 3px 5px skyblue;
     font-weight: 500;
 }
 
-option{
-    background-color: lavender;
-  
+.breeds option{
+    background-color: #BBD1EA;  
+    font-size: 20px;
 }
 
+
 .img-container{
-   background-color: lavender;
+   background-color: #CAE9FF;
     padding-top:5px;
     padding-bottom: 150px;
     margin: 10px;
@@ -43,7 +44,7 @@ option{
 
 .header{
     text-align: center;
-    background-color: rgb(56, 14, 66);
+    background-color: #16425B;
     border-radius: 10px;
     padding: 10px;
     width: 95%;
@@ -70,6 +71,7 @@ option{
 
 p{
     font-size: 30px;
+    color: #16425B;
 }
 h2{
     font-size: 40px;
@@ -83,8 +85,9 @@ h2{
     border-radius: 10px;
 }
 .breedName{
-    background-color: lavenderblush;
-    text-shadow: 3px 3px 5px grey;
+    background-color: #16425B;
+    COLOR:white;
+    text-shadow: 3px 3px 5px black;
 }
 
 figcaption{
@@ -113,8 +116,8 @@ margin-left: 10px;
    font-size: 20px;
    padding: 10px;
    border-radius: 10px;
-   color: darkblue;
-   background-color: lavenderblush;
+   color: white;
+   background-color: #16425B;
    border: 1px solid grey;
    font-family: 'Quicksand', sans-serif;
    box-shadow: 2px 2px 0 grey;
