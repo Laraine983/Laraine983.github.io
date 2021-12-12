@@ -56,15 +56,6 @@ img.addEventListener('load', () => {
 
 
 
-//add active class to favorites button
-document.getElementById('faves').onclick = function() {
-  this.classList.toggle('active');
-}
-
-//show favorited items on separate page?
-
-
-
 //show/hide div with more info about each doggo
 function moreInfo() {
   var x = document.getElementById("displayMore");
