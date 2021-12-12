@@ -681,6 +681,20 @@
         "colors": ["brown", "black", "white", "beige"],
         "origin": "Ireland",
         "weight": "105-155 lbs"
+    },
+    {
+        "breed": "mix",
+        "lifespan": "10-13 years",
+        "colors": ["tan", "black", "white", "red"],
+        "origin": "USA",
+        "weight": "35-88 lbs"
+    },
+    {
+        "breed": "hound",
+        "lifespan": "10-12 years",
+        "colors": ["tan", "black", "white", "brown"],
+        "origin": "France",
+        "weight": "44-64 lbs"
     }
 
     ]}
