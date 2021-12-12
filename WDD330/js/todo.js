@@ -72,8 +72,6 @@ function allTasks(){
  }
 
 
-
-
 function selectAll(){
   var v = document.getElementsByClassName("taskItem");
   v[0].style.display = 'block';
