@@ -1,63 +1,76 @@
-const list = document.querySelector('ul');
-const complete = document.getElementsByClassName('completedButton');
-
-function addListItem(){
-    var item = document.createElement("li");  
-    item.setAttribute("class", "taskItem");
-    var input = document.getElementById("myInput");
-    item.innerHTML = 
-    `<label class="checkContainer">
-    <input id="input" type="checkbox" >
-    </label>`
-   + input.value + 
-    `<button class="deleteBtn">X</button>`;
-    
-    document.getElementById("myUL").appendChild(item);
-    document.getElementById("myInput").value = '';
-}
 
 
+// add list item when clicking + button
+function newElement() {
+  var li = document.createElement("li");
+  var input = document.getElementById("taskInput").value;
+  var task = document.createTextNode(input);
+  li.appendChild(task);
+  if (input === '') {
+    alert("Add a task");
+  } else {
+    document.getElementById("taskList").appendChild(li);
+  }
+  document.getElementById("taskInput").value = "";
 
-list.addEventListener('click', (e) => {
-  if (e.target.classList.contains('deleteBtn') === true) {
-    e.target.parentElement.remove();
+  var item = document.createElement("span");
+  var x = document.createTextNode("X");
+  item.className = "deleteItem";
+  item.appendChild(x);
+  li.appendChild(item);
+
+  //delete when x is clicked
+  for (i = 0; i < deleteItem.length; i++) {
+    deleteItem[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
     }
-});
-
-
-
-
-function checkItems() {
-var v = document.getElementsByClassName("taskItem");
-  if (document.querySelectorAll('input[type=checkbox]:checked')) {
-            v.classList.add("checkMarked");
-            
-        } 
-       
-
+  }
 }
-  function completedTasks() {
-var v = document.getElementsByClassName("taskItem");
-  if (v.classList == "checkMarked") {
-            v[0].style.display = 'block';
-           
-        } 
-else{
-  v[0].style.display = 'none';
-}
-}
-  
+
+// toggle class on task items when clicked
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
 
 
-function activeTasks(){
-  var v = document.getElementsByClassName("taskItem");
-  if (v.classList !== "checkMarked") {
-            v[0].style.display = 'block';
-        } 
-else{
-  v[0].style.display = 'none';
-}}
-  
+
+//BUTTONS
+
+//delete task button
+var deleteItem = document.getElementsByClassName("deleteItem");
+var i;
+for (i = 0; i < deleteItem.length; i++) {
+  deleteItem[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+
+//completed tasks button
+function completedTasks(){
+  var changeView = document.querySelectorAll('li');
+  changeView.forEach(li => {
+      if (!li.classList.contains("checked")) {
+        li.style.display = "none";
+      } else {
+        li.style.display = "block";
+      }
+  });
+}
+
+//all tasks button
+function allTasks(){ 
+    var changeView = document.querySelectorAll('li');
+    changeView.forEach(li => {
+      li.style.display = "block";
+    });
+ }
+
 
 
 

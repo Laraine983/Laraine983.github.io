@@ -8,29 +8,24 @@
 
 	    <title>ToDo Application</title>
 	</head>
+
 	<body>
-		<div id="board">
-			<div id="myDIV" class="header">
-				<h2 id="todoTitle" >To Do</h2>
-				<input type="text" id="myInput">
-				<span class="addTask" onclick="addListItem()">+</span>
-			  </div>
-			  
-			  <ul id="myUL">
-				
-			  </ul>
-			  </div>
-			  <footer>
-				<div class="buttons">
-					<button class="allButton" type="button" onclick="selectAll()">All</button>
-					<button class="activeButton" type="button" onclick="activeTasks()">Active</button>
-					<button class="completedButton" type="button" onclick="completedTasks()">Completed</button>
-				</div> 
-			
+		<div id="headerDiv" class="header">
+			<h2>ToDo</h2>
+			<input type="text" id="taskInput" placeholder="Add task">
+			<span onclick="newElement()" class="addBtn">+</span>
+		  </div>
+		  
+		  <ul id="taskList">
+		
+		  </ul>
+
+	<button id="completed" onclick="completedTasks()">Completed</button>
+	<button id="displayAll" onclick="allTasks()">All Tasks</button>
+
 		</footer>
-		<script src="js/todo.js"></script>
+		<script type="text/javascript" src="js/todo.js"></script>
 	</body>
+
 	</html>
 
-
-	

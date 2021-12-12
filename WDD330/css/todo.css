@@ -1,6 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
 
+body{
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+   width: 400px;
+}
+  
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    padding: 20px;
+    background: lavenderblush;
+    transition: 0.2s;
+  font-size: 25px;
+    border: 2px solid grey;
+  }
+
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: mediumpurple;
+    border: 3px solid black;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    background-color: mediumpurple;
+    color: white;
+    text-decoration: line-through;
+  }
+  
+  
+  /* Style the deleteItem button */
+  .deleteItem {
+    font-size: 35px;
+    padding: 10px;
+    float: right;
+    
+  }
+  
+  .deleteItem:hover {
+    color: red;
+  }
+  
+  .header {
+    background-color: lavender;
+    padding: 40px;
+    color: black;
+    text-align: center;
+  }
+
+  input {
+  width: 250px;
+  height: 40px;
+  }
+
+  .addBtn {
+  padding: 15px;
+  background-color: lavenderblush;
+  border: 1px solid black;
+  border-radius: 5px;
+  }
+
+ #completed, #displayAll{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+ }
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
 *{
     font-family: 'Exo 2', sans-serif;
 }
@@ -52,7 +135,7 @@ input{
     border-radius: 10px;
     cursor: pointer;
 }
-div.close{
+div.deleteItem{
     padding: 5px;
     color:lightcoral;
     font-size: 30px;
@@ -83,3 +166,4 @@ ul li{
     text-decoration: line-through;
   }
   
+*/
