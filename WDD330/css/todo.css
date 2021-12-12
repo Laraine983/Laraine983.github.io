@@ -23,6 +23,7 @@ body{
     transition: 0.2s;
   font-size: 25px;
     border: 2px solid grey;
+    margin: 2px;
   }
 
   /* Darker background-color on hover */
@@ -56,6 +57,8 @@ body{
     padding: 40px;
     color: black;
     text-align: center;
+    border: 2px solid mediumpurple;
+    font-size: 25px;
   }
 
   input {
@@ -70,7 +73,7 @@ body{
   border-radius: 5px;
   }
 
- #completed, #displayAll{
+ #completed, #displayAll, #notDone{
     background-color: white;
     color: black;
     border: 1px solid black;

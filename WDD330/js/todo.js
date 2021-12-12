@@ -63,6 +63,19 @@ function completedTasks(){
   });
 }
 
+//tasks that still need done
+function noTasks(){
+  var changeView = document.querySelectorAll('li');
+  changeView.forEach(li => {
+      if (li.classList.contains("checked")) {
+        li.style.display = "none";
+      } else {
+        li.style.display = "block";
+      }
+  });
+}
+
+
 //all tasks button
 function allTasks(){ 
     var changeView = document.querySelectorAll('li');
@@ -70,12 +83,6 @@ function allTasks(){
       li.style.display = "block";
     });
  }
-
-
-function selectAll(){
-  var v = document.getElementsByClassName("taskItem");
-  v[0].style.display = 'block';
-}
 
 
 
