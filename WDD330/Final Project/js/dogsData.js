@@ -1,8 +1,5 @@
 
-//put this into json file and fetch instead
 
-//let mainObj = {};
-//let dogsData = [];
 
 let showObj = function(){
   var e = document.querySelector("select.breeds");
@@ -32,7 +29,7 @@ fetch("./js/data.json")
  .then(function(data){
    console.log(data);
    mainObj = data;
-   //dogsData = data.dogsData;
+   
    showObj();
    
  });
