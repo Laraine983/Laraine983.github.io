@@ -1,0 +1,14 @@
+*{
+    font-size: 40px;
+    text-align: center;
+    }
+    form{
+      margin: 2% 30%;
+      background-color: lightblue;
+      padding: 50px;
+      width: 500px;
+    }
+    #submit{
+      margin: 50px 70px;
+    }
+   
