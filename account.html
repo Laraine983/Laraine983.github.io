@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Account</title>
+  <link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+    <form>
+       
+            <label for="user">Username:</label><br>
+          <input type="text" id="user" name="user" pattern="[A-Za-z\d\.]{6,12}"
+           title="Username must be 6-12 characters in length and include only letters, numbers, or a period."><br>
+      
+            <label for="pass">Password:</label><br>
+          <input type="text" id="pass" name="pass" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"><br>
+
+        
+        
+        <input type="submit" id="submit">
+      </form>
+
+
+   
+</body>
+</html>
